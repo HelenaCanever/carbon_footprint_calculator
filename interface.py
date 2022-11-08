@@ -464,8 +464,6 @@ fig.update_traces(textposition='inside', textinfo='percent+label')
 st.plotly_chart(fig, use_container_width=True)
 
 #download data as csv
-# see https://docs.streamlit.io/library/api-reference/widgets/st.download_button
-
 emissions_deplacement = [co2_avion, co2_TGV, co2_train, co2_ev, co2_voiture, co2_rer, co2_metro, co2_bus, co2_veloAE, co2_velo]
 
 dict_deplacements = {'catégorie':['Déplacements'] * len(emissions_deplacement),
