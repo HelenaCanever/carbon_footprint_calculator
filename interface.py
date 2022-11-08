@@ -6,10 +6,17 @@ import plotly.graph_objects as go
 import streamlit as st
 import plotly.express as px 
 
+
 ### Config
 st.set_page_config(
     page_title="Mon empreinte Talan",
-    layout="centered"
+    page_icon="🍃",
+    layout="centered",
+        menu_items={
+        'Report a bug': "mailto:helena.canever@talan.com",
+        'Get help': "mailto:helena.canever@talan.com",
+        'About': "Développé par le Centre de Recherche et d'Innovation de Talan. Source code: https://github.com/HelenaCanever/carbon_footprint_calculator"
+    }
 )
 
 ### Data upload
@@ -31,9 +38,6 @@ def load_visio_data():
     return visio_data
 
 visio_data = load_visio_data()
-
-### Initialize variables
-
 
 
 
@@ -57,8 +61,6 @@ st.image("logos/Logo-Talan_HD_baseline-blanc.png")
 #insert title
 st.markdown("<h1 style='text-align: center'>Calculateur d'empreinte carbone</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center'>version 0.0</h2>", unsafe_allow_html=True)
-st.markdown("Développé par le Centre de Recherche et d'Innovation de Talan.")
-
 
 #insert explanation
 st.markdown(""" 
@@ -301,36 +303,57 @@ co2_deplacements = co2_avion+co2_TGV+co2_train+co2_ev+co2_voiture+co2_rer+co2_me
 st.markdown("<h2 style='text-align: center'>Numérique</h2>", unsafe_allow_html=True)
 
 #ordinateurs
-st.subheader("Ordinateurs portables")
+st.subheader("Ordinateurs portables 💻")
 
-portables = st.multiselect("Sélectionner un modèle",laptop_data["Model"])
+if 'portables' not in st.session_state:
+    st.session_state['portables'] = []
+
+laptop = st.selectbox("Sélectionner un modèle",laptop_data["Model"])
+
+if st.button("Ajouter", key="laptop_key"):
+    if laptop:
+        st.session_state.portables.append(laptop)
+        
+st.write("Modèles sélectionnés: ")
+st.write(", ".join(st.session_state.portables))
 
 def cal_co2_portables():
     em_portables = 0
-    for ordi in portables:
+    for ordi in st.session_state.portables:
         em_portables += float(laptop_data.loc[laptop_data["Model"]==ordi, "kg CO2e"])
     return em_portables
 
 co2_portables = cal_co2_portables()
 
 
-#smartphones
-st.subheader("Smartphones")
 
-smartphones = st.multiselect("Sélectionner un modèle",smartphone_data["Model"])
+
+#smartphones
+st.subheader("Smartphones 📱")
+
+if 'smartphones' not in st.session_state:
+    st.session_state['smartphones'] = []
+
+smartphone = st.selectbox("Sélectionner un modèle",smartphone_data["Model"])
+
+if st.button("Ajouter", key="smartphone_key"):
+    if smartphone:
+        st.session_state.smartphones.append(smartphone)
+        
+st.write("Modèles sélectionnés: ")
+st.write(", ".join(st.session_state.smartphones))
 
 def cal_co2_smartphones():
     em_smartphones = 0
-    for phone in smartphones:
+    for phone in st.session_state.smartphones:
         em_smartphones += float(smartphone_data.loc[smartphone_data["Model"]==phone, "kg CO2e"])
     return em_smartphones
 
 co2_smartphones = cal_co2_smartphones()
 
-###### ADD FAIRPHONE, XIAOMI, HUAWEI, NOKIA, ASUS, BALCKBERRY
 
 #emails
-st.subheader("Emails")
+st.subheader("Emails 📧")
 
 col21, col22 = st.columns(2)
 n_mails_pj = col21.number_input('Nombre de mails par semaine (avec pièce jointe)', min_value=0, max_value=None, value=0, step=1, format=None, key=None,)
@@ -343,7 +366,7 @@ def cal_co2_mails():
 co2_emails = cal_co2_mails()
 
 #visioconférences 
-st.subheader("Visioconférences")
+st.subheader("Visioconférences 📞")
 
 col23, col24 = st.columns(2)
 
@@ -368,8 +391,9 @@ def cal_co2_visio():
         em_visio = (h_visio*4*mois*float(visio_data.loc[visio_data["Outil"]==outil_visio, "kgCO2eq/h Video+Audio"]))/1000*0.29
     return em_visio
 
-
 co2_visio = cal_co2_visio()
+
+#stockage
 
 co2_numerique = co2_portables + co2_smartphones + co2_emails + co2_visio
 
@@ -377,6 +401,8 @@ co2_numerique = co2_portables + co2_smartphones + co2_emails + co2_visio
 
 ###Section 4####################################################################################################
 st.markdown("<h2 style='text-align: center'>Papeterie et fournitures de bureau</h2>", unsafe_allow_html=True)
+
+st.subheader("Impressions 🖨️")
 
 col25, col26 = st.columns(2)
 
@@ -440,5 +466,43 @@ st.plotly_chart(fig, use_container_width=True)
 #download data as csv
 # see https://docs.streamlit.io/library/api-reference/widgets/st.download_button
 
+emissions_deplacement = [co2_avion, co2_TGV, co2_train, co2_ev, co2_voiture, co2_rer, co2_metro, co2_bus, co2_veloAE, co2_velo]
 
+dict_deplacements = {'catégorie':['Déplacements'] * len(emissions_deplacement),
+        'Emission':["Avion", "TGV", "Train", "Voiture électrique", "Voiture thermique", "RER ou Transilien", "Metro", "Bus", "Vélo ou trotinette assistance électrique", "Vélo ou marche"],
+        'kgCO2eq':emissions_deplacement
+       }
+  
+results = pd.DataFrame(dict_deplacements)
 
+emissions_numerique = [co2_portables, co2_smartphones, co2_emails, co2_visio]
+
+dict_numerique = {'catégorie':['Numérique'] * len(emissions_numerique),
+        'Emission':["Ordinateurs", "Smartphones", "Mails", "Visioconférences"],
+        'kgCO2eq':emissions_numerique
+       }
+  
+results_numerique = pd.DataFrame(dict_numerique)
+results = pd.concat([results, results_numerique], ignore_index=True)
+  
+dict_bureau = {'catégorie':['Papeterie et fournitures de bureau'],
+        'Emission':["Impressions"],
+        'kgCO2eq':co2_bureau
+       }
+
+results_bureau = pd.DataFrame(dict_bureau)
+results = pd.concat([results, results_bureau], ignore_index=True)
+
+@st.cache
+def convert_df(df):
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+    return df.to_csv().encode('utf-8')
+
+csv = convert_df(results)
+
+st.download_button(
+    label="Télécharger le bilan en format csv",
+    data=csv,
+    file_name='bilan.csv',
+    mime='text/csv',
+)
