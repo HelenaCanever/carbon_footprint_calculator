@@ -1,4 +1,4 @@
-# 🍃 Calculateur d'empreinte carbone Talan 🍃
+# 🍃 [Calculateur d'empreinte carbone Talan](https://talan-carbon-footprint-calculator.streamlit.app/) 🍃
 ## Carbon footprint calculator for Talan's consulting missions
 
 ### Version 0.0
