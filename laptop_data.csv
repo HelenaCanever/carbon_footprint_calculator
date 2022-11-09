@@ -1,97 +1,294 @@
-,Brand,Model,kg CO2e,kg CO2e w/o use,Source
-0,Apple,"Macbook 12""",233.0,205.04,[Apple](https://www.apple.com/environment/pdf/products/notebooks/12-inch_MacBook_PER_oct2018.pdf)
-1,Apple,"Macbook Air 13"" (Non-Retina)",339.0,294.93,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_June2017.pdf)
-2,Apple,"Macbook Air 13"" (Retina, Thunderbolt)",176.0,165.44,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_w_Retina_PER_oct2018.pdf)
-3,Apple,"Macbook Air 13"" (Retina, 2019)",176.0,166.04,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_w_Retina_PER_June2019.pdf)
-4,Apple,"Macbook Air 13"" M1 (2020) 256GB SSD",161.0,136.85,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_Nov2020.pdf)
-5,Apple,"Macbook Air 13"" M1 (2020) 512GB SSD",181.0,153.85,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_Nov2020.pdf)
-6,Apple,"Macbook Air 13"" Intel (2020) 256GB SSD",170.0,144.5,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_Nov2020.pdf)
-7,Apple,"Macbook Air 13"" Intel (2020) 512GB SSD",198.0,168.3,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_Nov2020.pdf)
-8,Apple,"Macbook Pro 13"" (Skylake and newer)",222.0,184.26,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookPro_PER_may2019.pdf)
-9,Apple,"Macbook Pro 15"" (Skylake and newer)",334.0,263.86,[Apple](https://www.apple.com/environment/pdf/products/notebooks/15-inch_MacBookPro_PER_may2019.pdf)
-10,Apple,"Macbook Pro 13"" (2019)",210.0,198.11,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookPro_PER_June2019.pdf)
-11,Apple,"Macbook Pro 16"" (2019)",394.0,331.09,[Apple](https://www.apple.com/environment/pdf/products/notebooks/16-inch_MacBookPro_PER_Nov2019.pdf)
-12,Apple,"Macbook Pro 13"" M1 (2020) 256GB SSD",185.0,149.85,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookPro_PER_Nov2020.pdf)
-13,Apple,"Macbook Pro 13"" M1 (2020) 512GB SSD",207.0,167.67,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookPro_PER_Nov2020.pdf)
-14,Apple,"Macbook Pro 14"" M1 Pro (2021) 256GB SSD",271.0,211.38,[Apple](https://www.apple.com/environment/pdf/products/notebooks/14-inch_MacBook_Pro_PER_Oct2021.pdf)
-15,Apple,"Macbook Pro 14"" M1 Pro (2021) 512GB SSD",307.0,239.46,[Apple](https://www.apple.com/environment/pdf/products/notebooks/14-inch_MacBook_Pro_PER_Oct2021.pdf)
-16,Apple,"Macbook Pro 14"" Intel (2021) 256GB SSD",252.0,196.56,[Apple](https://www.apple.com/environment/pdf/products/notebooks/14-inch_MacBook_Pro_PER_Oct2021.pdf)
-17,Apple,"Macbook Pro 14"" Intel (2021) 512GB SSD",300.0,234.0,[Apple](https://www.apple.com/environment/pdf/products/notebooks/14-inch_MacBook_Pro_PER_Oct2021.pdf)
-18,Apple,"Macbook Pro 16"" M1 Pro (2021) 512GB SSD",349.0,254.77,[Apple](https://www.apple.com/environment/pdf/products/notebooks/16-inch_MacBook_Pro_PER_Oct2021.pdf)
-19,Apple,"Macbook Pro 16"" M1 Pro (2021) 1TB SSD",382.0,278.86,[Apple](https://www.apple.com/environment/pdf/products/notebooks/16-inch_MacBook_Pro_PER_Oct2021.pdf)
-20,Apple,"Macbook Pro 16"" M1 Max (2021) 1TB SSD",395.0,288.35,[Apple](https://www.apple.com/environment/pdf/products/notebooks/16-inch_MacBook_Pro_PER_Oct2021.pdf)
-21,Apple,"Macbook Air 13.6"" M2 (2022) 256GB SSD",147.0,114.66,[Apple](https://www.apple.com/environment/pdf/products/notebooks/M2_MacBook_Air_PER_June2022.pdf)
-22,Apple,"Macbook Air 13.6"" M2 (2022) 512GB SSD",171.0,133.38,[Apple](https://www.apple.com/environment/pdf/products/notebooks/M2_MacBook_Air_PER_June2022.pdf)
-23,Chromebook,Acer Chromebook C740,123.7,81.679,[Press Release](https://www.acer-group.com/sustainability/en/energy-climate-change.html)
-24,Chromebook,Google Pixelbook,200.6,126.5,[Google PER](https://storage.googleapis.com/gweb-sustainability.appspot.com/pdf/MAR2018_PRODUCT-REPORTS/Pixelbook_ProductEnvironmentalReport.pdf)
-25,Chromebook,HP Chromebook 11 G7 Education Edition,275.0,257.0,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_2019416223433906.pdf)
-26,Chromebook,HP Chromebook Enterprise 14A G5,295.0,260.0,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_20191010233353436.pdf)
-27,Chromebook,HP Chromebook Enterprise x360 14E G1,505.0,475.0,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_20191021223117676.pdf)
-28,Chromebook,HP Chromebook x360 11 G2 Education Edition,745.0,715.0,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_2019412224038116.pdf)
-29,Chromebook,HP Chromebook x360 14 G1,305.0,272.5,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_201924225842986.pdf)
-30,Chromebook,Lenovo YOGA Chromebook C630,293.0,187.52,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/PCF_YOGA_Chromebook_C630.pdf)
-31,Chromebook,Lenovo 100e Chromebook (2nd Gen),303.0,236.34,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_Chromebook_100e_2nd_Gen.pdf)
-32,Chromebook,Lenovo 300e Chromebook (2nd Gen),305.0,237.9,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_Chromebook_300e_2nd_Gen.pdf)
-33,Chromebook,Lenovo 500e Chromebook (2nd Gen),303.0,236.34,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_Chromebook_500e_2nd_Gen.pdf)
-34,Chromebook,Lenovo 14e Chromebook,368.0,272.32,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_Lenovo_14e_Chromebook.pdf)
-35,Dell,XPS 13 9370,297.0,260.17,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-xps-9370.pdf)
-36,Dell,XPS 15 9560,337.0,265.22,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-xps-9560.pdf?newtab=true)
-37,Dell,XPS 15 9570,324.0,266.0,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-xps-15-9570.pdf)
-38,Dell,Latitude 7280,222.0,187.81,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7280.pdf?newtab=true)
-39,Dell,Latitude 7390,222.0,187.81,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7390.pdf?newtab=true)
-40,Dell,Latitude 7490,241.0,210.63,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7390.pdf?newtab=true)
-41,Dell,Precision 5530,340.0,285.59,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-5530.pdf?newtab=true)
-42,Dell,Precision 7720,416.0,319.9,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-7720.pdf?newtab=true)
-43,Lenovo,Thinkpad 25,390.0,280.8,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-25.pdf)
-44,Lenovo,Thinkpad 11e 5th Gen,326.0,260.8,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-11e-Yoga-11e-5th.pdf)
-45,Lenovo,Thinkpad A275,511.0,352.59,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A275.pdf)
-46,Lenovo,Thinkpad A285,352.0,225.28,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A285.pdf)
-47,Lenovo,Thinkpad A485,419.0,272.35,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A485.pdf)
-48,Lenovo,Thinkpad E14 2nd Gen,349.0,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-e14-2nd.pdf)
-49,Lenovo,Thinkpad L14,593.0,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-l14.pdf)
-50,Lenovo,Thinkpad L380,406.0,328.86,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-L380-S2-Yoga-3rd.pdf)
-51,Lenovo,Thinkpad L480,455.0,318.5,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-L480.pdf)
-52,Lenovo,Thinkpad L490,499.0,394.21,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_L490.pdf)
-53,Lenovo,Thinkpad P1,477.0,400.68,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P1_X1_Extreme.pdf)
-54,Lenovo,Thinkpad P52,693.0,540.54,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-P52.pdf)
-55,Lenovo,Thinkpad P72,610.0,469.7,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P72.pdf)
-56,Lenovo,Thinkpad P73,611.0,403.25,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_P73.pdf)
-57,Lenovo,Thinkpad T14 AMD,361.0,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-t14-amd.pdf)
-58,Lenovo,Thinkpad X1 Carbon 4th Gen,457.0,370.17,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X1-Carbon-4th.pdf)
-59,Lenovo,Thinkpad X1 Carbon 5th Gen,369.0,306.27,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X1-Carbon-5th.pdf)
-60,Lenovo,Thinkpad X1 Carbon 6th Gen,333.0,279.71,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-X1-Carbon-6th.pdf)
-61,Lenovo,Thinkpad X1 Carbon 7th Gen,461.0,401.07,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_X1_Carbon_X1_Carbon_LTE_7th.pdf)
-62,Lenovo,Thinkpad X1 Extreme,477.0,400.68,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P1_X1_Extreme.pdf)
-63,Lenovo,Thinkpad X1 Extreme (P1) Gen 2,497.0,422.45,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/2019/PCF_ThinkPad_P1_X1_Extreme_2nd.pdf)
-64,Lenovo,Thinkpad X13,313.0,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-x13.pdf)
-65,Lenovo,Thinkpad X250,338.0,256.88,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X250.pdf)
-66,Lenovo,Thinkpad X260,489.0,400.98,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X260.pdf)
-67,Lenovo,Thinkpad X270,851.68,766.51,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X270.pdf)
-68,Lenovo,Thinkpad X280,334.0,257.18,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-X280.pdf)
-69,Lenovo,Thinkpad X380 Yoga,339.0,267.81,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-S1-Yoga-4th-X380-Yoga.pdf)
-70,Lenovo,Thinkpad X390,290.0,246.5,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_ThinkPad_X390.pdf)
-71,Lenovo,Thinkpad X395,286.0,,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_X395.pdf)
-72,Microsoft,Surface Go,93.8,66.97,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-73,Microsoft,Surface Go 2,107.0,80.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-74,Microsoft,Surface Go 3,106.0,86.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-75,Microsoft,Surface Pro X,130.0,86.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-76,Microsoft,Surface Pro 4,149.0,108.77,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-77,Microsoft,Surface Pro 5,121.0,87.241,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-78,Microsoft,Surface Pro 6,121.0,87.8,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-79,Microsoft,Surface Pro 7,164.0,133.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-80,Microsoft,Surface Pro 7+,181.0,153.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-81,Microsoft,Surface Pro 8,141.0,118.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-82,Microsoft,Surface Book,225.0,173.25,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-83,Microsoft,Surface Book 2 (13.5 inch),183.0,134.13,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-84,Microsoft,Surface Book 2 (15 inch),232.0,179.57,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-85,Microsoft,Surface Book 3 (13.5 inch),303.0,256.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-86,Microsoft,Surface Book 3 (15 inch),421.0,368.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-87,Microsoft,Surface Laptop,152.0,119.16,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-88,Microsoft,Surface Laptop 2,152.0,119.16,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-89,Microsoft,"Surface Laptop 3 (Alcantara, 13.5 inch)",127.0,100.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-90,Microsoft,"Surface Laptop 3 (Metal, 13.5 inch)",138.0,112.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-91,Microsoft,"Surface Laptop 3 (Alcantara, 15 inch)",178.0,140.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-92,Microsoft,"Surface Laptop 3 (Metal, 15 inch)",181.0,143.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-93,Microsoft,"Surface Laptop 4 (Alcantara, 13.5 inch)",145.0,123.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-94,Microsoft,"Surface Laptop 4 (Metal, 13.5 inch)",165.0,143.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-95,Microsoft,"Surface Laptop 4 (Metal, 15 inch)",199.0,177.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
+,Brand,Model,kg CO2e,kg CO2e w/o use,Source,Pdf_name
+0,Apple,"Macbook 12""",233.0,205.04,[Apple](https://www.apple.com/environment/pdf/products/notebooks/12-inch_MacBook_PER_oct2018.pdf),
+1,Apple,"Macbook Air 13"" (Non-Retina)",339.0,294.93,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_June2017.pdf),
+2,Apple,"Macbook Air 13"" (Retina, Thunderbolt)",176.0,165.44,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_w_Retina_PER_oct2018.pdf),
+3,Apple,"Macbook Air 13"" (Retina, 2019)",176.0,166.04,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_w_Retina_PER_June2019.pdf),
+4,Apple,"Macbook Air 13"" M1 (2020) 256GB SSD",161.0,136.85,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_Nov2020.pdf),
+5,Apple,"Macbook Air 13"" M1 (2020) 512GB SSD",181.0,153.85,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_Nov2020.pdf),
+6,Apple,"Macbook Air 13"" Intel (2020) 256GB SSD",170.0,144.5,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_Nov2020.pdf),
+7,Apple,"Macbook Air 13"" Intel (2020) 512GB SSD",198.0,168.3,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookAir_PER_Nov2020.pdf),
+8,Apple,"Macbook Pro 13"" (Skylake and newer)",222.0,184.26,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookPro_PER_may2019.pdf),
+9,Apple,"Macbook Pro 15"" (Skylake and newer)",334.0,263.86,[Apple](https://www.apple.com/environment/pdf/products/notebooks/15-inch_MacBookPro_PER_may2019.pdf),
+10,Apple,"Macbook Pro 13"" (2019)",210.0,198.11,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookPro_PER_June2019.pdf),
+11,Apple,"Macbook Pro 16"" (2019)",394.0,331.09,[Apple](https://www.apple.com/environment/pdf/products/notebooks/16-inch_MacBookPro_PER_Nov2019.pdf),
+12,Apple,"Macbook Pro 13"" M1 (2020) 256GB SSD",185.0,149.85,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookPro_PER_Nov2020.pdf),
+13,Apple,"Macbook Pro 13"" M1 (2020) 512GB SSD",207.0,167.67,[Apple](https://www.apple.com/environment/pdf/products/notebooks/13-inch_MacBookPro_PER_Nov2020.pdf),
+14,Apple,"Macbook Pro 14"" M1 Pro (2021) 256GB SSD",271.0,211.38,[Apple](https://www.apple.com/environment/pdf/products/notebooks/14-inch_MacBook_Pro_PER_Oct2021.pdf),
+15,Apple,"Macbook Pro 14"" M1 Pro (2021) 512GB SSD",307.0,239.46,[Apple](https://www.apple.com/environment/pdf/products/notebooks/14-inch_MacBook_Pro_PER_Oct2021.pdf),
+16,Apple,"Macbook Pro 14"" Intel (2021) 256GB SSD",252.0,196.56,[Apple](https://www.apple.com/environment/pdf/products/notebooks/14-inch_MacBook_Pro_PER_Oct2021.pdf),
+17,Apple,"Macbook Pro 14"" Intel (2021) 512GB SSD",300.0,234.0,[Apple](https://www.apple.com/environment/pdf/products/notebooks/14-inch_MacBook_Pro_PER_Oct2021.pdf),
+18,Apple,"Macbook Pro 16"" M1 Pro (2021) 512GB SSD",349.0,254.77,[Apple](https://www.apple.com/environment/pdf/products/notebooks/16-inch_MacBook_Pro_PER_Oct2021.pdf),
+19,Apple,"Macbook Pro 16"" M1 Pro (2021) 1TB SSD",382.0,278.86,[Apple](https://www.apple.com/environment/pdf/products/notebooks/16-inch_MacBook_Pro_PER_Oct2021.pdf),
+20,Apple,"Macbook Pro 16"" M1 Max (2021) 1TB SSD",395.0,288.35,[Apple](https://www.apple.com/environment/pdf/products/notebooks/16-inch_MacBook_Pro_PER_Oct2021.pdf),
+21,Apple,"Macbook Air 13.6"" M2 (2022) 256GB SSD",147.0,114.66,[Apple](https://www.apple.com/environment/pdf/products/notebooks/M2_MacBook_Air_PER_June2022.pdf),
+22,Apple,"Macbook Air 13.6"" M2 (2022) 512GB SSD",171.0,133.38,[Apple](https://www.apple.com/environment/pdf/products/notebooks/M2_MacBook_Air_PER_June2022.pdf),
+23,Chromebook,Acer Chromebook C740,123.7,81.679,[Press Release](https://www.acer-group.com/sustainability/en/energy-climate-change.html),
+24,Chromebook,Google Pixelbook,200.6,126.5,[Google PER](https://storage.googleapis.com/gweb-sustainability.appspot.com/pdf/MAR2018_PRODUCT-REPORTS/Pixelbook_ProductEnvironmentalReport.pdf),
+25,Chromebook,HP Chromebook 11 G7 Education Edition,275.0,257.0,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_2019416223433906.pdf),
+26,Chromebook,HP Chromebook Enterprise 14A G5,295.0,260.0,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_20191010233353436.pdf),
+27,Chromebook,HP Chromebook Enterprise x360 14E G1,505.0,475.0,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_20191021223117676.pdf),
+28,Chromebook,HP Chromebook x360 11 G2 Education Edition,745.0,715.0,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_2019412224038116.pdf),
+29,Chromebook,HP Chromebook x360 14 G1,305.0,272.5,[HP Report](http://h22235.www2.hp.com/hpinfo/globalcitizenship/environment/productdata/Countries/_MultiCountry/productcarbonfootprint_notebo_201924225842986.pdf),
+30,Chromebook,Lenovo YOGA Chromebook C630,293.0,187.52,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/PCF_YOGA_Chromebook_C630.pdf),
+31,Chromebook,Lenovo 100e Chromebook (2nd Gen),303.0,236.34,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_Chromebook_100e_2nd_Gen.pdf),
+32,Chromebook,Lenovo 300e Chromebook (2nd Gen),305.0,237.9,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_Chromebook_300e_2nd_Gen.pdf),
+33,Chromebook,Lenovo 500e Chromebook (2nd Gen),303.0,236.34,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_Chromebook_500e_2nd_Gen.pdf),
+34,Chromebook,Lenovo 14e Chromebook,368.0,272.32,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_Lenovo_14e_Chromebook.pdf),
+35,Dell,XPS 13 9370,297.0,260.17,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-xps-9370.pdf),
+36,Dell,XPS 15 9560,337.0,265.22,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-xps-9560.pdf?newtab=true),
+37,Dell,XPS 15 9570,324.0,266.0,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-xps-15-9570.pdf),
+38,Dell,Latitude 7280,222.0,187.81,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7280.pdf?newtab=true),
+39,Dell,Latitude 7390,222.0,187.81,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7390.pdf?newtab=true),
+40,Dell,Latitude 7490,241.0,210.63,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7390.pdf?newtab=true),
+41,Dell,Precision 5530,340.0,285.59,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-5530.pdf?newtab=true),
+42,Dell,Precision 7720,416.0,319.9,[Dell CFA](https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-7720.pdf?newtab=true),
+43,Lenovo,Thinkpad 25,390.0,280.8,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-25.pdf),
+44,Lenovo,Thinkpad 11e 5th Gen,326.0,260.8,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-11e-Yoga-11e-5th.pdf),
+45,Lenovo,Thinkpad A275,511.0,352.59,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A275.pdf),
+46,Lenovo,Thinkpad A285,352.0,225.28,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A285.pdf),
+47,Lenovo,Thinkpad A485,419.0,272.35,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A485.pdf),
+48,Lenovo,Thinkpad E14 2nd Gen,349.0,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-e14-2nd.pdf),
+49,Lenovo,Thinkpad L14,593.0,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-l14.pdf),
+50,Lenovo,Thinkpad L380,406.0,328.86,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-L380-S2-Yoga-3rd.pdf),
+51,Lenovo,Thinkpad L480,455.0,318.5,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-L480.pdf),
+52,Lenovo,Thinkpad L490,499.0,394.21,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_L490.pdf),
+53,Lenovo,Thinkpad P1,477.0,400.68,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P1_X1_Extreme.pdf),
+54,Lenovo,Thinkpad P52,693.0,540.54,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-P52.pdf),
+55,Lenovo,Thinkpad P72,610.0,469.7,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P72.pdf),
+56,Lenovo,Thinkpad P73,611.0,403.25,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_P73.pdf),
+57,Lenovo,Thinkpad T14 AMD,361.0,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-t14-amd.pdf),
+58,Lenovo,Thinkpad X1 Carbon 4th Gen,457.0,370.17,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X1-Carbon-4th.pdf),
+59,Lenovo,Thinkpad X1 Carbon 5th Gen,369.0,306.27,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X1-Carbon-5th.pdf),
+60,Lenovo,Thinkpad X1 Carbon 6th Gen,333.0,279.71,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-X1-Carbon-6th.pdf),
+61,Lenovo,Thinkpad X1 Carbon 7th Gen,461.0,401.07,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_X1_Carbon_X1_Carbon_LTE_7th.pdf),
+62,Lenovo,Thinkpad X1 Extreme,477.0,400.68,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P1_X1_Extreme.pdf),
+63,Lenovo,Thinkpad X1 Extreme (P1) Gen 2,497.0,422.45,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/2019/PCF_ThinkPad_P1_X1_Extreme_2nd.pdf),
+64,Lenovo,Thinkpad X13,313.0,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-x13.pdf),
+65,Lenovo,Thinkpad X250,338.0,256.88,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X250.pdf),
+66,Lenovo,Thinkpad X260,489.0,400.98,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X260.pdf),
+67,Lenovo,Thinkpad X270,851.68,766.51,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X270.pdf),
+68,Lenovo,Thinkpad X280,334.0,257.18,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-X280.pdf),
+69,Lenovo,Thinkpad X380 Yoga,339.0,267.81,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-S1-Yoga-4th-X380-Yoga.pdf),
+70,Lenovo,Thinkpad X390,290.0,246.5,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_ThinkPad_X390.pdf),
+71,Lenovo,Thinkpad X395,286.0,,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_X395.pdf),
+72,Microsoft,Surface Go,93.8,66.97,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+73,Microsoft,Surface Go 2,107.0,80.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+74,Microsoft,Surface Go 3,106.0,86.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+75,Microsoft,Surface Pro X,130.0,86.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+76,Microsoft,Surface Pro 4,149.0,108.77,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+77,Microsoft,Surface Pro 5,121.0,87.241,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+78,Microsoft,Surface Pro 6,121.0,87.8,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+79,Microsoft,Surface Pro 7,164.0,133.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+80,Microsoft,Surface Pro 7+,181.0,153.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+81,Microsoft,Surface Pro 8,141.0,118.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+82,Microsoft,Surface Book,225.0,173.25,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+83,Microsoft,Surface Book 2 (13.5 inch),183.0,134.13,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+84,Microsoft,Surface Book 2 (15 inch),232.0,179.57,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+85,Microsoft,Surface Book 3 (13.5 inch),303.0,256.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+86,Microsoft,Surface Book 3 (15 inch),421.0,368.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+87,Microsoft,Surface Laptop,152.0,119.16,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+88,Microsoft,Surface Laptop 2,152.0,119.16,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+89,Microsoft,"Surface Laptop 3 (Alcantara, 13.5 inch)",127.0,100.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+90,Microsoft,"Surface Laptop 3 (Metal, 13.5 inch)",138.0,112.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+91,Microsoft,"Surface Laptop 3 (Alcantara, 15 inch)",178.0,140.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+92,Microsoft,"Surface Laptop 3 (Metal, 15 inch)",181.0,143.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+93,Microsoft,"Surface Laptop 4 (Alcantara, 13.5 inch)",145.0,123.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+94,Microsoft,"Surface Laptop 4 (Metal, 13.5 inch)",165.0,143.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+95,Microsoft,"Surface Laptop 4 (Metal, 15 inch)",199.0,177.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+0,Dell,Latitude 9510,482.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-9510.pdf,pdf10.pdf
+1,Dell,Latitude 3560,298.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3560.pdf?newtab=true,pdf100.pdf
+2,Dell,Latitude 3550,263.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3550.pdf,pdf101.pdf
+3,Dell,Latitude 3520,318.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3520-pcf-datasheet.pdf,pdf102.pdf
+4,Dell,Latitude 3510,340.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3510.pdf,pdf103.pdf
+5,Dell,Latitude 3500,278.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3500.pdf,pdf104.pdf
+6,Dell,Latitude 3530,317.0,276.107,https://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-3530-pcf-datasheet.pdf,pdf105.pdf
+7,Dell,Latitude 3490,243.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3490.pdf,pdf106.pdf
+8,Dell,Latitude 3480,324.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3480.pdf,pdf107.pdf
+9,Dell,Latitude 3470,286.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3470.pdf,pdf108.pdf
+10,Dell,Latitude 3460,279.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3460.pdf,pdf109.pdf
+11,Dell,Latitude 9420 2 -in-1,350.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-9420-2-in-1-pcf-datasheet.pdf,pdf11.pdf
+12,Dell,Latitude 3430,298.0,,https://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-3430-pcf-datasheet.pdf,pdf110.pdf
+13,Dell,Latitude 3420,315.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3420-pcf-datasheet.pdf,pdf111.pdf
+14,Dell,Latitude 3410,322.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3410.pdf,pdf112.pdf
+15,Dell,Latitude 3400,279.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3400.pdf,pdf113.pdf
+16,Dell,Latitude 3390 2-in-1,284.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3390-2-in-1.pdf,pdf114.pdf
+17,Dell,Latitude 3380,252.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3380.pdf,pdf115.pdf
+18,Dell,Latitude 3350,258.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3350.pdf,pdf116.pdf
+19,Dell,Latitude 3330,313.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-3330-pcf-datasheet.pdf,pdf117.pdf
+20,Dell,Latitude 3330 2-in-1,311.0,277.412,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-3330-2-in-1-pcf-datasheet.pdf,pdf118.pdf
+21,Dell,Latitude 3320,281.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3320-pcf-datasheet.pdf,pdf119.pdf
+22,Dell,Latitude 9420,344.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-9420-pcf-datasheet.pdf,pdf12.pdf
+23,Dell,Latitude 3310 2-in-1,334.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3310-2-in-1-pcf-datasheet.pdf,pdf120.pdf
+24,Dell,Latitude 3310,283.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3310-pcf-datasheet.pdf,pdf121.pdf
+25,Dell,Latitude 3301,317.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3301-pcf-datasheet.pdf,pdf122.pdf
+26,Dell,Latitude 3300,293.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3300.pdf,pdf123.pdf
+27,Dell,Latitude 3190 2-In-1,230.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3190-2.pdf,pdf124.pdf
+28,Dell,Latitude 3190,226.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3190.pdf,pdf125.pdf
+29,Dell,Latitude 3189,257.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3189.pdf,pdf126.pdf
+30,Dell,Latitude 3180,243.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3180.pdf,pdf127.pdf
+31,Dell,Latitude 3160,244.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3160.pdf,pdf128.pdf
+32,Dell,Latitude 3150,216.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3150.pdf,pdf129.pdf
+33,Dell,Latitude 9410 2-IN-1,357.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-9410-2-in-1-pcf-datasheet.pdf,pdf13.pdf
+34,Dell,Latitude 3120 2-in-1,245.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3120-2-in-1-pcf-datasheet.pdf,pdf130.pdf
+35,Dell,Latitude 3120,231.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-3120-pcf-datasheet.pdf,pdf131.pdf
+36,Dell,Latitude 7530,314.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-7530-pcf-datasheet.pdf,pdf132.pdf
+37,Dell,Latitude 7330,277.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-7330-pcf-datasheet.pdf,pdf133.pdf
+38,Dell,Latitude 7330 2 -in-1,296.0,265.216,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-7330-2-in-1-pcf-datasheet.pdf,pdf134.pdf
+39,Dell,Latitude 7430,286.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-7430-pcf-datasheet.pdf,pdf135.pdf
+40,Dell,Latitude 7430 2-in-1,359.0,324.895,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-7430-2-in-1-pcf-datasheet.pdf,pdf136.pdf
+41,Dell,Latitude 9430,375.0,355.125,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-9430-pcf-datasheet.pdf,pdf137.pdf
+42,Dell,Latitude 9430 2-in-1,380.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-9430-2-in-1-pcf-datasheet.pdf,pdf138.pdf
+43,Dell,Latitude 7520,364.0,,https://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7520.pdf,pdf139.pdf
+44,Dell,Latitude 9410,356.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-9410-pcf-datasheet.pdf,pdf14.pdf
+45,Dell,Latitude 5430,301.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-5430-pcf-datasheet.pdf,pdf140.pdf
+46,Dell,Latitude 5431,298.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-5431-pcf-datasheet.pdf,pdf141.pdf
+47,Dell,Latitude 5530,364.0,313.404,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5530-pcf-datasheet.pdf,pdf142.pdf
+48,Dell,Latitude 5531,373.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5531-pcf-datasheet.pdf,pdf143.pdf
+49,Dell,Precision 7760,533.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7760-pcf-datasheet.pdf,pdf144.pdf
+50,Dell,Precision 7750,495.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7750.pdf,pdf145.pdf
+51,Dell,Precision 7740,463.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7740.pdf,pdf146.pdf
+52,Dell,Precision 7730,476.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7730.pdf,pdf147.pdf
+54,Dell,Precision 7540,367.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7540.pdf,pdf149.pdf
+55,Dell,Latitude 9330,372.0,345.21599999999995,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-9330-pcf-datasheet.pdf,pdf15.pdf
+56,Dell,Precision 7530,399.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7530.pdf,pdf150.pdf
+57,Dell,Precision 7550,455.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7550.pdf,pdf151.pdf
+58,Dell,Precision 7560,458.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7560-pcf-datasheet.pdf,pdf152.pdf
+59,Dell,Precision 7520,399.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-7520.pdf,pdf153.pdf
+60,Dell,Precision 5760,509.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-5760-pcf-datasheet.pdf,pdf155.pdf
+61,Dell,Precision 5560,432.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-5560-pcf-datasheet.pdf,pdf156.pdf
+62,Dell,Precision 5550,414.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-5550.pdf,pdf157.pdf
+63,Dell,Precision 5570,443.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-precision-5570-pcf-datasheet.pdf,pdf158.pdf
+64,Dell,Precision 5470,395.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-precision-5470-pcf-datasheet.pdf,pdf159.pdf
+65,Dell,Latitude 7330 Rugged Extreme,348.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-7330-rugged-extreme-pcf-datasheet.pdf,pdf16.pdf
+66,Dell,Precision 5540,512.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-5540.pdf,pdf160.pdf
+68,Dell,Precision 5520,368.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-5520.pdf,pdf162.pdf
+69,Dell,Precision 3571,374.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/dell-precision-3571-pcf-datasheet.pdf,pdf163.pdf
+70,Dell,Precision 3570,364.0,314.132,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/dell-precision-3570-pcf-datasheet.pdf,pdf164.pdf
+71,Dell,Precision 3561,379.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3561-pcf-datasheet.pdf,pdf165.pdf
+72,Dell,Precision 3560,313.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3560-pcf-datasheet.pdf,pdf166.pdf
+73,Dell,Precision 3551,376.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3551-pcf-datasheet.pdf,pdf167.pdf
+74,Dell,Precision 3470,295.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/dell-precision-3470-pcf-datasheet.pdf,pdf168.pdf
+75,Dell,Precision 3550,395.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3550.pdf,pdf169.pdf
+77,Dell,Precision 3541,394.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3541.pdf,pdf170.pdf
+78,Dell,Precision 3540,389.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-3540.pdf,pdf171.pdf
+79,Dell,Precision 3530,335.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-3530.pdf,pdf172.pdf
+80,Dell,Precision 3520,304.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-3520.pdf,pdf173.pdf
+81,Dell,Precision 3510,331.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-precision-3510.pdf,pdf174.pdf
+82,Dell,Precision 5770,524.0,462.168,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/dell-precision-5770-pcf-datasheet.pdf,pdf175.pdf
+83,Dell,Precision 7670,472.0,,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/dell-precision-7670-pcf-datasheet.pdf,pdf176.pdf
+84,Dell,Precision 7770,489.0,424.452,http://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/dell-precision-7770-pcf-datasheet.pdf,pdf177.pdf
+85,Dell,XPS 17 9710,509.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/xps-17-9710-pcf-datasheet.pdf,pdf178.pdf
+86,Dell,XPS 15 9510,431.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/xps-15-9510-pcf-datasheet.pdf,pdf179.pdf
+87,Dell,Latitude 7480,249.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7480.pdf,pdf18.pdf
+88,Dell,XPS 15 9500,380.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/xps-15-9500-pcf-datasheet.pdf,pdf180.pdf
+90,Dell,XPS 15 9520,431.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-xps-15-9520-pcf-datasheet.pdf,pdf182.pdf
+91,Dell,XPS 9320,380.0,348.84000000000003,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-xps-9320-pcf-datasheet.pdf,pdf183.pdf
+92,Dell,XPS 9315 2-in-1,411.0,377.298,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-xps-9315-2-in-1-pcf-datasheet.pdf,pdf184.pdf
+93,Dell,XPS 9315,404.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-xps-9315-pcf-datasheet.pdf,pdf185.pdf
+96,Dell,XPS 13 9380,317.0,,http://www.delltechnologies.com/asset/en-us/products/desktops-and-all-in-ones/technical-support/xps-13-9380.pdf,pdf188.pdf
+98,Dell,XPS 13 9365 2 -In-1,287.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-xps-9365.pdf,pdf190.pdf
+99,Dell,XPS 13 9360,286.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-xps-9360.pdf,pdf191.pdf
+100,Dell,XPS 13 9310 2-in-1,342.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/xps-13-9310-2-in-1.pdf,pdf192.pdf
+101,Dell,XPS 13 9310,322.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/xps-13-9310.pdf,pdf193.pdf
+102,Dell,XPS 13 9300,327.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/xps-13-9300.pdf,pdf194.pdf
+103,Dell,XPS 13 7390,320.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/xps-7390-pcf-datasheet.pdf,pdf195.pdf
+104,Dell,XPS 9720,524.0,461.12,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-xps-9720-pcf-datasheet.pdf,pdf196.pdf
+105,Dell,Inspiron 13 5320,326.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-13-5320-pcf-datasheet.pdf,pdf197.pdf
+106,Dell,Inspiron 14 5420,344.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-14-5420-pcf-datasheet.pdf,pdf198.pdf
+107,Dell,Inspiron 14 5425,345.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-14-5425-pcf-datasheet.pdf,pdf199.pdf
+108,Dell,Chromebook 3400,335.0,306.52500000000003,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/chromebook_3400.pdf,pdf2.pdf
+109,Dell,Latitude 7420 2-in-1,353.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7420-2-in-1.pdf,pdf20.pdf
+110,Dell,Inspiron 14 7420 2-in-1,366.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-14-7420-2-in-1-pcf-datasheet.pdf,pdf200.pdf
+111,Dell,Inspiron 14 7425 2-in-1,355.0,323.05,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-14-7425-2-in-1-pcf-datasheet.pdf,pdf201.pdf
+112,Dell,Inspiron 16 5620,386.0,351.26,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-16-5620-pcf-datasheet.pdf,pdf202.pdf
+113,Dell,Inspiron 16 5625,381.0,345.567,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-16-5625-pcf-datasheet.pdf,pdf203.pdf
+114,Dell,Inspiron 16 7620 2-in-1,403.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-16-7620-2-in-1-pcf-datasheet.pdf,pdf204.pdf
+115,Dell,Inspiron 14 Plus 7420,376.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-14-plus-7420-pcf-datasheet.pdf,pdf205.pdf
+116,Dell,Inspiron 16 Plus 7620,420.0,376.74,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-inspiron-16-plus-7620-pcf-datasheet.pdf,pdf206.pdf
+117,Dell,Vostro 15 3510,273.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-vostro-15-3510-pcf-datasheet.pdf,pdf207.pdf
+118,Dell,Vostro 15 3515,282.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-vostro-15-3515-pcf-datasheet.pdf,pdf208.pdf
+119,Dell,Vostro 5320,326.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-vostro-5320-pcf-datasheet.pdf,pdf209.pdf
+120,Dell,Latitude 7420,341.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7420.pdf,pdf21.pdf
+121,Dell,Vostro 5620,386.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-vostro-5620-pcf-datasheet.pdf,pdf210.pdf
+122,Dell,Vostro 5625,380.0,342.38,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-vostro-5625-pcf-datasheet.pdf,pdf211.pdf
+123,Dell,Vostro 7620,412.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-vostro-7620-pcf-datasheet.pdf,pdf212.pdf
+124,Dell,Latitude 7410 2-in-1 Chromebook Enterprise,463.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7410-2-in-1-chromebook-enterprise-word-pcf-datasheet.pdf,pdf22.pdf
+125,Dell,Latitude 7410 2-in-1,338.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7410-2-in-1.pdf,pdf23.pdf
+126,Dell,Latitude 7410 Chromebook Enterprise,454.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7410-chromebook-enterprise-word-pcf-datasheet.pdf,pdf24.pdf
+127,Dell,Latitude 7410,329.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7410.pdf,pdf25.pdf
+128,Dell,Latitude 7400 2-in-1,351.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7400-2-in-1.pdf,pdf26.pdf
+129,Dell,Latitude 7400,320.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7400.pdf,pdf27.pdf
+130,Dell,Latitude 7390 2-in-1,332.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7390-2.pdf,pdf28.pdf
+132,Dell,Chromebook 5190,220.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/chromebook-5190-pcf-datasheet.pdf,pdf3.pdf
+133,Dell,Latitude 7389 2-in-1,289.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7389.pdf,pdf30.pdf
+134,Dell,Latitude 7380,259.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7380.pdf,pdf31.pdf
+135,Dell,Latitude 7370,288.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7370.pdf?newtab=true,pdf32.pdf
+136,Dell,Latitude 7350,297.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7350.pdf?newtab=true,pdf33.pdf
+137,Dell,Latitude 7320 2-IN-1,333.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7320-2-in-1.pdf,pdf34.pdf
+138,Dell,Latitude 7320 Detachable,82.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7320-detachable-pcf-datasheet.pdf,pdf35.pdf
+139,Dell,Latitude 7320,336.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7320.pdf,pdf36.pdf
+140,Dell,Latitude 7310 2-in-1,326.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7310-2-in-1.pdf,pdf37.pdf
+141,Dell,Latitude 7310,328.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7310.pdf,pdf38.pdf
+142,Dell,Latitude 7290,209.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7290.pdf,pdf39.pdf
+143,Dell,Chromebook 3100 2-in-1,291.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/chromebook_3100_2_in_1.pdf,pdf4.pdf
+144,Dell,Latitude 7285,282.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-7285.pdf,pdf40.pdf
+146,Dell,Latitude 7220 Rugged Extreme,95.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7220-rugged-extreme-pcf-datasheet.pdf,pdf42.pdf
+147,Dell,Latitude 7210 2-in-1,305.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7210-2-in-1-pcf-datasheet.pdf,pdf43.pdf
+148,Dell,Latitude 7200 2 -in-1,314.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7200-2-in-1.pdf,pdf44.pdf
+149,Dell,Latitude E7470,261.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-E7470.pdf,pdf45.pdf
+150,Dell,Latitude E7450,238.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-E7450.pdf,pdf46.pdf
+151,Dell,Latitude E7270,249.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-E7270.pdf,pdf47.pdf
+152,Dell,Latitude E7250,223.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-E7250.pdf,pdf48.pdf
+153,Dell,Latitude 7300 25th Anniversary Edition,146.8,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7300-25th-anniversary-edition-pcf-datasheet.pdf,pdf49.pdf
+154,Dell,Chromebook 5190 2-in-1,219.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/chromebook-5190-2-in-1-pcf-datasheet.pdf,pdf5.pdf
+155,Dell,Latitude 7300,323.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-7300.pdf,pdf51.pdf
+156,Dell,Latitude 5591,305.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5591.pdf,pdf52.pdf
+157,Dell,Latitude 5590,271.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5590.pdf,pdf53.pdf
+158,Dell,Latitude 5580,299.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5580.pdf,pdf54.pdf
+159,Dell,Latitude 5550,259.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5550.pdf,pdf55.pdf
+160,Dell,Latitude 5521,379.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5521-pcf-datasheet.pdf,pdf56.pdf
+161,Dell,Latitude 5520,324.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5520-pcf-datasheet.pdf,pdf57.pdf
+162,Dell,Latitude 5511,378.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5511-pcf-datasheet.pdf,pdf58.pdf
+163,Dell,Latitude 5510,348.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5510-pcf-datasheet.pdf,pdf59.pdf
+164,Dell,Chromebook 3100,266.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/chromebook_3100.pdf,pdf6.pdf
+165,Dell,Latitude 5501,403.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5501.pdf,pdf60.pdf
+166,Dell,Latitude 5500,393.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5500.pdf,pdf61.pdf
+167,Dell,Latitude 5421,304.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5421-pcf-datasheet.pdf,pdf62.pdf
+168,Dell,Latitude 5495,255.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5495.pdf,pdf63.pdf
+169,Dell,Latitude 5491,254.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5491.pdf?newtab=true,pdf64.pdf
+170,Dell,Latitude 5490,251.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5490.pdf?newtab=true,pdf65.pdf
+171,Dell,Latitude 5480,250.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5480.pdf,pdf66.pdf
+172,Dell,Latitude 5450,247.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5450.pdf,pdf67.pdf
+175,Dell,Latitude 9520 2-in-1,361.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-9520-2-in-1-pcf-datasheet.pdf,pdf7.pdf
+176,Dell,Latitude Rugged 5424,361.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-rugged-5424-pcf-datasheet.pdf,pdf70.pdf
+177,Dell,Latitude Rugged 5420,352.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-rugged-5420-pcf-datasheet.pdf,pdf71.pdf
+178,Dell,Latitude 5420,364.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5420-pcf-datasheet.pdf,pdf72.pdf
+179,Dell,Latitude 5411,333.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5411-pcf-datasheet.pdf,pdf73.pdf
+180,Dell,Latitude 5410,326.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5410-pcf-datasheet.pdf,pdf74.pdf
+181,Dell,Latitude 5401,344.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5401.pdf,pdf75.pdf
+182,Dell,Latitude 5400 Chromebook,325.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5400-chromebook-enterprise-pcf-datasheet.pdf,pdf76.pdf
+183,Dell,Latitude 5400,315.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5400.pdf,pdf77.pdf
+184,Dell,Latitude 5430 Rugged,370.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-5430-rugged-pcf-datasheet.pdf,pdf78.pdf
+185,Dell,Latitude 5320 2-in-1,308.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5320-2-in-1-pcf-datasheet.pdf,pdf79.pdf
+186,Dell,Latitude 9520,367.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-9520-pcf-datasheet.pdf,pdf8.pdf
+187,Dell,Latitude 5320,348.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5320.pdf,pdf80.pdf
+188,Dell,Latitude 5310 2-in-1,299.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5310-2-in-1-pcf-datasheet.pdf,pdf81.pdf
+189,Dell,Latitude 5310,300.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5310-pcf-datasheet.pdf,pdf82.pdf
+190,Dell,Latitude 5300 2-in-1,316.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5300-2-in-1.pdf,pdf83.pdf
+191,Dell,Latitude 5300 2-in-1 Chromebook,299.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5300-2-in-1-chromebook-pcf-datasheet.pdf,pdf84.pdf
+192,Dell,Latitude 5300,296.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-5300.pdf,pdf85.pdf
+193,Dell,Latitude 5330,341.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-5330-pcf-datasheet.pdf,pdf86.pdf
+194,Dell,Latitude 5330 2-in-1,343.0,299.096,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-5330-2-in-1-pcf-datasheet.pdf,pdf87.pdf
+195,Dell,Latitude 5290 2-in-1,268.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5290-2.pdf,pdf88.pdf
+196,Dell,Latitude 5290,218.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5290.pdf,pdf89.pdf
+197,Dell,Latitude 9510 2-in-1,482.0,,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/latitude-9510-2-in-1.pdf,pdf9.pdf
+198,Dell,Latitude 5289 2-in-1,259.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5289.pdf,pdf90.pdf
+199,Dell,Latitude 5285 2-in-1,258.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5285.pdf?newtab=true,pdf91.pdf
+200,Dell,Latitude 5280,225.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5280.pdf,pdf92.pdf
+201,Dell,Latitude 5250,235.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-5250.pdf?newtab=true,pdf93.pdf
+202,Dell,Latitude E5570,240.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-E5570.pdf,pdf94.pdf
+203,Dell,Latitude E5470,280.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-E5470.pdf,pdf95.pdf
+204,Dell,Latitude E5270,240.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-e5270.pdf?newtab=true,pdf96.pdf
+205,Dell,Latitude 3590,254.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3590.pdf,pdf97.pdf
+206,Dell,Latitude 3580,311.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3580.pdf,pdf98.pdf
+207,Dell,Latitude 3570,302.0,,https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-latitude-3570.pdf,pdf99.pdf
