@@ -411,8 +411,8 @@ with tab1:
     st.subheader("Stockage 🗃️")
 
     col_provider_1, col_provider_2 = st.columns(2)
-    provider = col_provider_1.selectbox("Sélectionner un systéme de cloud",storage_data["Provider"].unique())
-    zone = col_provider_2.selectbox("Sélectionner une region",storage_data.loc[storage_data["Provider"]==provider, "Region"])
+    provider = col_provider_1.selectbox("Sélectionner un système de cloud",storage_data["Provider"].unique())
+    zone = col_provider_2.selectbox("Sélectionner une région",storage_data.loc[storage_data["Provider"]==provider, "Region"])
 
     col_bytes_1, col_bytes_2 = st.columns(2)
     bytes_month = col_bytes_1.number_input("Octets générés par mois", min_value=0, max_value=None, value=0, step=1, format=None, key=None)
