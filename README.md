@@ -10,6 +10,8 @@
 - trasportation methods are shown selectively for a better UI
 - data storage footprint now available
 - resources section now available
+- calculates the carbon footprint of machine learning
+- offers to consider the carbon offset of cloud providers as an option
 
 ### Future upgrades
 - final product footprint (SAP, Azure, ML, Salesforce, IUPath, etc...) 
