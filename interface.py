@@ -46,6 +46,18 @@ def load_storage_data():
 
 storage_data = load_storage_data()
 
+def load_cloud_data():
+    cloud_data = pd.read_csv("providers.csv")
+    return cloud_data
+
+cloud_data = load_cloud_data()
+
+def load_gpu_data():
+    gpu_data = pd.read_csv("gpu.csv")
+    return gpu_data
+
+gpu_data = load_gpu_data()
+
 ### Setting personalised palette
 #palette = ['#19764C', '#25B172', '#8FE8C0', '#B5EFD5', '#DAF7EA']
 palette = ['#0c3d27','#19764C', '#209560','#25b172','#5ecf9c','#8fe8c0','#97eac4','#a3eccb','#DAF7EA']
@@ -410,9 +422,14 @@ with tab1:
     #stockage
     st.subheader("Stockage 🗃️")
 
+    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le systéme de cloud.', key = "stockage"):
+        offset_stockage = True
+    else:
+        offset_stockage = False
+
     col_provider_1, col_provider_2 = st.columns(2)
-    provider = col_provider_1.selectbox("Sélectionner un système de cloud",storage_data["Provider"].unique())
-    zone = col_provider_2.selectbox("Sélectionner une région",storage_data.loc[storage_data["Provider"]==provider, "Region"])
+    provider = col_provider_1.selectbox("Sélectionner un systéme de cloud",storage_data["Provider"].unique())
+    zone = col_provider_2.selectbox("Sélectionner une region",storage_data.loc[storage_data["Provider"]==provider, "Region"])
 
     col_bytes_1, col_bytes_2 = st.columns(2)
     bytes_month = col_bytes_1.number_input("Octets générés par mois", min_value=0, max_value=None, value=0, step=1, format=None, key=None)
@@ -432,10 +449,28 @@ with tab1:
     pue = float(storage_data.loc[(storage_data["Provider"]==provider)&(storage_data["Region"]==zone), "p"])
     w = float(storage_data.loc[(storage_data["Provider"]==provider)&(storage_data["Region"]==zone), "w"])
     f = float(storage_data.loc[(storage_data["Provider"]==provider)&(storage_data["Region"]==zone), "CO2e (metric ton/kWh)"])
-    co2_stockage = cal_co2.stockage(tb_year, n_backups, mois, retention_years, w, pue, f)
+    offset_ratio = float(storage_data.loc[(storage_data["Provider"]==provider)&(storage_data["Region"]==zone), "offsetRatio"])
+    co2_stockage = cal_co2.stockage(tb_year, n_backups, mois, retention_years, w, pue, f, offset_stockage, offset_ratio)
+
+    #machine learning
+    st.subheader("Machine learning 👩‍💻")
+
+    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le systéme de cloud.', key = "ml"):
+        offset_ml = True
+    else:
+        offset_ml = False
+
+    col_ML_1, col_ML_2 = st.columns(2)
+    provider_gpu = col_ML_1.selectbox("Sélectionner un systéme de cloud", cloud_data["providerName"].unique())
+    zone_gpu = col_ML_2.selectbox("Sélectionner une region", cloud_data.loc[cloud_data["providerName"]==provider_gpu, "region"])
+    col_ML_3, col_ML_4 = st.columns(2)
+    h_gpu = col_ML_3.number_input("Heures utilisées", min_value=0, value=0, step=1 )
+    gpu = col_ML_4.selectbox("Sélectionner une GPU", gpu_data["name"])
+
+    co2_ml = cal_co2.ml(gpu_data, cloud_data, h_gpu, gpu, provider_gpu, zone_gpu, offset_ml)
 
     #total
-    co2_numerique = co2_portables + co2_smartphones + co2_emails + co2_visio + co2_stockage
+    co2_numerique = co2_portables + co2_smartphones + co2_emails + co2_visio + co2_stockage + co2_ml
 
     ###Section 4####################################################################################################
     st.markdown("<h2 style='text-align: center'>Papeterie et fournitures de bureau</h2>", unsafe_allow_html=True)
@@ -481,8 +516,8 @@ with tab1:
 
     #numerique
     st.metric(label="Numérique", value=str(round(co2_numerique, 2))+" kgCO2eq")
-    fig = px.pie(values=[co2_portables, co2_smartphones, co2_emails, co2_visio, co2_stockage], 
-    names=["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage"])
+    fig = px.pie(values=[co2_portables, co2_smartphones, co2_emails, co2_visio, co2_stockage, co2_ml], 
+    names=["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage", "Machine Learning"])
     fig.update_traces(textposition='inside', textinfo='percent+label')
     st.plotly_chart(fig, use_container_width=True)
 
@@ -504,10 +539,10 @@ with tab1:
     
     results = pd.DataFrame(dict_deplacements)
 
-    emissions_numerique = [co2_portables, co2_smartphones, co2_emails, co2_visio, co2_stockage]
+    emissions_numerique = [co2_portables, co2_smartphones, co2_emails, co2_visio, co2_stockage, co2_ml]
 
     dict_numerique = {'catégorie':['Numérique'] * len(emissions_numerique),
-            'Source':["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage"],
+            'Source':["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage", "Machine Learning"],
             'kgCO2eq':emissions_numerique
         }
     
@@ -564,11 +599,28 @@ with tab2:
     - Pour estimer l'empreinte carbone de la vidéoconférence, nous nous sommes basés sur cet [article](https://greenspector.com/fr/impact-applications-visioconferences-2022/).
     - Pour estimer l'empreinte carbone du stockage des données, nous nous sommes basés sur les données publié sur le [site web de CCF](https://www.cloudcarbonfootprint.org/docs/methodology/#appendix-i-energy-coefficients) et sur la formule suivante: 
     """)
-    formula = r'$$(g \times(n+1) \times (d_1 \times d_2)) \times \frac{w}{1000} \times8760 \times \rho \times (f \times 1000) = \text{Storage CO2 Emissions}$$'
-    st.markdown(formula)
-    legend = r'''$$g = \text{TB per year} \\ d_1 = \text{Project Duration} \\ d_2 = \text{Data retention in years} \\ w = \text{Power Consumption in Watts} \\rho = \text{Power Usage Effectiveness} \\f = \text{CO2 Emission Factor}$$'''
-    st.markdown(legend)
-    
+
+
+    formula = r'''{\scriptstyle (g \times(n+1) \times (d_1 \times d_2)) \times \frac{w}{1000} \times8760 \times \rho \times (f \times 1000) = \text{Storage CO2 Emissions} }'''
+    st.latex(formula)
+    legend_1 = r'''{\scriptstyle g = \text{TB per year}'''
+    legend_2 = r'''{\scriptstyle d_1 = \text{Project Duration}}'''
+    legend_3 = r'''{\scriptstyle d_2 = \text{Data retention in years}}'''
+    legend_4 = r'''{\scriptstyle w = \text{Power Consumption in Watts}}'''
+    legend_5 = r'''{\scriptstyle rho = \text{Power Usage Effectiveness}}'''
+    legend_6 = r'''{\scriptstyle f = \text{CO2 Emission Factor}}'''
+
+    st.latex(legend_1)
+    st.latex(legend_2)
+    st.latex(legend_3)
+    st.latex(legend_4)
+    st.latex(legend_5)
+    st.latex(legend_6)
+
+
+    st.markdown("""
+    - Pour estimer l'empreinte carbone de l'apprentissage automatique, nous nous sommes basés sur la méthodologie de [ML CO2 Impact](https://mlco2.github.io/impact/#co2eq) et leurs données publiées [ici](https://github.com/mlco2/impact).
+    """)
 
     st.subheader("Papeterie et fournitures de bureau")
     st.markdown("""
