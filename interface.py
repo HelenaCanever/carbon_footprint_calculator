@@ -23,37 +23,37 @@ st.set_page_config(
 ### Data upload
 @st.cache
 def load_laptop_data():
-    laptop_data = pd.read_csv("laptop_data.csv")
+    laptop_data = pd.read_csv("data/laptop_data.csv")
     return laptop_data
 
 laptop_data = load_laptop_data()
 
 def load_smartphone_data():
-    smartphone_data = pd.read_csv("smartphone_data.csv")
+    smartphone_data = pd.read_csv("data/smartphone_data.csv")
     return smartphone_data
 
 smartphone_data = load_smartphone_data()
 
 def load_visio_data():
-    visio_data = pd.read_csv("visio_data.csv")
+    visio_data = pd.read_csv("data/visio_data.csv")
     return visio_data
 
 visio_data = load_visio_data()
 
 def load_storage_data():
-    storage_data = pd.read_csv("storage_emission_data.csv")
+    storage_data = pd.read_csv("data/storage_emission_data.csv")
     return storage_data
 
 storage_data = load_storage_data()
 
 def load_cloud_data():
-    cloud_data = pd.read_csv("providers.csv")
+    cloud_data = pd.read_csv("data/providers.csv")
     return cloud_data
 
 cloud_data = load_cloud_data()
 
 def load_gpu_data():
-    gpu_data = pd.read_csv("gpu.csv")
+    gpu_data = pd.read_csv("data/gpu.csv")
     return gpu_data
 
 gpu_data = load_gpu_data()
