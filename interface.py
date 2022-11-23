@@ -574,7 +574,7 @@ with tab1:
     st.subheader(":mailbox: Des suggestions ou des commentaires? Contactez nous!")
 
     contact_form = """
-    <form action="https://formsubmit.co/monempreintetalanfeedback@gmail.com" method="POST">
+    <form action="https://formsubmit.co/c6bb8bb379fd82226b18950937b5875c" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Votre nom" required>
         <input type="email" name="email" placeholder="Votre email" required>
