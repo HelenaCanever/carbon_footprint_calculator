@@ -13,6 +13,9 @@
 - calculates the carbon footprint of machine learning
 - offers to consider the carbon offset of cloud providers as an option
 
+### Version 0.2
+- added submission form
+
 ### Future upgrades
 - final product footprint (SAP, Azure, ML, Salesforce, IUPath, etc...) 
 - allow more choice in trasportation (eg. Mopeds, motorbikes)
