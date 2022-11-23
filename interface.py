@@ -80,7 +80,7 @@ tab1, tab2 = st.tabs(["Calculateur", "Ressources"])
 with tab1:
     #insert title
     st.markdown("<h1 style='text-align: center'>Calculateur d'empreinte carbone</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center'>version 0.2</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center'>version 0.1</h2>", unsafe_allow_html=True)
 
     #insert explanation
     st.markdown(""" 
@@ -369,7 +369,7 @@ with tab1:
     st.write("Modèles sélectionnés: ")
     st.write(", ".join(st.session_state.portables))
 
-    co2_portables = cal_co2.portables(laptop_data, st.session_state.portables)
+    co2_portables = cal_co2.portables(laptop_data, st.session_state.portables, mois)
 
     #smartphones
     st.subheader("📱 Smartphones ")
@@ -574,7 +574,7 @@ with tab1:
     st.subheader(":mailbox: Des suggestions ou des commentaires? Contactez nous!")
 
     contact_form = """
-    <form action="https://formsubmit.co/c6bb8bb379fd82226b18950937b5875c" method="POST">
+    <form action="https://formsubmit.co/monempreintetalanfeedback@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Votre nom" required>
         <input type="email" name="email" placeholder="Votre email" required>
@@ -593,7 +593,7 @@ with tab1:
     local_css("style/style.css")
 
 with tab2:
-    st.header("Ressources")
+    st.header("Ressouces")
     st.markdown("""Conformément à la politique sur l'open source du Centre de recherche et de développement de Talan, 
     le code source du calculateur et les données utilisées pour le calcul sont disponibles 
     sur [GitHub](https://github.com/HelenaCanever/carbon_footprint_calculator). """)
