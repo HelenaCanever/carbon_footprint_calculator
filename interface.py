@@ -138,7 +138,7 @@ with tab1:
     em_velo = 0
 
     if b_avion:
-        st.subheader("Avion ✈️")
+        st.subheader("✈️ Avion ")
 
         f_avion = st.radio(
             "Déplacements par personne:",
@@ -159,7 +159,7 @@ with tab1:
     ##########
 
     if b_TGV:
-        st.subheader("TGV 🚄")
+        st.subheader("🚄 TGV ")
 
         f_TGV = st.radio(
             "Déplacements par personne:",
@@ -181,7 +181,7 @@ with tab1:
     ##########
 
     if b_train:
-        st.subheader("Train Intercity 🚉")
+        st.subheader("🚉 Train Intercity ")
 
         f_train = st.radio(
             "Déplacements par personne:",
@@ -202,7 +202,7 @@ with tab1:
         ##########
 
     if b_ev:
-        st.subheader("Voiture (électrique) 🚗⚡")
+        st.subheader("🚗⚡ Voiture (électrique)")
 
         f_ev = st.radio(
             "Déplacements par personne:",
@@ -224,7 +224,7 @@ with tab1:
     ##########
 
     if b_voiture:
-        st.subheader("Voiture (thermique) 🚗")
+        st.subheader("🚗 Voiture (thermique) ")
 
         f_voiture = st.radio(
             "Déplacements par personne:",
@@ -245,7 +245,7 @@ with tab1:
     ##########
 
     if b_rer:
-        st.subheader("RER ou Transilien 🚉")
+        st.subheader("🚉 RER ou Transilien")
 
         f_rer = st.radio(
             "Déplacements par personne:",
@@ -266,7 +266,7 @@ with tab1:
 
         ##########
     if b_metro:
-        st.subheader("Metro 🚇")
+        st.subheader("🚇 Metro ")
 
         f_metro = st.radio(
             "Déplacements par personne:",
@@ -286,7 +286,7 @@ with tab1:
         co2_metro=0
     ##########
     if b_bus:
-        st.subheader("Bus (thermique) 🚌")
+        st.subheader("🚌 Bus (thermique)")
 
         f_bus = st.radio(
             "Déplacements par personne:",
@@ -354,7 +354,7 @@ with tab1:
     st.markdown("<h2 style='text-align: center'>Numérique</h2>", unsafe_allow_html=True)
 
     #ordinateurs
-    st.subheader("Ordinateurs portables 💻")
+    st.subheader("💻 Ordinateurs portables")
 
     if 'portables' not in st.session_state:
         st.session_state['portables'] = []
@@ -372,7 +372,7 @@ with tab1:
     co2_portables = cal_co2.portables(laptop_data, st.session_state.portables)
 
     #smartphones
-    st.subheader("Smartphones 📱")
+    st.subheader("📱 Smartphones ")
 
     if 'smartphones' not in st.session_state:
         st.session_state['smartphones'] = []
@@ -390,7 +390,7 @@ with tab1:
     co2_smartphones = cal_co2.smartphones(smartphone_data, st.session_state.smartphones)
 
     #emails
-    st.subheader("Emails 📧")
+    st.subheader("📧 Emails ")
 
     col21, col22 = st.columns(2)
     n_mails_pj = col21.number_input('Nombre de mails par semaine (avec pièce jointe)', min_value=0, value=0, step=1)
@@ -399,7 +399,7 @@ with tab1:
     co2_emails = cal_co2.emails(n_mails_pj,n_mails, mois)
 
     #visioconférences 
-    st.subheader("Visioconférences 📞")
+    st.subheader("📞 Visioconférences ")
 
     col23, col24 = st.columns(2)
 
@@ -420,16 +420,16 @@ with tab1:
     co2_visio = cal_co2.visio(camera_on, h_visio, visio_data, outil_visio, mois)
 
     #stockage
-    st.subheader("Stockage 🗃️")
+    st.subheader("🗃️ Stockage ")
 
-    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud.', key = "stockage"):
+    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le systéme de cloud.', key = "stockage"):
         offset_stockage = True
     else:
         offset_stockage = False
 
     col_provider_1, col_provider_2 = st.columns(2)
-    provider = col_provider_1.selectbox("Sélectionner un système de cloud",storage_data["Provider"].unique())
-    zone = col_provider_2.selectbox("Sélectionner une région",storage_data.loc[storage_data["Provider"]==provider, "Region"])
+    provider = col_provider_1.selectbox("Sélectionner un systéme de cloud",storage_data["Provider"].unique())
+    zone = col_provider_2.selectbox("Sélectionner une region",storage_data.loc[storage_data["Provider"]==provider, "Region"])
 
     col_bytes_1, col_bytes_2 = st.columns(2)
     bytes_month = col_bytes_1.number_input("Octets générés par mois", min_value=0, max_value=None, value=0, step=1, format=None, key=None)
@@ -453,16 +453,16 @@ with tab1:
     co2_stockage = cal_co2.stockage(tb_year, n_backups, mois, retention_years, w, pue, f, offset_stockage, offset_ratio)
 
     #machine learning
-    st.subheader("Machine learning 👩‍💻")
+    st.subheader("👩‍💻 Machine learning ")
 
-    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud.', key = "ml"):
+    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le systéme de cloud.', key = "ml"):
         offset_ml = True
     else:
         offset_ml = False
 
     col_ML_1, col_ML_2 = st.columns(2)
-    provider_gpu = col_ML_1.selectbox("Sélectionner un système de cloud", cloud_data["providerName"].unique())
-    zone_gpu = col_ML_2.selectbox("Sélectionner une région", cloud_data.loc[cloud_data["providerName"]==provider_gpu, "region"])
+    provider_gpu = col_ML_1.selectbox("Sélectionner un systéme de cloud", cloud_data["providerName"].unique())
+    zone_gpu = col_ML_2.selectbox("Sélectionner une region", cloud_data.loc[cloud_data["providerName"]==provider_gpu, "region"])
     col_ML_3, col_ML_4 = st.columns(2)
     h_gpu = col_ML_3.number_input("Heures utilisées", min_value=0, value=0, step=1 )
     gpu = col_ML_4.selectbox("Sélectionner une GPU", gpu_data["name"])
@@ -475,7 +475,7 @@ with tab1:
     ###Section 4####################################################################################################
     st.markdown("<h2 style='text-align: center'>Papeterie et fournitures de bureau</h2>", unsafe_allow_html=True)
 
-    st.subheader("Impressions 🖨️")
+    st.subheader("🖨️ Impressions ")
 
     col25, col26 = st.columns(2)
 
@@ -570,6 +570,27 @@ with tab1:
         file_name='bilan.csv',
         mime='text/csv',
     )
+
+    st.subheader(":mailbox: Des suggestions ou des commentaires? Contactez nous!")
+
+    contact_form = """
+    <form action="https://formsubmit.co/monempreintetalanfeedback@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Votre message ici"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+    """
+
+    st.markdown(contact_form, unsafe_allow_html=True)
+
+    # Use Local CSS File
+    def local_css(file_name):
+        with open(file_name) as f:
+            st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+    local_css("style/style.css")
 
 with tab2:
     st.header("Ressouces")
