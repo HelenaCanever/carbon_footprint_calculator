@@ -15,10 +15,12 @@
 
 ### Version 0.2
 - added submission form
+- enrich the laptop database
+- improve the calculation of the carbon footprint of laptops based on months of use
 
 ### Future upgrades
 - final product footprint (SAP, Azure, ML, Salesforce, IUPath, etc...) 
 - allow more choice in trasportation (eg. Mopeds, motorbikes)
 - improve the calculation of flights footprint based on the distance of the flights
 - enrich the laptop and smartphone databases
-- improve the calculation of the carbon footprint of devices based on months of use
+- improve the calculation of the carbon footprint of smartphones based on months of use
