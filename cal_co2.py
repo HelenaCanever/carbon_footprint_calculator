@@ -6,11 +6,17 @@ def transport(em, n, km, f_transport, collaborateurs, mois):
 		co2 = (em*n*km*collaborateurs)/1000
 		return co2 
 
-def portables(data, list):
-    em_portables = 0
-    for ordi in list:
-        em_portables += float(data.loc[data["Model"]==ordi, "kg CO2e"])
-    return em_portables
+def portables(data, list, m):
+	em_portables = 0
+	for ordi in list:
+		if data.loc[data["Model"]==ordi, "kg CO2e w/o use"].isna().values[0]==True:
+			em_portables += float(data.loc[data["Model"]==ordi, "kg CO2e"])
+		else:
+			base =float(data.loc[data["Model"]==ordi, "kg CO2e w/o use"])
+			years_use = float(data.loc[data["Model"]==ordi, "years_use"])
+			co2_per_month = (float(data.loc[data["Model"]==ordi, "kg CO2e"])-base)/years_use/12
+			em_portables += (base+(co2_per_month*m))
+	return em_portables
 
 def smartphones(data, list):
 	em_smartphones = 0
