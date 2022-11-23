@@ -593,7 +593,7 @@ with tab1:
     local_css("style/style.css")
 
 with tab2:
-    st.header("Ressouces")
+    st.header("Ressources")
     st.markdown("""Conformément à la politique sur l'open source du Centre de recherche et de développement de Talan, 
     le code source du calculateur et les données utilisées pour le calcul sont disponibles 
     sur [GitHub](https://github.com/HelenaCanever/carbon_footprint_calculator). """)
