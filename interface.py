@@ -574,7 +574,7 @@ with tab1:
     st.subheader(":mailbox: Des suggestions ou des commentaires? Contactez nous!")
 
     contact_form = """
-    <form action="https://formsubmit.co/ACS.RECHERCHE-TCP@talan.com" method="POST">
+    <form action="https://formsubmit.co/f5f3a06dfd337deb6a1c180bf4c507d2" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Votre nom" required>
         <input type="email" name="email" placeholder="Votre email" required>
