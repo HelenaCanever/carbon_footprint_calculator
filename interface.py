@@ -422,14 +422,14 @@ with tab1:
 #stockage
     st.subheader("🗃️ Stockage ")
 
-    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le systéme de cloud.', key = "stockage"):
+    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud.', key = "stockage"):
         offset_stockage = True
     else:
         offset_stockage = False
 
     col_provider_1, col_provider_2 = st.columns(2)
-    provider = col_provider_1.selectbox("Sélectionner un systéme de cloud",storage_data["Provider"].unique())
-    zone = col_provider_2.selectbox("Sélectionner une region",storage_data.loc[storage_data["Provider"]==provider, "Region"])
+    provider = col_provider_1.selectbox("Sélectionner un système de cloud",storage_data["Provider"].unique())
+    zone = col_provider_2.selectbox("Sélectionner une région",storage_data.loc[storage_data["Provider"]==provider, "Region"])
 
     col_bytes_1, col_bytes_2 = st.columns(2)
     bytes_month = col_bytes_1.number_input("Octets générés par mois", min_value=0, max_value=None, value=0, step=1, format=None, key=None)
@@ -455,17 +455,17 @@ with tab1:
 #machine learning
     st.subheader("👩‍💻 Machine learning ")
 
-    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le systéme de cloud.', key = "ml"):
+    if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud.', key = "ml"):
         offset_ml = True
     else:
         offset_ml = False
 
     col_ML_1, col_ML_2 = st.columns(2)
-    provider_gpu = col_ML_1.selectbox("Sélectionner un systéme de cloud", cloud_data["providerName"].unique())
-    zone_gpu = col_ML_2.selectbox("Sélectionner une region", cloud_data.loc[cloud_data["providerName"]==provider_gpu, "region"])
+    provider_gpu = col_ML_1.selectbox("Sélectionner un système de cloud", cloud_data["providerName"].unique())
+    zone_gpu = col_ML_2.selectbox("Sélectionner une région", cloud_data.loc[cloud_data["providerName"]==provider_gpu, "region"])
     col_ML_3, col_ML_4 = st.columns(2)
     h_gpu = col_ML_3.number_input("Heures utilisées", min_value=0, value=0, step=1 )
-    gpu = col_ML_4.selectbox("Sélectionner une GPU", gpu_data["name"])
+    gpu = col_ML_4.selectbox("Sélectionner un GPU", gpu_data["name"])
 
     co2_ml = cal_co2.ml(gpu_data, cloud_data, h_gpu, gpu, provider_gpu, zone_gpu, offset_ml)
 
