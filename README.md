@@ -18,6 +18,12 @@
 - enrich the laptop database
 - improve the calculation of the carbon footprint of laptops based on months of use
 
+### Version 0.3
+- fixed typos
+- graphs can now be donwloaded with a black background
+- updated and cleaned code 
+
+
 ### Future upgrades
 - final product footprint (SAP, Azure, ML, Salesforce, IUPath, etc...) 
 - allow more choice in trasportation (eg. Mopeds, motorbikes)
