@@ -22,7 +22,7 @@
 - fixed typos
 - graphs can now be donwloaded with a black background
 - updated and cleaned code 
-
+- checked ADEME sources for updates on emission estimates
 
 ### Future upgrades
 - final product footprint (SAP, Azure, ML, Salesforce, IUPath, etc...) 
