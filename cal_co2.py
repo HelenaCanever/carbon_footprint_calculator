@@ -31,9 +31,9 @@ def emails(n_mails_att,n_mails, months):
 
 def visio(camera_on, h_visio, data, outil_visio, months):
 	if camera_on:
-		em_visio = (h_visio*4*months*float(data.loc[data["Outil"]==outil_visio, "kgCO2eq/h Video+Audio"]))/1000
+		em_visio = (h_visio*4*months*float(data.loc[data["Outil"]==outil_visio, "grCO2eq/h Video+Audio"]))/1000
 	else:
-		em_visio = (h_visio*4*months*float(data.loc[data["Outil"]==outil_visio, "kgCO2eq/h Video+Audio"]))/1000*0.29
+		em_visio = (h_visio*4*months*float(data.loc[data["Outil"]==outil_visio, "grCO2eq/h Video+Audio"]))/1000*0.29
 	return em_visio
 
 def storage(tb_year, n_backups, months, retention_years, w, pue, f, offset, offset_ratio):
