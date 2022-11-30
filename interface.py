@@ -503,6 +503,10 @@ with tab1:
     fig = px.pie(values=[co2_deplacements, co2_numerique, co2_bureau], 
     names=["Déplacements", "Numérique", "Bureau"])
     fig.update_traces(textposition='inside', textinfo='percent+label')
+    fig.update_layout({
+    'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+    'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+    })
     st.plotly_chart(fig, use_container_width=True)
 
     #deplacement
