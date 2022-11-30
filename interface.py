@@ -515,6 +515,10 @@ with tab1:
     fig = px.pie(values=[co2_avion, co2_TGV, co2_train, co2_ev, co2_voiture, co2_rer, co2_metro, co2_bus, co2_veloAE], 
     names=["Avion", "TGV", "Train", "Voiture électrique", "Voiture thermique", "RER ou Transilien", "Metro", "Bus", "Vélo ou trotinette assistance électrique"])
     fig.update_traces(textposition='inside', textinfo='percent+label')
+    fig.update_layout({
+    'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+    'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+    })
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -523,6 +527,10 @@ with tab1:
     fig = px.pie(values=[co2_portables, co2_smartphones, co2_emails, co2_visio, co2_stockage, co2_ml], 
     names=["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage", "Machine Learning"])
     fig.update_traces(textposition='inside', textinfo='percent+label')
+    fig.update_layout({
+    'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+    'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+    })
     st.plotly_chart(fig, use_container_width=True)
 
 
@@ -531,6 +539,10 @@ with tab1:
     fig = px.pie(values=[co2_bureau], 
     names=["Impressions"])
     fig.update_traces(textposition='inside', textinfo='percent+label')
+    fig.update_layout({
+    'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+    'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+    })
     st.plotly_chart(fig, use_container_width=True)
 
     #download data as csv
