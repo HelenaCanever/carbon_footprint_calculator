@@ -80,7 +80,7 @@ tab1, tab2 = st.tabs(["Calculateur", "Ressources"])
 with tab1:
     #insert title
     st.markdown("<h1 style='text-align: center'>Calculateur d'empreinte carbone</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center'>version 0.1</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center'>version 0.2</h2>", unsafe_allow_html=True)
 
     #insert explanation
     st.markdown(""" 
@@ -419,7 +419,7 @@ with tab1:
 
     co2_visio = cal_co2.visio(camera_on, h_visio, visio_data, outil_visio, mois)
 
-    #stockage
+#stockage
     st.subheader("🗃️ Stockage ")
 
     if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le systéme de cloud.', key = "stockage"):
@@ -452,7 +452,7 @@ with tab1:
     offset_ratio = float(storage_data.loc[(storage_data["Provider"]==provider)&(storage_data["Region"]==zone), "offsetRatio"])
     co2_stockage = cal_co2.stockage(tb_year, n_backups, mois, retention_years, w, pue, f, offset_stockage, offset_ratio)
 
-    #machine learning
+#machine learning
     st.subheader("👩‍💻 Machine learning ")
 
     if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le systéme de cloud.', key = "ml"):
@@ -593,7 +593,7 @@ with tab1:
     local_css("style/style.css")
 
 with tab2:
-    st.header("Ressouces")
+    st.header("Ressources")
     st.markdown("""Conformément à la politique sur l'open source du Centre de recherche et de développement de Talan, 
     le code source du calculateur et les données utilisées pour le calcul sont disponibles 
     sur [GitHub](https://github.com/HelenaCanever/carbon_footprint_calculator). """)
