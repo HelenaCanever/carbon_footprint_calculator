@@ -26,7 +26,7 @@ def smartphones(data, list):
 	return em_smartphones
 
 def emails(n_mails_att,n_mails, months):
-	em_mails = ((n_mails_att*4*months*35)+(n_mails*4*months*4))/1000
+	em_mails = ((n_mails_att*4*months*3.4)+(n_mails*4*months*2.1))/1000
 	return em_mails
 
 def visio(camera_on, h_visio, data, outil_visio, months):

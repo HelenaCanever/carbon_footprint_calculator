@@ -124,17 +124,16 @@ with tab1:
     b_ebike = col00.checkbox('Vélo (ou trottinette) à assistance électrique')
     b_bike = col00.checkbox('Vélo ou marche')
 
-    #emissions in gr/person/km
-
-    em_plane = 186.25 #average emissions, does not take into account the lenght of the flight
-    em_TGV = 1.73
-    em_train = 5.29
-    em_ev = 19.8
-    em_car = 193
-    em_rer = 4.1
-    em_metro = 2.5
-    em_bus = 103
-    em_ebike = 2
+    #emissions in gr/person/km construction included
+    em_plane = 229.92 #average emissions, does not take into account the lenght of the flight
+    em_TGV = 2.36
+    em_train = 5.92
+    em_ev = 103.4
+    em_car = 217.60
+    em_rer = 7.28
+    em_metro = 2.74
+    em_bus = 112.70
+    em_ebike = 10.7
     em_bike = 0
 
     if b_plane:
@@ -494,56 +493,62 @@ with tab1:
 
     ###Section 5####################################################################################################
     st.markdown("<h2 style='text-align: center'>Résultats</h2>", unsafe_allow_html=True)
-
+    st.markdown("Visualisez l'empreinte carbone de la mission et **téléchargez un bilan au format csv ci-dessous**.")
     #total
     co2_total = co2_transport + co2_digital + co2_office
 
     st.metric(label="Empreinte carbone totale", value=str(round(co2_total, 2))+" kgCO2eq")
 
-    fig = px.pie(values=[co2_transport, co2_digital, co2_office], 
-    names=["Déplacements", "Numérique", "Bureau"])
-    fig.update_traces(textposition='inside', textinfo='percent+label')
-    fig.update_layout({
-    'plot_bgcolor': 'rgba(0, 0, 0, 0)',
-    'paper_bgcolor': 'rgba(0, 0, 0, 0)',
-    })
-    st.plotly_chart(fig, use_container_width=True)
+    if co2_total !=0:
+        fig = px.pie(values=[co2_transport, co2_digital, co2_office], 
+        names=["Déplacements", "Numérique", "Bureau"])
+        fig.update_traces(textposition='inside', textinfo='percent+label')
+        fig.update_layout({
+        'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+        'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+        })
+        st.plotly_chart(fig, use_container_width=True)
 
     #deplacement
     st.metric(label="Déplacements", value=str(round(co2_transport, 2))+" kgCO2eq")
 
-    fig = px.pie(values=[co2_plane, co2_TGV, co2_train, co2_ev, co2_car, co2_rer, co2_metro, co2_bus, co2_ebike], 
-    names=["Avion", "TGV", "Train", "Voiture électrique", "Voiture thermique", "RER ou Transilien", "Metro", "Bus", "Vélo ou trotinette assistance électrique"])
-    fig.update_traces(textposition='inside', textinfo='percent+label')
-    fig.update_layout({
-    'plot_bgcolor': 'rgba(0, 0, 0, 0)',
-    'paper_bgcolor': 'rgba(0, 0, 0, 0)',
-    })
-    st.plotly_chart(fig, use_container_width=True)
+    if co2_transport !=0:
+        fig = px.pie(values=[co2_plane, co2_TGV, co2_train, co2_ev, co2_car, co2_rer, co2_metro, co2_bus, co2_ebike], 
+        names=["Avion", "TGV", "Train", "Voiture électrique", "Voiture thermique", "RER ou Transilien", "Metro", "Bus", "Vélo ou trotinette assistance électrique"])
+        fig.update_traces(textposition='inside', textinfo='percent+label')
+        fig.update_layout({
+        'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+        'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+        })
+        st.plotly_chart(fig, use_container_width=True)
 
 
     #numerique
     st.metric(label="Numérique", value=str(round(co2_digital, 2))+" kgCO2eq")
-    fig = px.pie(values=[co2_laptops, co2_smartphones, co2_emails, co2_visio, co2_storage, co2_ml], 
-    names=["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage", "Machine Learning"])
-    fig.update_traces(textposition='inside', textinfo='percent+label')
-    fig.update_layout({
-    'plot_bgcolor': 'rgba(0, 0, 0, 0)',
-    'paper_bgcolor': 'rgba(0, 0, 0, 0)',
-    })
-    st.plotly_chart(fig, use_container_width=True)
+
+    if co2_digital!=0:
+        fig = px.pie(values=[co2_laptops, co2_smartphones, co2_emails, co2_visio, co2_storage, co2_ml], 
+        names=["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage", "Machine Learning"])
+        fig.update_traces(textposition='inside', textinfo='percent+label')
+        fig.update_layout({
+        'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+        'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+        })
+        st.plotly_chart(fig, use_container_width=True)
 
 
     #bureau
     st.metric(label="Papeterie et fournitures de bureau", value=str(round(co2_office, 2))+" kgCO2eq")
-    fig = px.pie(values=[co2_office], 
-    names=["Impressions"])
-    fig.update_traces(textposition='inside', textinfo='percent+label')
-    fig.update_layout({
-    'plot_bgcolor': 'rgba(0, 0, 0, 0)',
-    'paper_bgcolor': 'rgba(0, 0, 0, 0)',
-    })
-    st.plotly_chart(fig, use_container_width=True)
+
+    if co2_office !=0:
+        fig = px.pie(values=[co2_office], 
+        names=["Impressions"])
+        fig.update_traces(textposition='inside', textinfo='percent+label')
+        fig.update_layout({
+        'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+        'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+        })
+        st.plotly_chart(fig, use_container_width=True)
 
     #download data as csv
     emissions_deplacement = [co2_plane, co2_TGV, co2_train, co2_ev, co2_car, co2_rer, co2_metro, co2_bus, co2_ebike, co2_bike]
@@ -586,7 +591,7 @@ with tab1:
         file_name='bilan.csv',
         mime='text/csv',
     )
-
+    st.markdown(" ")
     st.subheader(":mailbox: Des suggestions ou des commentaires? Contactez nous!")
 
     contact_form = """
@@ -615,28 +620,68 @@ with tab2:
     sur [GitHub](https://github.com/HelenaCanever/carbon_footprint_calculator). """)
     st.subheader("Déplacements")
     st.markdown("""
-    - Pour calculer l'empreinte carbone des déplacements, nous nous sommes appuyés sur le service DATAGIR de l’ Agence de la Transition Ecologique (ADEME) qui offre ces données sous forme de API [Mon Impact Transport](https://api.monimpacttransport.fr/) pour quantifier les émissions des transports sur la base des kilomètres parcouru. Les émissions en grammes par personne et par kilomètre proviennent du [code source de l'API](https://github.com/datagir/monimpacttransport).
+    - Les émissions pour chaque mode de transport sont calculées comme suit : *kms par voyage x nombre de voyages par mois x émissions en grammes par kilomètre x nombre de collaborateurs x durée de la mission en mois*.
+    - Pour calculer l'empreinte carbone des déplacements, nous nous sommes basés sur les données de l’ Agence de la Transition Ecologique (ADEME) qui offre ces données sous forme de API [Mon Impact Transport](https://api.monimpacttransport.fr/) pour quantifier les émissions des transports sur la base des kilomètres parcouru. Les émissions en grammes par personne et par kilomètre proviennent du [code source de l'API](https://github.com/datagir/monimpacttransport).
     """)
-    st.subheader("Numérique")
-    formula = r'$$(g \times(n+1) \times (d_1 \times d_2)) \times \frac{w}{1000} \times8760 \times \rho \times (f \times 1000) = \text{Storage CO2 Emissions}$$'
+    st.markdown("""
+    | Transport | Émissions (gr/km) | Émissions sans construction (gr/km) |
+    |-----------|-------------------|-------------------------------------|
+    |Avion|229.92|186.5|
+    |TGV|2.36|1.73|
+    |Train Intercity|5.92|5.29|
+    |Voiture électrique|103.4|19.8|
+    |Voiture thermique|217.6|193|
+    |Voiture thermique|217.6|193|
+    |RER|7.28|4.1|
+    |Metro|2.74|2.5|
+    |Bus thermique|112.70|103|
+    |Vélo (ou trottinette) à assistance électrique|10.7|2|
+    |Vélo ou marche|0|0|
+    """)
+    st.markdown(" ")
+
+
+    st.subheader("Portables et Smartphones")
 
     st.markdown("""
-    - Dans le calcul de l'empreinte carbone des ordinateurs portables et des smartphones, nous prenons en compte une durée de vie de 3-4 ans selon la marque. Les versions futures affineront le calcul en fonction de la durée de vie réelle considérée comme étant celle de la durée de la mission.
-    - Les données relatives à l'empreinte carbone des ordinateurs portables et des smartphones ont été obtenues auprès des producteurs et sont basées sur la base de données [laptop-co2e](https://github.com/rarecoil/laptop-co2e) sur Github.
-    - Ressources producteurs:
-        - [Apple](https://www.apple.com/environment/)
-        - [Google](https://sustainability.google/reports/)
-        - [Samsung](https://www.samsung.com/latin_en/sustainability/environment/environment-data/)
-        - [Dell](https://www.dell.com/en-us/dt/corporate/social-impact/advancing-sustainability/sustainable-products-and-services/product-carbon-footprints.htm#tab0=0)
-        - [Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=55974)
-        - [Lenovo](https://www.lenovo.com/us/en/compliance/eco-declaration/)
-        - [HP](https://h20195.www2.hp.com/v2/library.aspx?doctype=95&footer=95&filter_doctype=no&filter_country=no&cc=us&lc=en&filter_oid=no&filter_prodtype=rw&prodtype=ij&showproductcompatibility=yes&showregion=yes&showreglangcol=yes&showdescription=yes3doctype-95&sortorder-popular&teasers-off&isRetired-false&isRHParentNode-false&titleCheck-false#doctype-95&product_type-ij&sortorder-popular&teasers-off&isRetired-false&isRHParentNode-false)
+    - L'empreinte carbone des ordinateurs portables et des smartphones tient compte de leur construction et de leur durée de vie. Leur durée de vie est considérée comme égale à la durée de la mission. 
+    - Les données relatives à l'empreinte carbone des ordinateurs portables et des smartphones ont été obtenues auprès des producteurs. Vous pouvez trouver l'empreinte carbone de chaque modèle [ici](https://github.com/HelenaCanever/carbon_footprint_calculator/tree/main/data).   
+    """)
     
-    - Pour calculer l'empreinte carbone des email nous nous sommes basés sur les estimations de l'[ADEME](https://librairie.ademe.fr/cadic/6555/guide-en-route-vers-sobriete-numerique.pdf) de 1 mail avec pièce jointe = 35 gCO2eq/unité, 1 mail sans pièce jointe 4 gCO2eq/unité
-    - Pour estimer l'empreinte carbone de la vidéoconférence, nous nous sommes basés sur cet [article](https://greenspector.com/fr/impact-applications-visioconferences-2022/).
-    - Pour estimer l'empreinte carbone du stockage des données, nous nous sommes basés sur les données publié sur le [site web de CCF](https://www.cloudcarbonfootprint.org/docs/methodology/#appendix-i-energy-coefficients) et sur la formule suivante: 
+    st.subheader("Emails")
+
+    st.markdown("""
+    - Nous estimons que l'empreinte carbone d'un courriel sans pièce jointe est de 2,1 grCO2eq, et de 3,4 grCO2eq avec une pièce jointe.
+    - Nous nous sommes basés sur les dernières estimations de l'[ADEME](https://impactco2.fr/usagenumerique/email).
+    - On considère un temps de rédaction de 3 minutes, et un seul destinataire par email qui lirait le message en 10 secondes sur un ordinateur portable sur réseau fixe (WiFi). L'email est considéré stocké pendant 10 ans côté expéditeur et destinataire. Un poids de 75 ko a été retenu pour un email sans pièce-jointe. Un poids de 1.75 Mo a été retenu pour un email avec pièce-jointe. L'ensemble de l'impact (expéditeur et destinataire) est attribué à l'expéditeur.
     """)
 
+    st.subheader("Vidéoconférence")
+    st.markdown("""
+    - Pour estimer l'empreinte carbone de la vidéoconférence, nous nous sommes basés sur cet [article](https://greenspector.com/fr/impact-applications-visioconferences-2022/) par Greenspector.    
+    """)
+    st.markdown("""
+    |Outil|grCO2eq/h vidéo et audio|grCO2eq/h audio|
+    |-----|------------------------|---------------|
+    |Microsoft Teams|30.68|8.90|
+    |Zoom|33.22|9.63|
+    |Google Meet|42.96|12.46|
+    |Skype|37.13|10.78|
+    |Zoho|29.36|8.51|
+    |Whereby|32.14|9.32|
+    |Jitsi|36.66|10.63|
+    |BlueJeans|39.39|11.42|
+    |Cisco Webex|47.44|13.76|
+    |Go To Meeting|64.33|18.66|
+    |Autre/Je ne sais pas|66|19.14|
+    """)
+    st.markdown(" ")
+
+
+    st.subheader("Stockage")
+    st.markdown("""
+    - Pour estimer l'empreinte carbone du stockage des données, nous nous sommes basés sur les données publié sur le [site web de CCF](https://www.cloudcarbonfootprint.org/docs/methodology/#appendix-i-energy-coefficients) et sur la formule suivante: 
+    """)
 
     formula = r'''{\scriptstyle (g \times(n+1) \times (d_1 \times d_2)) \times \frac{w}{1000} \times8760 \times \rho \times (f \times 1000) = \text{Storage CO2 Emissions} }'''
     st.latex(formula)
@@ -654,12 +699,13 @@ with tab2:
     st.latex(legend_5)
     st.latex(legend_6)
 
-
+    st.subheader("Machine learning")
     st.markdown("""
     - Pour estimer l'empreinte carbone de l'apprentissage automatique, nous nous sommes basés sur la méthodologie de [ML CO2 Impact](https://mlco2.github.io/impact/#co2eq) et leurs données publiées [ici](https://github.com/mlco2/impact).
     """)
 
     st.subheader("Papeterie et fournitures de bureau")
     st.markdown("""
-    - Pour calculer l'empreinte carbone des empressions nous nous sommes basés sur les estimations de l'[ADEME](https://bilans-ges.ademe.fr/documentation/UPLOAD_DOC_FR/index.htm?papier__carton_et_articles_en_.htm) sur l'empreinte carbone d'une ramette papier A4
+    - Pour calculer l'empreinte carbone des empressions nous nous sommes basés sur les estimations de l'[ADEME](https://bilans-ges.ademe.fr/documentation/UPLOAD_DOC_FR/index.htm?papier__carton_et_articles_en_.htm) sur l'empreinte carbone d'une ramette papier A4.
+    - Nous estimons que l'empreinte carbone est de 4,68 grCO2eq par feuille de papier.
     """)
