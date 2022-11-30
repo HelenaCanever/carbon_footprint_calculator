@@ -624,7 +624,7 @@ with tab2:
 
     formula = r'''{\scriptstyle (g \times(n+1) \times (d_1 \times d_2)) \times \frac{w}{1000} \times8760 \times \rho \times (f \times 1000) = \text{Storage CO2 Emissions} }'''
     st.latex(formula)
-    legend_1 = r'''{\scriptstyle g = \text{TB per year}'''
+    legend_1 = r'''{\scriptstyle g = \text{TB per year}}'''
     legend_2 = r'''{\scriptstyle d_1 = \text{Project Duration}}'''
     legend_3 = r'''{\scriptstyle d_2 = \text{Data retention in years}}'''
     legend_4 = r'''{\scriptstyle w = \text{Power Consumption in Watts}}'''
