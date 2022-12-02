@@ -16,7 +16,7 @@ def createpdf(data, co2_transport, co2_digital, co2_office):
     class PDF(FPDF):
         def __init__(self):
             super().__init__()
-            self.add_font('MontserratBlack', '', r'fonts/Montserrat-Black.ttf', uni=True)
+            self.add_font('MontserratBlack', '', r'https://github.com/HelenaCanever/carbon_footprint_calculator/blob/4a90d53ccadb5f8975cb296c32ae3ff59317ee8c/fonts/Montserrat-Black.ttf', uni=True)
             
             self.add_font('MontserratLight', '', r'fonts/Montserrat-Light.ttf', uni=True)
         def header(self):
