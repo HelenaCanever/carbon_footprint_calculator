@@ -83,7 +83,7 @@ tab1, tab2 = st.tabs(["Calculateur", "Méthodes et sources de données"])
 with tab1:
     #insert title
     st.markdown("<h1 style='text-align: center'>Calculateur d'empreinte carbone</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center'>version 0.3</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center'>version 0.4</h2>", unsafe_allow_html=True)
 
     #insert explanation
     st.markdown(""" 
