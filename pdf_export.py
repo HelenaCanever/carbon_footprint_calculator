@@ -1,4 +1,4 @@
-from fpdf import FPDF
+import fpdf
 import datetime
 from PIL import Image
 import os
@@ -13,7 +13,7 @@ ch = 80
 def createpdf(data, co2_transport, co2_digital, co2_office):
     timestamp = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     # Custom class to overwrite the header and footer methods
-    class PDF(FPDF):
+    class PDF(fpdf.FPDF):
         def __init__(self):
             super().__init__()
             fpdf.set_global("SYSTEM_TTFONTS", os.path.join(os.path.dirname(''),FONTS_DIR))
