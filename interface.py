@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import kaleido
 import cal_co2
 import pdf_export
+import os
 
 import streamlit as st
 import plotly.express as px 
@@ -497,13 +498,9 @@ with tab1:
     st.markdown("<h2 style='text-align: center'>Résultats</h2>", unsafe_allow_html=True)
     st.markdown("Visualisez l'empreinte carbone de la mission et **téléchargez le bilan ci-dessous**.")
 
-
-    import os
-
+    #create temp folder for pngs and pdf files
     if not os.path.exists("./tmp"):
         os.mkdir("./tmp")
-
-    import io
 
     #total
     co2_total = co2_transport + co2_digital + co2_office
