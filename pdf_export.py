@@ -3,6 +3,8 @@ import datetime
 from PIL import Image
 import os
 
+FONTS_DIR = 'font'
+
 # Margin
 m = 10 
 # Page width: Width of A4 is 210mm
