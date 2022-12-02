@@ -1,10 +1,9 @@
 def transport(em, n, km, f_transport, associates, months):
 	if f_transport:
 		co2 = (em*n*km*associates*months)/1000
-		return co2 
 	else: 
 		co2 = (em*n*km*associates)/1000
-		return co2 
+	return round(co2, 2) 
 
 def laptops(data, list, m):
 	em_laptops = 0
@@ -16,25 +15,25 @@ def laptops(data, list, m):
 			years_use = float(data.loc[data["Model"]==laptop, "years_use"])
 			co2_per_month = (float(data.loc[data["Model"]==laptop, "kg CO2e"])-base)/years_use/12
 			em_laptops += (base+(co2_per_month*m))
-	return 	em_laptops
+	return 	round(em_laptops, 2)
 
 
 def smartphones(data, list):
 	em_smartphones = 0
 	for phone in list:
 		em_smartphones += float(data.loc[data["Model"]==phone, "kg CO2e"])
-	return em_smartphones
+	return round(em_smartphones, 2)
 
 def emails(n_mails_att,n_mails, months):
 	em_mails = ((n_mails_att*4*months*3.4)+(n_mails*4*months*2.1))/1000
-	return em_mails
+	return round(em_mails, 2)
 
 def visio(camera_on, h_visio, data, outil_visio, months):
 	if camera_on:
 		em_visio = (h_visio*4*months*float(data.loc[data["Outil"]==outil_visio, "grCO2eq/h Video+Audio"]))/1000
 	else:
 		em_visio = (h_visio*4*months*float(data.loc[data["Outil"]==outil_visio, "grCO2eq/h Video+Audio"]))/1000*0.29
-	return em_visio
+	return round(em_visio, 2)
 
 def storage(tb_year, n_backups, months, retention_years, w, pue, f, offset, offset_ratio):
 	if offset:
@@ -42,7 +41,7 @@ def storage(tb_year, n_backups, months, retention_years, w, pue, f, offset, offs
 		em_storage = ((tb_year*(1+n_backups) *((months/12)*retention_years))*(w/1000)*8760*pue*(f*1000))* (1-percentage)
 	else:
 		em_storage = (tb_year*(1+n_backups) *((months/12)*retention_years))*(w/1000)*8760*pue*(f*1000)
-	return em_storage
+	return round(em_storage,2)
 
 def ml(gpu_data, cloud_data, h_gpu, gpu, provider_gpu, zone_gpu, offset):
 	kWh = (h_gpu * float((gpu_data.loc[gpu_data["name"]==gpu, "tdp_watts"])))/1000
@@ -52,11 +51,11 @@ def ml(gpu_data, cloud_data, h_gpu, gpu, provider_gpu, zone_gpu, offset):
 		em_ml = ((kWh * CO2_per_kWh)/1000) * (1-percentage)
 	else:
 		em_ml = (kWh * CO2_per_kWh)/1000
-	return em_ml
+	return round(em_ml, 2)
 
 def printing(recto_verso, n_prints):
 	if recto_verso:
 		em_printing = (n_prints*4.68/2)/1000
 	else:
 		em_printing = (n_prints*4.68)/1000
-	return em_printing
+	return round(em_printing, 2)

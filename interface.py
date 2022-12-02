@@ -2,7 +2,9 @@ import numpy as np
 import pandas as pd
 import plotly.io as pio
 import plotly.graph_objects as go
+import kaleido
 import cal_co2
+import pdf_export
 
 import streamlit as st
 import plotly.express as px 
@@ -59,7 +61,6 @@ def load_gpu_data():
 gpu_data = load_gpu_data()
 
 ### Setting personalised palette
-#palette = ['#19764C', '#25B172', '#8FE8C0', '#B5EFD5', '#DAF7EA']
 palette = ['#0c3d27','#19764C', '#209560','#25b172','#5ecf9c','#8fe8c0','#97eac4','#a3eccb','#DAF7EA']
 pio.templates["palette"] = go.layout.Template(
     layout = {
@@ -75,6 +76,7 @@ pio.templates.default = "palette"
 #logo Talan
 st.image("logos/Logo-Talan_HD_baseline-blanc.png")
 
+#creating tabs
 tab1, tab2 = st.tabs(["Calculateur", "Méthodes et sources de données"])
 
 with tab1:
@@ -324,8 +326,8 @@ with tab1:
         co2_ebike = cal_co2.transport(em_ebike, n_ebike, km_ebike, ebike_monthly, associates, months )
     else:
         co2_ebike = 0
-    ##########
 
+    ##########
     if b_bike:
         st.subheader("Vélo ou marche 🚲 🚶‍♀️")
 
@@ -493,12 +495,24 @@ with tab1:
 
     ###Section 5####################################################################################################
     st.markdown("<h2 style='text-align: center'>Résultats</h2>", unsafe_allow_html=True)
-    st.markdown("Visualisez l'empreinte carbone de la mission et **téléchargez un bilan au format csv ci-dessous**.")
+    st.markdown("Visualisez l'empreinte carbone de la mission et **téléchargez le bilan ci-dessous**.")
+
+
+    import os
+
+    if not os.path.exists("./tmp"):
+        os.mkdir("./tmp")
+
+    import io
+
     #total
     co2_total = co2_transport + co2_digital + co2_office
 
     st.metric(label="Empreinte carbone totale", value=str(round(co2_total, 2))+" kgCO2eq")
 
+    #set initial image as None
+    total_graph = None
+    #create image
     if co2_total !=0:
         fig = px.pie(values=[co2_transport, co2_digital, co2_office], 
         names=["Déplacements", "Numérique", "Bureau"])
@@ -508,10 +522,12 @@ with tab1:
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
         st.plotly_chart(fig, use_container_width=True)
+        fig.write_image("tmp/total_graph.png", engine="kaleido") 
 
     #deplacement
     st.metric(label="Déplacements", value=str(round(co2_transport, 2))+" kgCO2eq")
 
+    transport_graph=None
     if co2_transport !=0:
         fig = px.pie(values=[co2_plane, co2_TGV, co2_train, co2_ev, co2_car, co2_rer, co2_metro, co2_bus, co2_ebike], 
         names=["Avion", "TGV", "Train", "Voiture électrique", "Voiture thermique", "RER ou Transilien", "Metro", "Bus", "Vélo ou trotinette assistance électrique"])
@@ -520,12 +536,14 @@ with tab1:
         'plot_bgcolor': 'rgba(0, 0, 0, 0)',
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
+        #transport_graph = io.BytesIO()
         st.plotly_chart(fig, use_container_width=True)
-
+        fig.write_image("tmp/trasport_graph.png", engine="kaleido") 
 
     #numerique
     st.metric(label="Numérique", value=str(round(co2_digital, 2))+" kgCO2eq")
 
+    digital_graph=None
     if co2_digital!=0:
         fig = px.pie(values=[co2_laptops, co2_smartphones, co2_emails, co2_visio, co2_storage, co2_ml], 
         names=["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage", "Machine Learning"])
@@ -534,12 +552,14 @@ with tab1:
         'plot_bgcolor': 'rgba(0, 0, 0, 0)',
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
+        fig.update_layout(legend=dict(x=0.85))
         st.plotly_chart(fig, use_container_width=True)
-
+        fig.write_image("tmp/digital_graph.png", engine="kaleido") 
 
     #bureau
     st.metric(label="Papeterie et fournitures de bureau", value=str(round(co2_office, 2))+" kgCO2eq")
 
+    office_graph=None
     if co2_office !=0:
         fig = px.pie(values=[co2_office], 
         names=["Impressions"])
@@ -548,31 +568,33 @@ with tab1:
         'plot_bgcolor': 'rgba(0, 0, 0, 0)',
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
+        fig.update_layout(legend=dict(x=0.85))
         st.plotly_chart(fig, use_container_width=True)
+        fig.write_image("tmp/office_graph.png", engine="kaleido") 
 
     #download data as csv
     emissions_deplacement = [co2_plane, co2_TGV, co2_train, co2_ev, co2_car, co2_rer, co2_metro, co2_bus, co2_ebike, co2_bike]
 
-    dict_transport = {'catégorie':['Déplacements'] * len(emissions_deplacement),
+    dict_transport = {'Catégorie':['Déplacements'] * len(emissions_deplacement),
             'Source':["Avion", "TGV", "Train", "Voiture électrique", "Voiture thermique", "RER ou Transilien", "Metro", "Bus", "Vélo ou trotinette assistance électrique", "Vélo ou marche"],
-            'kgCO2eq':emissions_deplacement
+            'kgCO₂eq':emissions_deplacement
         }
     
     results = pd.DataFrame(dict_transport)
 
     digital_emissions = [co2_laptops, co2_smartphones, co2_emails, co2_visio, co2_storage, co2_ml]
 
-    dict_digital = {'catégorie':['Numérique'] * len(digital_emissions),
+    dict_digital = {'Catégorie':['Numérique'] * len(digital_emissions),
             'Source':["Ordinateurs", "Smartphones", "Mails", "Visioconférences", "Stockage", "Machine Learning"],
-            'kgCO2eq':digital_emissions
+            'kgCO₂eq':digital_emissions
         }
     
     results_digital = pd.DataFrame(dict_digital)
     results = pd.concat([results, results_digital], ignore_index=True)
     
-    dict_office = {'catégorie':['Papeterie et fournitures de bureau'],
+    dict_office = {'Catégorie':['Papeterie'],
             'Source':["Impressions"],
-            'kgCO2eq':co2_office
+            'kgCO₂eq':co2_office
         }
 
     results_office = pd.DataFrame(dict_office)
@@ -581,16 +603,34 @@ with tab1:
     @st.cache
     def convert_df(df):
         # IMPORTANT: Cache the conversion to prevent computation on every rerun
-        return df.to_csv().encode('utf-8')
+        return df.to_csv(sep='\t').encode('utf-16')
 
-    csv = convert_df(results)
+    download = convert_df(results)
 
     st.download_button(
-        label="Télécharger le bilan en format csv",
-        data=csv,
+        label="Télécharger le bilan en csv",
+        data=download,
         file_name='bilan.csv',
         mime='text/csv',
     )
+
+    @st.cache
+    def convert_pdf(df):
+        # IMPORTANT: Cache the conversion to prevent computation on every rerun
+        return pdf_export.createpdf(df, co2_transport, co2_digital, co2_office)
+
+    download_pdf = convert_pdf(results)
+
+    with open("tmp/bilan.pdf", "rb") as pdf_file:
+        PDFreport = pdf_file.read()
+
+    st.download_button(
+        label="Télécharger le bilan en pdf",
+        data=PDFreport,
+        file_name='bilan.pdf',
+        mime='application/pdf',
+    )
+
     st.markdown(" ")
     st.subheader(":mailbox: Des suggestions ou des commentaires? Contactez nous!")
 
