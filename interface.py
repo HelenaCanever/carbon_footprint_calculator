@@ -533,7 +533,6 @@ with tab1:
         'plot_bgcolor': 'rgba(0, 0, 0, 0)',
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
-        #transport_graph = io.BytesIO()
         st.plotly_chart(fig, use_container_width=True)
         fig.write_image("tmp/trasport_graph.png", engine="kaleido") 
 

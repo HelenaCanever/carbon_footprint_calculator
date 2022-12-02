@@ -1,13 +1,13 @@
 from fpdf import FPDF
 import datetime
 from PIL import Image
-from os import path
+import os
 
 # Margin
 m = 10 
 # Page width: Width of A4 is 210mm
 pw = 290 - 2*m 
-# Cell height
+#Cell height
 ch = 80
 
 def createpdf(data, co2_transport, co2_digital, co2_office):
@@ -71,13 +71,13 @@ def createpdf(data, co2_transport, co2_digital, co2_office):
     pdf.cell(w=95, h=5, txt="Papeterie: "+str(round(co2_office, 2))+" kgCO2eq", ln=1, align='L')
     pdf.cell(co2_transport)
     
-    if path.exists("tmp/total_graph.png"):
+    if os.path.exists("tmp/total_graph.png"):
         pdf.image("tmp/total_graph.png", x = 130, y = 30, w = 100, type='PNG')
-    if path.exists("tmp/trasport_graph.png"):
+    if os.path.exists("tmp/trasport_graph.png"):
         pdf.image('tmp/trasport_graph.png', x = 4, y = 120, w = 110, type='PNG')
-    if path.exists("tmp/digital_graph.png"):
+    if os.path.exists("tmp/digital_graph.png"):
         pdf.image('tmp/digital_graph.png', x = 90, y = 125, w = 100, type='PNG')
-    if path.exists("tmp/office_graph.png"):
+    if os.path.exists("tmp/office_graph.png"):
         pdf.image('tmp/office_graph.png', x = 180, y = 125, w = 100, type='PNG')
 
     return pdf.output(f'./tmp/bilan.pdf', 'F')
