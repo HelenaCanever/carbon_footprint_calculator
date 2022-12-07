@@ -518,6 +518,9 @@ with tab1:
         'plot_bgcolor': 'rgba(0, 0, 0, 0)',
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
+        fig.update_layout(
+            font_color="black"
+            )
         st.plotly_chart(fig, use_container_width=True)
         fig.write_image("tmp/total_graph.png", engine="kaleido") 
 
@@ -533,6 +536,9 @@ with tab1:
         'plot_bgcolor': 'rgba(0, 0, 0, 0)',
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
+        fig.update_layout(
+            font_color="black"
+            )
         st.plotly_chart(fig, use_container_width=True)
         fig.write_image("tmp/trasport_graph.png", engine="kaleido") 
 
@@ -549,6 +555,9 @@ with tab1:
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
         fig.update_layout(legend=dict(x=0.85))
+        fig.update_layout(
+            font_color="black"
+            )
         st.plotly_chart(fig, use_container_width=True)
         fig.write_image("tmp/digital_graph.png", engine="kaleido") 
 
@@ -565,6 +574,9 @@ with tab1:
         'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
         fig.update_layout(legend=dict(x=0.85))
+        fig.update_layout(
+            font_color="black"
+            )
         st.plotly_chart(fig, use_container_width=True)
         fig.write_image("tmp/office_graph.png", engine="kaleido") 
 
@@ -650,6 +662,7 @@ with tab1:
     local_css("style/style.css")
 
 with tab2:
+
     st.header("Méthodes et sources de données")
     st.markdown("""Conformément à la politique sur l'open source du Centre de recherche et de développement de Talan, 
     le code source du calculateur et les données utilisées pour le calcul sont disponibles 
