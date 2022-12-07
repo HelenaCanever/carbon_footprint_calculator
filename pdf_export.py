@@ -1,6 +1,5 @@
 import fpdf
 import datetime
-from PIL import Image
 import os
 
 FONTS_DIR = 'font'
@@ -31,7 +30,8 @@ def createpdf(data, co2_transport, co2_digital, co2_office):
 
     pdf = PDF()
     # Add a Unicode system font (using full path)
-
+    
+    pdf.add_page(orientation='L')
     pdf.add_page(orientation='L')
 
     #spacer
@@ -68,7 +68,7 @@ def createpdf(data, co2_transport, co2_digital, co2_office):
 
     pdf.ln(10)
     pdf.cell(w=5, ln=0)
-    pdf.set_font('MontserratBlack', '', 7)
+    pdf.set_font('MontserratBlack', '', 8)
     pdf.cell(w=100, h=5, txt="Déplacements: "+str(round(co2_transport,2))+" kgCO2eq", ln=0, align='L')                
     pdf.cell(w=90, h=5, txt="Numérique: "+str(round(co2_digital, 2))+" kgCO2eq", ln=0, align='L')
     pdf.cell(w=95, h=5, txt="Papeterie: "+str(round(co2_office, 2))+" kgCO2eq", ln=1, align='L')
