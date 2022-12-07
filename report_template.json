@@ -1,0 +1,131 @@
+{
+    "associates": 0,
+    "duration": 0,
+    "sector":"",
+    "transportation":{
+        "plane":{
+            "status": false,
+            "fr_name": "Avion",
+            "monthly": true,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "tgv":{
+            "status": false,
+            "fr_name": "TGV",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "train":{
+            "status": false,
+            "fr_name": "Train Intercity",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "ev":{
+            "status": false,
+            "fr_name": "Voiture (électrique)",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "car":{
+            "status": false,
+            "fr_name": "Voiture (thermique)",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "rer":{
+            "status": false,
+            "fr_name": "RER ou Transilien",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "metro":{
+            "status": false,
+            "fr_name": "Metro",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "bus":{
+            "status": false,
+            "fr_name": "Bus (thermique)",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "ebike":{
+            "status": false,
+            "fr_name": "Vélo (ou trottinette) à assistance électrique",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        },
+        "bike":{
+            "status": false,
+            "fr_name": "Vélo ou marche",
+            "monthly": false,
+            "trips": 0,
+            "kms": 0,
+            "emissions":0
+        }
+    },
+    "digital":{
+        "laptops": {
+            "models": [],
+            "emissions": 0
+        },
+        "smartphones": {
+            "models": [],
+            "emissions": 0
+        },
+        "emails":{
+            "with attachment":0,
+            "without attachment":0,
+            "emissions":0
+        },
+        "videoconference":{
+            "hours per week": 0,
+            "software": "",
+            "camera on": false,
+            "emissions":0
+        },
+        "storage":{
+            "compensated": false,
+            "service": "",
+            "region": "",
+            "bytes": 0,
+            "tera or giga": "",
+            "retention years":0,
+            "backups":0,
+            "emissions":0
+        },
+        "machine learning":{
+            "compensated":false,
+            "service": "",
+            "region": "",
+            "hours":0,
+            "GPU":0,
+            "emissions":0
+        }
+    },
+    "printing":{
+        "pages": 0,
+        "rectoverso": false,
+        "emissions":0
+    }     
+}
