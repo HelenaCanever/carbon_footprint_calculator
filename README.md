@@ -27,6 +27,7 @@
 ### Version 0.4
 - fixed some text based on user feedback
 - pdf report now available!
+- json report now available
 
 ### Future upgrades
 - final product footprint (SAP, Azure, ML, Salesforce, IUPath, etc...) 
