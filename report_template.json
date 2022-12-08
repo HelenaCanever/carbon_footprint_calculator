@@ -5,8 +5,8 @@
     "transportation":{
         "plane":{
             "status": false,
+            "monthly": false,
             "fr_name": "Avion",
-            "monthly": true,
             "trips": 0,
             "kms": 0,
             "emissions":0
