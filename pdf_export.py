@@ -46,6 +46,7 @@ def createpdf(data, report):
         def header(self):
             self.set_font('MontserratBlack', '', 12)
             self.cell(0, 15, 'Bilan carbone', 1, 1, 'C')
+            self.ln(5)
         def footer(self):
             self.set_y(-15)
             self.set_font('MontserratLight', '', 10)
@@ -55,7 +56,6 @@ def createpdf(data, report):
 
     # first page
     pdf.add_page(orientation='L')
-    pdf.ln(5)
 
     height=5
     width=50
@@ -155,9 +155,6 @@ def createpdf(data, report):
 
     #second page
     pdf.add_page(orientation='L')
-
-    #spacer
-    pdf.ln(5)
 
     #table parameters    
     table_w = 25
