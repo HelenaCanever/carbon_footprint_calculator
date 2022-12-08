@@ -460,8 +460,8 @@ with tab1:
         st.subheader("📧 Emails ")
 
         col21, col22 = st.columns(2)
-        n_emails_att = col21.number_input('Nombre de mails par semaine (avec pièce jointe)', min_value=0, value=0, step=1)
-        n_emails = col22.number_input('Nombre de mails par semaine (sans pièce jointe)', min_value=0, value=0, step=1)
+        n_emails_att = col21.number_input('Nombre de mails envoyés par semaine (avec pièce jointe)', min_value=0, value=0, step=1)
+        n_emails = col22.number_input('Nombre de mails envoyés par semaine (sans pièce jointe)', min_value=0, value=0, step=1)
 
         co2_emails = cal_co2.emails(n_emails_att,n_emails, months)
 
@@ -476,7 +476,7 @@ with tab1:
 
         h_visio = col23.number_input('Heures de visioconférences par semaine', min_value=0, value=0, step=1)
         visio_software =  col24.selectbox(
-            'Outil',
+            'Logiciel',
             visio_data["Outil"])
 
         camera = st.radio(

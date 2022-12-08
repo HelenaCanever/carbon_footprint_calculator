@@ -52,28 +52,106 @@ def createpdf(data, report):
             self.cell(0, 8, timestamp, 1, 0, 'C')
 
     pdf = PDF()
-    # Add a Unicode system font (using full path)
+
     # first page
     pdf.add_page(orientation='L')
     pdf.ln(5)
-    pdf.set_font('MontserratLight', '', 9)
+
     height=5
     width=50
-    pdf.cell(w=width, h=height, txt='Nombre de collaborateurs:', ln=0, align='L') 
-    pdf.cell(w=width, h=height, txt=str(report['associates']), ln=1, align='L') 
-    pdf.cell(w=width, h=height, txt='Durée de la mission:', ln=0, align='L')
-    pdf.cell(w=width, h=height, txt=str(report['duration'])+" mois", ln=1, align='L') 
-    pdf.cell(w=width, h=height, txt='Secteur:', ln=0, align='L')
-    pdf.cell(w=width, h=height, txt=report['sector'], ln=1, align='L')
+    pdf.set_font('MontserratBlack', '', 9)
+    pdf.cell(w=width, h=height, txt="Général", ln=1, align='L') 
+
+    pdf.set_font('MontserratLight', '', 9)
+    pdf.cell(w=width, h=height, txt='   Nombre de collaborateurs: '+str(report['associates']), ln=1, align='L') 
+    pdf.cell(w=width, h=height, txt='   Durée de la mission: '+str(report['duration'])+" mois", ln=1, align='L')
+    pdf.cell(w=width, h=height, txt='   Secteur: '+report['sector'], ln=1, align='L')
 
     pdf.ln(5)
-    #pdf.cell(w=width, h=height, txt="Déplacements:", ln=1, align='L')
+    if co2_transport !=0:
+        pdf.set_font('MontserratBlack', '', 9)
+        pdf.cell(w=width, h=height, txt="Déplacements:", ln=1, align='L')
+
+        for i in report["transportation"]:
+            pdf.set_font('MontserratLight', '', 9)
+            if report["transportation"][i]["emissions"]!=0:
+                pdf.cell(w=width, h=height, txt="   "+report["transportation"][i]["fr_name"]+":", ln=1, align='L')
+                if report["transportation"][i]["monthly"]:
+                    pdf.cell(w=width, h=height, txt="       Nombre de déplacements:", ln=0, align='L')
+                    pdf.cell(w=width, h=height, txt="           "+str(report["transportation"][i]["trips"])+" par mois", ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Distance:", ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="           "+str(report["transportation"][i]["kms"]*report["transportation"][i]["trips"])+" kilomètres par mois", ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="           "+str(report["transportation"][i]["kms"]*report["transportation"][i]["trips"]*report["duration"])+ " kilomètres au total", ln=1, align='L')
+                else:
+                    pdf.cell(w=width, h=height, txt="       Nombre de déplacements:", ln=0, align='L')
+                    pdf.cell(w=width, h=height, txt="           "+str(report["transportation"][i]["trips"])+" au total", ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Distance:", ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="           "+str(report["transportation"][i]["kms"]*report["transportation"][i]["trips"])+" kilomètres au total", ln=1, align='L')
+    
+    pdf.ln(5)
+    if co2_digital !=0:
+        pdf.set_font('MontserratBlack', '', 9)
+        pdf.cell(w=width, h=height, txt="Numérique:", ln=1, align='L')
+
+        for i in report["digital"]:
+            pdf.set_font('MontserratLight', '', 9)
+            if report["digital"][i]["emissions"]!=0:
+                if i == "laptops":
+                    pdf.cell(w=width, h=height, txt="   Ordinateurs portables: "+", ".join(report["digital"][i]["models"]), ln=1, align='L')
+ 
+                if i == "smartphones":
+                    pdf.cell(w=width, h=height, txt="   Smartphones: "+", ".join(report["digital"][i]["models"]), ln=1, align='L')
+
+                if i == "emails":
+                    pdf.cell(w=width, h=height, txt="   Emails envoyés par semaine:", ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Sans pièce jointe: "+str(report["digital"][i]["without attachment"]), ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Avec pièce jointe: "+str(report["digital"][i]["with attachment"]), ln=1, align='L')
+
+                if i == "videoconference":
+                    pdf.cell(w=width, h=height, txt="   Visioconférences", ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Heures de visioconférences par semaine: "+str(report["digital"][i]["hours per week"]), ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Logiciel: "+str(report["digital"][i]["software"]), ln=1, align='L')
+                    if report["digital"][i]["camera on"]:
+                        pdf.cell(w=width, h=height, txt="     Camera allumée: Oui", ln=1, align='L')
+                    else:
+                        pdf.cell(w=width, h=height, txt="     Camera allumée: Non", ln=1, align='L')
+
+                if i == "storage":
+                    pdf.cell(w=width, h=height, txt="   Stockage", ln=1, align='L')
+                    if report["digital"][i]["compensated"]:
+                        pdf.cell(w=width, h=height, txt="       Prise en compte des compensations carbone : Oui", ln=1, align='L')
+                    else:
+                        pdf.cell(w=width, h=height, txt="       Prise en compte des compensations carbone : Non", ln=1, align='L')
+                    
+                    pdf.cell(w=width, h=height, txt="       Système de cloud: " + report["digital"][i]["service"], ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Région: " +report["digital"][i]["region"], ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Données générées par mois :"+str(report["digital"][i]["bytes"])+" "+report["digital"][i]["tera or giga"], ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Années de conservation des données: "+str(report["digital"][i]["retention years"]), ln=1, align='L')  
+                    pdf.cell(w=width, h=height, txt="       Nombre de backups: "+str(report["digital"][i]["backups"]), ln=1, align='L')  
+
+                if i == "machine learning":
+                    pdf.cell(w=width, h=height, txt="   Machine Learning", ln=1, align='L')
+                    if report["digital"][i]["compensated"]:
+                        pdf.cell(w=width, h=height, txt="       Prise en compte des compensations carbone : Oui", ln=1, align='L')
+                    else:
+                        pdf.cell(w=width, h=height, txt="       Prise en compte des compensations carbone : Non", ln=1, align='L')
+
+                    pdf.cell(w=width, h=height, txt="       Système de cloud: " + report["digital"][i]["service"], ln=1, align='L')  
+                    pdf.cell(w=width, h=height, txt="       Région: " +report["digital"][i]["region"], ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       Heures utilisées: "+str(report["digital"][i]["hours"]), ln=1, align='L')
+                    pdf.cell(w=width, h=height, txt="       GPU utilisé: "+report["digital"][i]["GPU"], ln=1, align='L')
 
     pdf.ln(5)
-    #pdf.cell(w=width, h=height, txt="Numerique:", ln=1, align='L')
-
-    pdf.ln(5)
-    #pdf.cell(w=width, h=height, txt="Déplacements:", ln=1, align='L')
+    if co2_office !=0:
+        pdf.set_font('MontserratBlack', '', 9)
+        pdf.cell(w=width, h=height, txt="Papeterie:", ln=1, align='L')
+        pdf.set_font('MontserratLight', '', 9)
+        pdf.cell(w=width, h=height, txt="   Impressions: ", ln=1, align='L')
+        if report["printing"]["rectoverso"]:
+            pdf.cell(w=width, h=height, txt="       "+str(report["printing"]["pages"])+" pages rectoverso", ln=1, align='L')
+        else:
+            pdf.cell(w=width, h=height, txt="       "+str(report["printing"]["pages"])+" pages en face unique", ln=1, align='L')
+            print()
 
     #second page
     pdf.add_page(orientation='L')
