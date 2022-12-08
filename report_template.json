@@ -6,12 +6,14 @@
         "plane":{
             "status": false,
             "monthly": false,
+            "fr_name": "Avion",
             "trips": 0,
             "kms": 0,
             "emissions":0
         },
         "tgv":{
             "status": false,
+            "fr_name": "TGV",
             "monthly": false,
             "trips": 0,
             "kms": 0,
@@ -19,6 +21,7 @@
         },
         "train":{
             "status": false,
+            "fr_name": "Train Intercity",
             "monthly": false,
             "trips": 0,
             "kms": 0,
@@ -26,6 +29,7 @@
         },
         "ev":{
             "status": false,
+            "fr_name": "Voiture (électrique)",
             "monthly": false,
             "trips": 0,
             "kms": 0,
@@ -33,6 +37,7 @@
         },
         "car":{
             "status": false,
+            "fr_name": "Voiture (thermique)",
             "monthly": false,
             "trips": 0,
             "kms": 0,
@@ -40,6 +45,7 @@
         },
         "rer":{
             "status": false,
+            "fr_name": "RER ou Transilien",
             "monthly": false,
             "trips": 0,
             "kms": 0,
@@ -47,6 +53,7 @@
         },
         "metro":{
             "status": false,
+            "fr_name": "Metro",
             "monthly": false,
             "trips": 0,
             "kms": 0,
@@ -54,6 +61,7 @@
         },
         "bus":{
             "status": false,
+            "fr_name": "Bus (thermique)",
             "monthly": false,
             "trips": 0,
             "kms": 0,
@@ -61,6 +69,7 @@
         },
         "ebike":{
             "status": false,
+            "fr_name": "Vélo (ou trottinette) à assistance électrique",
             "monthly": false,
             "trips": 0,
             "kms": 0,
@@ -68,6 +77,7 @@
         },
         "bike":{
             "status": false,
+            "fr_name": "Vélo ou marche",
             "monthly": false,
             "trips": 0,
             "kms": 0,

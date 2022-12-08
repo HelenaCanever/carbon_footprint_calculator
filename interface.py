@@ -1,15 +1,16 @@
+import streamlit as st
 import numpy as np
 import pandas as pd
-import plotly.io as pio
-import plotly.graph_objects as go
-import kaleido
-import cal_co2
-import pdf_export
 import os
 import json
 
-import streamlit as st
+import kaleido
 import plotly.express as px 
+import plotly.io as pio
+import plotly.graph_objects as go
+
+import cal_co2
+import pdf_export
 
 
 ### Config
@@ -62,7 +63,6 @@ def load_gpu_data():
 
 gpu_data = load_gpu_data()
 
-
 ### Setting personalised palette
 palette = ['#0c3d27','#19764C', '#209560','#25b172','#5ecf9c','#8fe8c0','#97eac4','#a3eccb','#DAF7EA']
 pio.templates["palette"] = go.layout.Template(
@@ -95,7 +95,7 @@ with tab1:
     ###Section 1####################################################################################################
     st.markdown("<h2 style='text-align: center'>Informations générales</h2>", unsafe_allow_html=True)
 
-    # open results template and tunr into dictionary
+# open results template and tunr into dictionary
     with open('report_template.json') as json_file:
         report = json.load(json_file)
         #number of collaborators
@@ -145,7 +145,6 @@ with tab1:
         em_ebike = 10.7
         em_bike = 0
 
-
         if b_plane:
             st.subheader("✈️ Avion ")
             f_plane = st.radio(
@@ -187,11 +186,11 @@ with tab1:
             n_TGV = col3.number_input('Nombre de déplacements en TGV', min_value=0, max_value=None, value=0, step=1, format=None, key=None,)
             km_TGV = col4.number_input('Moyenne de kms par déplacement en TGV', min_value=0, max_value=None, value=0, step=1, format=None, key=None,)
             co2_TGV = cal_co2.transport(em_TGV, n_TGV, km_TGV, TGV_monthly, associates, months)
-            report["transportation"]["tgv"]["status"] = b_tgv
-            report["transportation"]["tgv"]["monthly"]= tgv_monthly
-            report["transportation"]["tgv"]["trips"]= n_tgv
-            report["transportation"]["tgv"]["kms"]= km_tgv
-            report["transportation"]["tgv"]["emissions"]= co2_tgv
+            report["transportation"]["tgv"]["status"] = b_TGV
+            report["transportation"]["tgv"]["monthly"]= TGV_monthly
+            report["transportation"]["tgv"]["trips"]= n_TGV
+            report["transportation"]["tgv"]["kms"]= km_TGV
+            report["transportation"]["tgv"]["emissions"]= co2_TGV
         else:
             co2_TGV = 0
 
@@ -275,6 +274,7 @@ with tab1:
             report["transportation"]["car"]["emissions"]= co2_car
         else:
             co2_car=0
+
         ##########
 
         if b_rer:
@@ -320,14 +320,16 @@ with tab1:
             n_metro = col13.number_input('Nombre de déplacements en metro', min_value=0, max_value=None, value=0, step=1, format=None, key=None,)
             km_metro = col14.number_input('Moyenne de kms par déplacement en metro', min_value=0, max_value=None, value=0, step=1, format=None, key=None,)
             co2_metro = cal_co2.transport(em_metro, n_metro, km_metro, metro_monthly, associates, months)
-            eeport["transportation"]["metro"]["status"] = b_metro
+            report["transportation"]["metro"]["status"] = b_metro
             report["transportation"]["metro"]["monthly"]= metro_monthly
             report["transportation"]["metro"]["trips"]= n_metro
             report["transportation"]["metro"]["kms"]= km_metro
             report["transportation"]["metro"]["emissions"]= co2_metro
         else:
             co2_metro=0
+
         ##########
+
         if b_bus:
             st.subheader("🚌 Bus (thermique)")
 
@@ -354,6 +356,7 @@ with tab1:
             co2_bus = 0
 
         ##########
+
         if b_ebike:
             st.subheader("Vélo (ou trottinette) à assistance électrique 🚲⚡")
 
@@ -426,7 +429,6 @@ with tab1:
                 
         st.write("Modèles sélectionnés: ")
         st.write(", ".join(st.session_state.laptops))
-        
 
         co2_laptops = cal_co2.laptops(laptop_data, st.session_state.laptops, months)
 
@@ -462,6 +464,7 @@ with tab1:
         n_emails = col22.number_input('Nombre de mails par semaine (sans pièce jointe)', min_value=0, value=0, step=1)
 
         co2_emails = cal_co2.emails(n_emails_att,n_emails, months)
+
         report["digital"]["emails"]["with attachment"]=n_emails_att
         report["digital"]["emails"]["without attachment"]=n_emails
         report["digital"]["emails"]["emissions"]=co2_emails
@@ -492,7 +495,7 @@ with tab1:
         report["digital"]["videoconference"]["camera on"]=camera_on
         report["digital"]["videoconference"]["emissions"]=co2_visio
 
-    #stockage
+        #stockage
         st.subheader("🗃️ Stockage ")
 
         if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud.', key = "stockage"):
@@ -524,7 +527,7 @@ with tab1:
         f = float(storage_data.loc[(storage_data["Provider"]==provider)&(storage_data["Region"]==zone), "CO2e (metric ton/kWh)"])
         offset_ratio = float(storage_data.loc[(storage_data["Provider"]==provider)&(storage_data["Region"]==zone), "offsetRatio"])
         co2_storage = cal_co2.storage(tb_year, n_backups, months, retention_years, w, pue, f, offset_storage, offset_ratio)
-
+        
         report["digital"]["storage"]["compensated"]=offset_storage
         report["digital"]["storage"]["service"]=provider
         report["digital"]["storage"]["region"]=zone
@@ -534,7 +537,7 @@ with tab1:
         report["digital"]["storage"]["backups"]=n_backups
         report["digital"]["storage"]["emissions"]=co2_storage
 
-    #machine learning
+        #machine learning
         st.subheader("👩‍💻 Machine learning ")
 
         if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud.', key = "ml"):
@@ -560,8 +563,6 @@ with tab1:
 
         #total
         co2_digital = co2_laptops + co2_smartphones + co2_emails + co2_visio + co2_storage + co2_ml
-
-        
 
         ###Section 4####################################################################################################
         st.markdown("<h2 style='text-align: center'>Papeterie et fournitures de bureau</h2>", unsafe_allow_html=True)
@@ -611,6 +612,9 @@ with tab1:
             'plot_bgcolor': 'rgba(0, 0, 0, 0)',
             'paper_bgcolor': 'rgba(0, 0, 0, 0)',
             })
+            fig.update_layout(
+                font_color="black"
+                )
             st.plotly_chart(fig, use_container_width=True)
             fig.write_image("tmp/total_graph.png", engine="kaleido") 
 
@@ -626,6 +630,9 @@ with tab1:
             'plot_bgcolor': 'rgba(0, 0, 0, 0)',
             'paper_bgcolor': 'rgba(0, 0, 0, 0)',
             })
+            fig.update_layout(
+                font_color="black"
+                )
             st.plotly_chart(fig, use_container_width=True)
             fig.write_image("tmp/trasport_graph.png", engine="kaleido") 
 
@@ -642,6 +649,9 @@ with tab1:
             'paper_bgcolor': 'rgba(0, 0, 0, 0)',
             })
             fig.update_layout(legend=dict(x=0.85))
+            fig.update_layout(
+                font_color="black"
+                )
             st.plotly_chart(fig, use_container_width=True)
             fig.write_image("tmp/digital_graph.png", engine="kaleido") 
 
@@ -658,6 +668,9 @@ with tab1:
             'paper_bgcolor': 'rgba(0, 0, 0, 0)',
             })
             fig.update_layout(legend=dict(x=0.85))
+            fig.update_layout(
+                font_color="black"
+                )
             st.plotly_chart(fig, use_container_width=True)
             fig.write_image("tmp/office_graph.png", engine="kaleido") 
 
@@ -692,8 +705,8 @@ with tab1:
         @st.cache
         def convert_df(df):
             # IMPORTANT: Cache the conversion to prevent computation on every rerun
-            df = pd.DataFrame(report).T  # transpose to look just like the sheet above
-            #df.to_csv(sep='\t').encode('utf-16')
+            #df = pd.DataFrame(report).T  # transpose to look just like the sheet above
+            df.to_csv(sep='\t').encode('utf-16')
             return df.to_csv(sep='\t').encode('utf-16')
 
         download = convert_df(results)
@@ -708,7 +721,7 @@ with tab1:
         @st.cache
         def convert_pdf(df):
             # IMPORTANT: Cache the conversion to prevent computation on every rerun
-            return pdf_export.createpdf(df, co2_transport, co2_digital, co2_office)
+            return pdf_export.createpdf(df, report)
 
         download_pdf = convert_pdf(results)
 
@@ -722,8 +735,6 @@ with tab1:
             mime='application/pdf',
         )
 
-        print(report)
-        
         @st.cache
         def convert_json(d):
             # IMPORTANT: Cache the conversion to prevent computation on every rerun
@@ -761,6 +772,7 @@ with tab1:
     local_css("style/style.css")
 
 with tab2:
+
     st.header("Méthodes et sources de données")
     st.markdown("""Conformément à la politique sur l'open source du Centre de recherche et de développement de Talan, 
     le code source du calculateur et les données utilisées pour le calcul sont disponibles 

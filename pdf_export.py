@@ -1,6 +1,5 @@
 import fpdf
 import datetime
-from PIL import Image
 import os
 
 FONTS_DIR = 'font'
@@ -12,8 +11,31 @@ pw = 290 - 2*m
 #Cell height
 ch = 80
 
-def createpdf(data, co2_transport, co2_digital, co2_office):
+def createpdf(data, report):
+    #get timestamps
     timestamp = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    #get emissions
+    co2_transport = (report["transportation"]["plane"]["emissions"]+
+    report["transportation"]["tgv"]["emissions"]+
+    report["transportation"]["ev"]["emissions"]+
+    report["transportation"]["car"]["emissions"]+
+    report["transportation"]["rer"]["emissions"]+
+    report["transportation"]["metro"]["emissions"]+
+    report["transportation"]["bus"]["emissions"]+
+    report["transportation"]["ebike"]["emissions"]+
+    report["transportation"]["bike"]["emissions"])
+
+    co2_digital = (
+    report["digital"]["laptops"]["emissions"]+
+    report["digital"]["smartphones"]["emissions"]+
+    report["digital"]["emails"]["emissions"]+
+    report["digital"]["videoconference"]["emissions"]+
+    report["digital"]["storage"]["emissions"]+
+    report["digital"]["machine learning"]["emissions"]
+    )
+    
+    co2_office = report["printing"]["emissions"]
+
     # Custom class to overwrite the header and footer methods
     class PDF(fpdf.FPDF):
         def __init__(self):
@@ -31,7 +53,29 @@ def createpdf(data, co2_transport, co2_digital, co2_office):
 
     pdf = PDF()
     # Add a Unicode system font (using full path)
+    # first page
+    pdf.add_page(orientation='L')
+    pdf.ln(5)
+    pdf.set_font('MontserratLight', '', 9)
+    height=5
+    width=50
+    pdf.cell(w=width, h=height, txt='Nombre de collaborateurs:', ln=0, align='L') 
+    pdf.cell(w=width, h=height, txt=str(report['associates']), ln=1, align='L') 
+    pdf.cell(w=width, h=height, txt='Durée de la mission:', ln=0, align='L')
+    pdf.cell(w=width, h=height, txt=str(report['duration'])+" mois", ln=1, align='L') 
+    pdf.cell(w=width, h=height, txt='Secteur:', ln=0, align='L')
+    pdf.cell(w=width, h=height, txt=report['sector'], ln=1, align='L')
 
+    pdf.ln(5)
+    #pdf.cell(w=width, h=height, txt="Déplacements:", ln=1, align='L')
+
+    pdf.ln(5)
+    #pdf.cell(w=width, h=height, txt="Numerique:", ln=1, align='L')
+
+    pdf.ln(5)
+    #pdf.cell(w=width, h=height, txt="Déplacements:", ln=1, align='L')
+
+    #second page
     pdf.add_page(orientation='L')
 
     #spacer
@@ -68,7 +112,7 @@ def createpdf(data, co2_transport, co2_digital, co2_office):
 
     pdf.ln(10)
     pdf.cell(w=5, ln=0)
-    pdf.set_font('MontserratBlack', '', 7)
+    pdf.set_font('MontserratBlack', '', 8)
     pdf.cell(w=100, h=5, txt="Déplacements: "+str(round(co2_transport,2))+" kgCO2eq", ln=0, align='L')                
     pdf.cell(w=90, h=5, txt="Numérique: "+str(round(co2_digital, 2))+" kgCO2eq", ln=0, align='L')
     pdf.cell(w=95, h=5, txt="Papeterie: "+str(round(co2_office, 2))+" kgCO2eq", ln=1, align='L')
