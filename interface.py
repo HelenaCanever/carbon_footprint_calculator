@@ -296,7 +296,7 @@ with tab1:
             co2_rer = cal_co2.transport(em_rer, n_rer, km_rer, rer_monthly, associates, months)
             report["transportation"]["rer"]["status"] = b_rer
             report["transportation"]["rer"]["monthly"]= rer_monthly
-            report["transportation"]["rer"]["trips"]= n_car
+            report["transportation"]["rer"]["trips"]= n_rer
             report["transportation"]["rer"]["kms"]= km_rer
             report["transportation"]["rer"]["emissions"]= co2_rer
         else:
