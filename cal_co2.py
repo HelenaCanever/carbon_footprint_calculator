@@ -18,10 +18,17 @@ def laptops(data, list, m):
 	return 	round(em_laptops, 2)
 
 
-def smartphones(data, list):
+def smartphones(data, list, m):
 	em_smartphones = 0
 	for phone in list:
-		em_smartphones += float(data.loc[data["Model"]==phone, "kg CO2e"])
+		if data.loc[data["Model"]==phone, "kg CO2e w/o use"].isna().values[0]==True:
+			em_smartphones += float(data.loc[data["Model"]==phone, "kg CO2e"])
+		else:
+			base =float(data.loc[data["Model"]==phone, "kg CO2e w/o use"])
+			years_use = float(data.loc[data["Model"]==phone, "years_use"])
+			co2_per_month = (float(data.loc[data["Model"]==phone, "kg CO2e"])-base)/years_use/12
+			em_smartphones += (base+(co2_per_month*m))
+
 	return round(em_smartphones, 2)
 
 def emails(n_mails_att,n_mails, months):
