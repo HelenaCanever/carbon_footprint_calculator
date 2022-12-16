@@ -451,7 +451,7 @@ with tab1:
         st.write("Modèles sélectionnés: ")
         st.write(", ".join(st.session_state.smartphones))
 
-        co2_smartphones = cal_co2.smartphones(smartphone_data, st.session_state.smartphones)
+        co2_smartphones = cal_co2.smartphones(smartphone_data, st.session_state.smartphones, months)
 
         report["digital"]["smartphones"]["models"]=st.session_state.smartphones
         report["digital"]["smartphones"]["emissions"]=co2_smartphones
