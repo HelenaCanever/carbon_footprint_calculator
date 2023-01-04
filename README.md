@@ -28,6 +28,7 @@
 - fixed some text based on user feedback
 - pdf report now available!
 - json report now available
+- the footprint of digital devices now accounts for reconditioned/refurbished devices and previously owned devices
 
 ### Future upgrades
 - final product footprint (SAP, Azure, ML, Salesforce, IUPath, etc...) 
