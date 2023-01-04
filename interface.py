@@ -501,7 +501,7 @@ with tab1:
         #stockage
         st.subheader("🗃️ Stockage ")
 
-        if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud.', key = "stockage"):
+        if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud (non recommandé)', key = "stockage"):
             offset_storage = True
         else:
             offset_storage = False
@@ -543,7 +543,7 @@ with tab1:
         #machine learning
         st.subheader("👩‍💻 Machine learning ")
 
-        if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud.', key = "ml"):
+        if st.checkbox('Je souhaite prendre en compte la compensation carbone proposée par le système de cloud (non recommandé)', key = "ml"):
             offset_ml = True
         else:
             offset_ml = False
