@@ -241,35 +241,6 @@
 239,Dell,Latitude 5430,301.0,252.84,4.0,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-5430-pcf-datasheet.pdf,pdf140.pdf
 240,Dell,Latitude 5431,298.0,263.432,4.0,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-5431-pcf-datasheet.pdf,pdf141.pdf
 241,Dell,Latitude 7430 2-in-1,359.0,324.895,4.0,http://www.delltechnologies.com/asset/en-us/products/laptops-and-2-in-1s/technical-support/dell-latitude-7430-2-in-1-pcf-datasheet.pdf,pdf136.pdf
-242,Lenovo,Thinkpad P72,610.0,469.7,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P72.pdf),
-243,Lenovo,Thinkpad P73,611.0,403.25,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_P73.pdf),
-244,Lenovo,Thinkpad T14 AMD,361.0,,,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-t14-amd.pdf),
-245,Lenovo,Thinkpad X1 Carbon 7th Gen,461.0,401.07,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_X1_Carbon_X1_Carbon_LTE_7th.pdf),
-246,Lenovo,Thinkpad X1 Carbon 5th Gen,369.0,306.27,5.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X1-Carbon-5th.pdf),
-247,Lenovo,Thinkpad X1 Carbon 6th Gen,333.0,279.71,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-X1-Carbon-6th.pdf),
-248,Lenovo,Thinkpad X1 Extreme,477.0,400.68,3.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P1_X1_Extreme.pdf),
-249,Lenovo,Thinkpad X1 Carbon 4th Gen,457.0,370.17,5.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X1-Carbon-4th.pdf),
-250,Lenovo,Thinkpad P52,693.0,540.54,5.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-P52.pdf),
-251,Lenovo,Thinkpad A285,352.0,225.28,5.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A285.pdf),
-252,Lenovo,Thinkpad L490,499.0,394.21,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_L490.pdf),
-253,Lenovo,Thinkpad L480,455.0,318.5,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-L480.pdf),
-254,Lenovo,Thinkpad L380,406.0,328.86,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-L380-S2-Yoga-3rd.pdf),
-255,Lenovo,Thinkpad L14,593.0,,4.0,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-l14.pdf),
-256,Lenovo,Thinkpad E14 2nd Gen,349.0,286.18,5.0,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-e14-2nd.pdf),
-257,Lenovo,Thinkpad A485,419.0,272.35,5.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A485.pdf),
-258,Lenovo,Thinkpad X1 Extreme (P1) Gen 2,497.0,422.45,3.0,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/2019/PCF_ThinkPad_P1_X1_Extreme_2nd.pdf),
-259,Lenovo,Thinkpad A275,511.0,352.59,5.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-A275.pdf),
-260,Lenovo,Thinkpad 11e 5th Gen,326.0,260.8,4.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-11e-Yoga-11e-5th.pdf),
-261,Lenovo,Thinkpad 25,390.0,280.8,5.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-25.pdf),
-262,Lenovo,Thinkpad P1,477.0,400.68,3.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF_ThinkPad_P1_X1_Extreme.pdf),
-263,Lenovo,Thinkpad X13,313.0,262.92,5.0,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-x13.pdf),
-264,Lenovo,Thinkpad X270,851.68,766.51,5.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X270.pdf),
-265,Lenovo,Thinkpad X260,489.0,400.98,4.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X260.pdf),
-266,Lenovo,Thinkpad X280,334.0,257.18,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-X280.pdf),
-267,Lenovo,Thinkpad X380 Yoga,339.0,267.81,6.0,[Lenovo PCF](https://www.lenovo.com/us/en/social_responsibility/PCF-ThinkPad-S1-Yoga-4th-X380-Yoga.pdf),
-268,Lenovo,Thinkpad X390,264.0,221.76,5.0,[Lenovo PCF](https://static.lenovo.com/ww/docs/regulatory/PCF_ThinkPad_X390.pdf),
-269,Lenovo,Thinkpad X395,286.0,240.24,5.0,[Lenovo PCF](https://www.lenovo.com/us/en/pdf/social_responsibility/PCF_ThinkPad_X395.pdf),
-270,Lenovo,Thinkpad X250,338.0,256.88,4.0,[Lenovo PCF](https://www.lenovo.com/medias/PCF-ThinkPad-X250.pdf),
 271,Microsoft,"Surface Laptop 3 (Alcantara, 13.5 inch)",127.0,100.0,3.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
 272,Microsoft,"Surface Laptop 3 (Metal, 13.5 inch)",138.0,112.0,3.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
 273,Microsoft,"Surface Laptop 3 (Alcantara, 15 inch)",178.0,140.0,3.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
@@ -299,3 +270,397 @@
 297,Microsoft,Surface Go,93.8,66.97,3.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
 298,Microsoft,Surface Laptop,152.0,119.16,3.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
 299,Microsoft,Surface Pro 4,149.0,108.77,3.0,[Eco Profiles](https://www.microsoft.com/en-us/download/details.aspx?id=55974),
+0,Lenovo,IdeaPad 1 11 AMD,246.0,228.78,2.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-1-11-amd-update.pdf,pcf-ideapad-1-11-amd-update.pdf
+1,Lenovo,IdeaPad 1 11,189.0,170.1,2.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-1-11.pdf,pcf-ideapad-1-11.pdf
+2,Lenovo,IdeaPad 1 14 AMD,269.0,252.86,2.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-1-14-amd-update.pdf,pcf-ideapad-1-14-amd-update.pdf
+3,Lenovo,Ideapad 1 14IAU7,372.0,301.32,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-1-14-iau7.pdf,pcf-ideapad-1-14-iau7.pdf
+4,Lenovo,Ideapad 1 14IGL7,333.0,279.72,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-1-14-igl7.pdf,pcf-ideapad-1-14-igl7.pdf
+5,Lenovo,Ideapad 1 14IJL7,252.0,204.12,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-1-14-ijl7.pdf,pcf-ideapad-1-14-ijl7.pdf
+6,Lenovo,IdeaPad 1 14,208.0,191.36,2.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-1-14.pdf,pcf-ideapad-1-14.pdf
+7,Lenovo,Ideapad 1 15IJL7,270.0,218.7,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-1-15-ijl7.pdf,pcf-ideapad-1-15-ijl7.pdf
+8,Lenovo,Ideapad 110-14IBR,426.0,281.16,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-100-14.pdf,pcf-ideapad-100-14.pdf
+9,Lenovo,Ideapad 110-15ACL,442.0,296.14,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-110-15acl.pdf,pcf-ideapad-110-15acl.pdf
+10,Lenovo,Ideapad 110-15IBR,436.0,292.12,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-110-15ibr.pdf,pcf-ideapad-110-15ibr.pdf
+11,Lenovo,"Ideapad 110-15, TianYi 310-15",332.0,225.76,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-110-15_tianyi-310-15.pdf,pcf-ideapad-110-15_tianyi-310-15.pdf
+12,Lenovo,Ideapad 110-17,359.0,262.07,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-110-17.pdf,pcf-ideapad-110-17.pdf
+13,Lenovo,Ideapad 120S-11,255.0,196.35,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-120s-11.pdf,pcf-ideapad-120s-11.pdf
+14,Lenovo,Ideapad 130-14,236.0,191.16,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-130-14.pdf,pcf-ideapad-130-14.pdf
+15,Lenovo,Ideapad 130-15 AMD,330.0,267.3,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-130-15-amd.pdf,pcf-ideapad-130-15-amd.pdf
+16,Lenovo,Ideapad 130-15 Intel,310.0,266.6,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-130-15-intel.pdf,pcf-ideapad-130-15-intel.pdf
+17,Lenovo,IdeaPad 3 14ADA6,310.0,217.0,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-14-ada6.pdf,pcf-ideapad-3-14-ada6.pdf
+18,Lenovo,IdeaPad 3 14IAU7,349.0,300.14,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-3-14-iau7.pdf,pcf-ideapad-3-14-iau7.pdf
+19,Lenovo,IdeaPad 3 14 ITL05,250.0,212.5,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-14itl05.pdf,pcf-ideapad-3-14itl05.pdf
+20,Lenovo,IdeaPad 3 14 ITL6,351.0,287.82,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-14itl6.pdf,pcf-ideapad-3-14itl6.pdf
+21,Lenovo,"IdeaPad 3 14, V14 Gen 2-AMD",257.0,208.17,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-14_v14-gen2-amd.pdf,pcf-ideapad-3-14_v14-gen2-amd.pdf
+22,Lenovo,"IdeaPad 3-14, V14",210.0,182.7,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-14_V14.pdf,pcf-ideapad-3-14_V14.pdf
+23,Lenovo,IdeaPad 3 15ADA6,318.0,225.78,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-15-ada6.pdf,pcf-ideapad-3-15-ada6.pdf
+24,Lenovo,IdeaPad 3 15IAU7,368.0,323.84,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-3-15-iau7.pdf,pcf-ideapad-3-15-iau7.pdf
+25,Lenovo,IdeaPad 3 15 ITL05,264.0,227.04,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-15-itl05.pdf,pcf-ideapad-3-15-itl05.pdf
+26,Lenovo,IdeaPad 3 15 ITL6,366.0,303.78,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-15-itl6.pdf,pcf-ideapad-3-15-itl6.pdf
+27,Lenovo,"IdeaPad 3-15, V15",223.0,196.24,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-15.pdf,pcf-ideapad-3-15.pdf
+28,Lenovo,"IdeaPad 3 15, V15 Gen 2-AMD",270.0,224.1,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-15_v15-gen2-amd.pdf,pcf-ideapad-3-15_v15-gen2-amd.pdf
+29,Lenovo,IdeaPad 3 17ADA6,349.0,247.79,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-17-ada6.pdf,pcf-ideapad-3-17-ada6.pdf
+30,Lenovo,"IdeaPad 3 17, V17",289.0,248.54,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-17_v-17-r3.pdf,pcf-ideapad-3-17_v-17-r3.pdf
+31,Lenovo,IdeaPad 3 Chromebook 11 AMD,231.0,212.52,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-chromebook-11-amd.pdf,pcf-ideapad-3-chromebook-11-amd.pdf
+32,Lenovo,IdeaPad 3 Chromebook 11,212.0,197.16,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-chromebook-11.pdf,pcf-ideapad-3-chromebook-11.pdf
+33,Lenovo,Ideapad 3 Chrome 14M836,299.0,269.1,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-chromebook-14-m836.pdf,pcf-ideapad-3-chromebook-14-m836.pdf
+34,Lenovo,IdeaPad 3 Chromebook 14,199.0,163.18,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-3-chromebook-14.pdf,pcf-ideapad-3-chromebook-14.pdf
+35,Lenovo,IdeaPad 3 Chrome 15IJL6,309.0,262.65,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-3-chromebook-15-ijl6.pdf,pcf-ideapad-3-chromebook-15-ijl6.pdf
+36,Lenovo,IdeaPad 3 Chrome 15IJL6,309.0,262.65,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-3-chromebook-15-ijl6.pdf,pcf-ideapad-3-chromebook-15-ijl6.pdf
+37,Lenovo,Ideapad 310-14ISK,321.0,237.54,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-310-14.pdf,pcf-ideapad-310-14.pdf
+38,Lenovo,Ideapad 310 Touch-15ISK,339.0,250.86,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-310-15-touch.pdf,pcf-ideapad-310-15-touch.pdf
+39,Lenovo,Ideapad 310-15ISK,339.0,250.86,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-310-15.pdf,pcf-ideapad-310-15.pdf
+40,Lenovo,Ideapad 310S-15IKB,418.0,275.88,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-310s-15.pdf,pcf-ideapad-310s-15.pdf
+41,Lenovo,Ideapad 320-14,271.0,208.67,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-320-14.pdf,pcf-ideapad-320-14.pdf
+42,Lenovo,"Ideapad 320-15, 320-15 Touch, 520-15",372.0,256.68,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-320-15_320-15-touch_520-15.pdf,pcf-ideapad-320-15_320-15-touch_520-15.pdf
+43,Lenovo,Ideapad 320-17,324.0,246.24,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-320-17.pdf,pcf-ideapad-320-17.pdf
+44,Lenovo,Ideapad 320S-13,273.0,210.21,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-320s-13.pdf,pcf-ideapad-320s-13.pdf
+45,Lenovo,Ideapad 320S-14,270.0,224.1,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-320s-14.pdf,pcf-ideapad-320s-14.pdf
+46,Lenovo,IdeaPad 320S-15,279.0,209.25,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-320s-15.pdf,pcf-ideapad-320s-15.pdf
+47,Lenovo,Ideapad 330-14,309.0,216.3,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-330-14.pdf,pcf-ideapad-330-14.pdf
+48,Lenovo,"Ideapad 330-15, B330-15",294.0,223.44,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-330-15.pdf,pcf-ideapad-330-15.pdf
+49,Lenovo,Ideapad 330-17,360.0,252.0,6.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-330-17.pdf,pcf-ideapad-330-17.pdf
+50,Lenovo,Ideapad 330S-14,255.0,211.65,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-330s-14.pdf,pcf-ideapad-330s-14.pdf
+51,Lenovo,Ideapad 330S-15,304.0,249.28,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-330s-15.pdf,pcf-ideapad-330s-15.pdf
+52,Lenovo,IdeaPad 4G LTE 14,274.0,246.6,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-4g-lte-14.pdf,pcf-ideapad-4g-lte-14.pdf
+53,Lenovo,"IdeaPad 4G 14, 5G 14",274.0,246.6,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-4g_5g-14.pdf,pcf-ideapad-4g_5g-14.pdf
+54,Lenovo,Ideapad 5 14ABA7,373.0,313.32,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-14-aba7.pdf,pcf-ideapad-5-14-aba7.pdf
+55,Lenovo,"IdeaPad 5 14 ACL05, XiaoXin",230.0,188.6,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-14-acl05_xiaoxin-14_xiaoxin-air-14-2021-update.pdf,pcf-ideapad-5-14-acl05_xiaoxin-14_xiaoxin-air-14-2021-update.pdf
+56,Lenovo,"IdeaPad 5 14 ACL05, XiaoXin",230.0,188.6,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-14-alc05_xiaoxin-14_xiaoxin-air-14-2021.pdf,pcf-ideapad-5-14-alc05_xiaoxin-14_xiaoxin-air-14-2021.pdf
+57,Lenovo,Ideapad 5 14IAL7,339.0,294.93,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-14-ial7.pdf,pcf-ideapad-5-14-ial7.pdf
+58,Lenovo,"IdeaPad 5 14, Xiao Xin Air-14 2020",232.0,167.04,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-14_xiao-xin-air-14-2020.pdf,pcf-ideapad-5-14_xiao-xin-air-14-2020.pdf
+59,Lenovo,"IdeaPad 5 14, Xiao Xin",252.0,224.28,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-14_xiao-xin_xiao-xin-air-14-2021-update.pdf,pcf-ideapad-5-14_xiao-xin_xiao-xin-air-14-2021-update.pdf
+60,Lenovo,"IdeaPad 5 14, Xiao Xin, Xiao Xin Air 14 2021",252.0,224.28,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-14_xiao-xin_xiao-xin-air-14-2021.pdf,pcf-ideapad-5-14_xiao-xin_xiao-xin-air-14-2021.pdf
+61,Lenovo,"IdeaPad 5 15ALC05, XiaoXin, XiaoXin Air",284.0,238.56,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-15-alc05-update.pdf,pcf-ideapad-5-15-alc05-update.pdf
+62,Lenovo,"IdeaPad 5 15IAL7, XiaoXin 15 IAL7",393.0,341.91,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-15-ial7_xiaxin-15-ial7.pdf,pcf-ideapad-5-15-ial7_xiaxin-15-ial7.pdf
+63,Lenovo,IdeaPad 5-15,232.0,197.2,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-15.pdf,pcf-ideapad-5-15.pdf
+64,Lenovo,"IdeaPad 5 15, XiaoXin, XiaoXin",284.0,252.76,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-15_lenovo-xiaoxin_xiaoxin-air-15-2021-update.pdf,pcf-ideapad-5-15_lenovo-xiaoxin_xiaoxin-air-15-2021-update.pdf
+65,Lenovo,IdeaPad 5 Chrome 14ITL6,293.0,260.77,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-chromebook-14-itl6.pdf,pcf-ideapad-5-chromebook-14-itl6.pdf
+66,Lenovo,IdeaPad Flex 5 14IAU7,465.0,395.25,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-flex-chrome-14-iau7.pdf,pcf-ideapad-5-flex-chrome-14-iau7.pdf
+67,Lenovo,IdeaPad 5 Pro 14 CAN6,271.0,233.06,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-pro-14-acn6.pdf,pcf-ideapad-5-pro-14-acn6.pdf
+68,Lenovo,IdeaPad 5 Pro 14ARH7,443.0,394.27,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-pro-14-arh7.pdf,pcf-ideapad-5-pro-14-arh7.pdf
+69,Lenovo,IdeaPad 5 Pro 14IAP7,411.0,357.57,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-pro-14-iap7.pdf,pcf-ideapad-5-pro-14-iap7.pdf
+70,Lenovo,"IdeaPad 5 Pro 14 ITL6,  Xiaoxin pro 14+",269.0,234.03,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-pro-14-itl6-xiaoxin-air-14-2021.pdf,pcf-ideapad-5-pro-14-itl6-xiaoxin-air-14-2021.pdf
+71,Lenovo,IdeaPad 5 Pro 16 AMD,375.0,311.25,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-pro-16-amd_creator-5-16-amd.pdf,pcf-ideapad-5-pro-16-amd_creator-5-16-amd.pdf
+72,Lenovo,IdeaPad 5 Pro 16ARH7,651.0,533.82,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-pro-16-arh7.pdf,pcf-ideapad-5-pro-16-arh7.pdf
+73,Lenovo,IdeaPad 5 Pro 16IAH7,599.0,491.18,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-5-pro-16-iah7.pdf,pcf-ideapad-5-pro-16-iah7.pdf
+74,Lenovo,IdeaPad 5 Pro 16IHU6,363.0,297.66,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-5-pro-16-ihu6.pdf,pcf-ideapad-5-pro-16-ihu6.pdf
+75,Lenovo,Ideapad 510-15ISK,339.0,250.86,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-510-15.pdf,pcf-ideapad-510-15.pdf
+76,Lenovo,Ideapad 510S-13IKB,418.0,275.88,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-510s-13.pdf,pcf-ideapad-510s-13.pdf
+77,Lenovo,Ideapad 510S-14ISK,422.0,278.52,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-510s-14.pdf,pcf-ideapad-510s-14.pdf
+78,Lenovo,Ideapad 520-15,295.0,224.2,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-520-15.pdf,pcf-ideapad-520-15.pdf
+79,Lenovo,Ideapad 520S-14,273.0,229.32,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-520s-14.pdf,pcf-ideapad-520s-14.pdf
+80,Lenovo,"Ideapad 530S-14, XiaoXin Air 14",264.0,200.64,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-530s-14_xiaoxin-air-14.pdf,pcf-ideapad-530s-14_xiaoxin-air-14.pdf
+81,Lenovo,Ideapad 700-17ISK,435.0,256.65,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-700-17.pdf,pcf-ideapad-700-17.pdf
+82,Lenovo,Ideapad 710S Plus-13,456.0,310.08,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/PCF-IdeaPad-710S-Plus-13.pdf,PCF-IdeaPad-710S-Plus-13.pdf
+83,Lenovo,Ideapad 720-15,425.0,272.0,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-720-15.pdf,pcf-ideapad-720-15.pdf
+84,Lenovo,Ideapad 720S-13,273.0,242.97,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-720s-13.pdf,pcf-ideapad-720s-13.pdf
+85,Lenovo,Ideapad 720S-14,293.0,240.26,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-720s-14.pdf,pcf-ideapad-720s-14.pdf
+86,Lenovo,"Ideapad 720S-15, 720S-15 Touch, V730-15",289.0,231.2,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-720s-15_720s-touch_lenovo-v730-15.pdf,pcf-ideapad-720s-15_720s-touch_lenovo-v730-15.pdf
+87,Lenovo,"IdeaPad 730S-13, Yoga S730-13 2nd Gen",249.0,181.77,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-730s-13_yoga-s730-13-gen-2.pdf,pcf-ideapad-730s-13_yoga-s730-13-gen-2.pdf
+88,Lenovo,"Yoga S730-13, Ideapad 730S-13",238.0,183.26,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-730s-13_yoga-s730-13.pdf,pcf-ideapad-730s-13_yoga-s730-13.pdf
+89,Lenovo,"IdeaPad C340-14, Flex-14 2nd Gen",289.0,234.09,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-c340-14_flex-14-gen-2.pdf,pcf-ideapad-c340-14_flex-14-gen-2.pdf
+90,Lenovo,"IdeaPad C340-14, FLEX-14",217.0,158.41,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-c340-14_Flex-14.pdf,pcf-ideapad-c340-14_Flex-14.pdf
+91,Lenovo,"IdeaPad C340-15, FLEX-15",310.0,229.4,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-c340-15_flex-15.pdf,pcf-ideapad-c340-15_flex-15.pdf
+92,Lenovo,IdeaPad D330-10 2nd Gen,135.5,109.755,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-d330-10-2nd.pdf,pcf-ideapad-d330-10-2nd.pdf
+93,Lenovo,Ideapad D330-10,236.0,188.8,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-d330-10.pdf,pcf-ideapad-d330-10.pdf
+94,Lenovo,IP Duet 5 Chromebook 13Q7C6,181.0,162.9,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-duet-5-chromebook-13-q7c6.pdf,pcf-ideapad-duet-5-chromebook-13-q7c6.pdf
+95,Lenovo,IP Duet 5 Chromebook 13Q7C6,181.0,162.9,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-duet-5-chromebook-13-q7c6.pdf,pcf-ideapad-duet-5-chromebook-13-q7c6.pdf
+96,Lenovo,IdeaPad Flex 3 11 AMD,193.0,154.4,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-3-11-amd.pdf,pcf-ideapad-flex-3-11-amd.pdf
+97,Lenovo,IdeaPad Flex 3 11,218.0,167.86,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-3-11.pdf,pcf-ideapad-flex-3-11.pdf
+98,Lenovo,IdeaPad Flex 3 Chromebook 11IJL6,224.0,194.88,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-3-cb-11-itl6.pdf,pcf-ideapad-flex-3-cb-11-itl6.pdf
+99,Lenovo,Ideapad Flex 3 CB 11M836,285.0,256.5,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-3-cb-11m836.pdf,pcf-ideapad-flex-3-cb-11m836.pdf
+100,Lenovo,IdeaPad Flex 3 Chromebook 11,176.0,156.64,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-3-chromebook-11-update.pdf,pcf-ideapad-flex-3-chromebook-11-update.pdf
+101,Lenovo,IdeaPad Flex 3 Chromebook 11,186.0,150.66,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-3-chromebook-11.pdf,pcf-ideapad-flex-3-chromebook-11.pdf
+102,Lenovo,"IdeaPad Flex 5 14ALC7,  ABA7",478.0,434.98,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-flex-5-14-alc7_aba7.pdf,pcf-ideapad-flex-5-14-alc7_aba7.pdf
+103,Lenovo,IdeaPad Flex 5 14,268.0,225.12,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-5-14.pdf,pcf-ideapad-flex-5-14.pdf
+104,Lenovo,IdeaPad Flex 5 15 ALC05,367.0,300.94,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-5-15-alc05.pdf,pcf-ideapad-flex-5-15-alc05.pdf
+105,Lenovo,IdeaPad Flex 5 15,320.0,275.2,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-5-15-intel.pdf,pcf-ideapad-flex-5-15-intel.pdf
+106,Lenovo,IdeaPad Flex 5 15,301.0,246.82,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-5-15.pdf,pcf-ideapad-flex-5-15.pdf
+107,Lenovo,"IdeaPad Flex 5 16ALC7,  ABA7",510.0,464.1,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-flex-5-16-alc7_aba7.pdf,pcf-ideapad-flex-5-16-alc7_aba7.pdf
+108,Lenovo,IdeaPad Flex 5 Chromebook 13ITL6,315.0,277.2,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-5-chromebook-13-itl6.pdf,pcf-ideapad-flex-5-chromebook-13-itl6.pdf
+109,Lenovo,IdeaPad Flex 5 Chromebook 13,242.0,166.98,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-5-chromebook-13.pdf,pcf-ideapad-flex-5-chromebook-13.pdf
+110,Lenovo,"Flex 5G-14, Yoga 5G-14",251.0,200.8,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-flex-5G-14_yoga-5G-14.pdf,pcf-ideapad-flex-5G-14_yoga-5G-14.pdf
+111,Lenovo,IdeaPad Gaming 3 15ACH6,525.0,346.5,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-gaming-3-15-ach6.pdf,pcf-ideapad-gaming-3-15-ach6.pdf
+112,Lenovo,IdeaPad Gaming 3 15ARH7,450.0,364.5,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-gaming-3-15-arh7.pdf,pcf-ideapad-gaming-3-15-arh7.pdf
+113,Lenovo,IdeaPad Gaming 3 15IAH7,467.0,401.62,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-gaming-3-15-iah7.pdf,pcf-ideapad-gaming-3-15-iah7.pdf
+114,Lenovo,IdeaPad Gaming 3 15IHU6,463.0,342.62,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-gaming-3-15-ihu6.pdf,pcf-ideapad-gaming-3-15-ihu6.pdf
+115,Lenovo,IdeaPad Gaming 3 15,267.0,232.29,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-gaming-3-15.pdf,pcf-ideapad-gaming-3-15.pdf
+116,Lenovo,"IdeaPad Gaming 3-15, IdeaPad Creator 5-15",220.0,189.2,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-gaming-3-15_creator-5-15.pdf,pcf-ideapad-gaming-3-15_creator-5-15.pdf
+117,Lenovo,IdeaPad Gaming 3 16ARH7,516.0,438.6,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-gaming-3-16-arh7.pdf,pcf-ideapad-gaming-3-16-arh7.pdf
+118,Lenovo,IdeaPad Gaming 3 16IAH7,517.0,439.45,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-gaming-3-16-iah7.pdf,pcf-ideapad-gaming-3-16-iah7.pdf
+119,Lenovo,IdeaPad L3 15,260.0,223.6,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-l3-15-update.pdf,pcf-ideapad-l3-15-update.pdf
+120,Lenovo,IdeaPad L340-15 Gaming,307.0,239.46,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-l340-15-gaming.pdf,pcf-ideapad-l340-15-gaming.pdf
+121,Lenovo,"Ideapad L340-15, L340-15 Touch",277.0,229.91,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-l340-15_l340-15-Touch.pdf,pcf-ideapad-l340-15_l340-15-Touch.pdf
+122,Lenovo,IdeaPad L340-17 Gaming,342.0,266.76,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-l340-17-gaming.pdf,pcf-ideapad-l340-17-gaming.pdf
+123,Lenovo,Ideapad L340-17,303.0,221.19,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-l340-17.pdf,pcf-ideapad-l340-17.pdf
+124,Lenovo,Ideapad S130-11,242.0,196.02,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s130-11.pdf,pcf-ideapad-s130-11.pdf
+125,Lenovo,Ideapad S130-14,292.0,236.52,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s130-14.pdf,pcf-ideapad-s130-14.pdf
+126,Lenovo,"IdeaPad S145-14, V14",213.0,181.05,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-s145-14_lenovo-v14.pdf,pcf-ideapad-s145-14_lenovo-v14.pdf
+127,Lenovo,"IdeaPad S145-15, V15",225.0,193.5,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-s145-15_lenovo-v15.pdf,pcf-ideapad-s145-15_lenovo-v15.pdf
+128,Lenovo,IdeaPad S340-13,184.0,138.0,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s340-13_xiaoxin-air-13.pdf,pcf-ideapad-s340-13_xiaoxin-air-13.pdf
+129,Lenovo,IdeaPad S340-14,297.0,201.96,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s340-14-series.pdf,pcf-ideapad-s340-14-series.pdf
+130,Lenovo,"Ideapad S340-14, S340-14 Touch",298.0,214.56,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s340-14_s340-14-touch.pdf,pcf-ideapad-s340-14_s340-14-touch.pdf
+131,Lenovo,"IdeaPad S340-15 Series, XiaoXin-15",335.0,217.75,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s340-15-series.pdf,pcf-ideapad-s340-15-series.pdf
+132,Lenovo,"Ideapad S340-15, S340-15 Touch",298.0,217.54,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s350-15_15-touch.pdf,pcf-ideapad-s350-15_15-touch.pdf
+133,Lenovo,Ideapad S530-13,215.0,152.65,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s530-13.pdf,pcf-ideapad-s530-13.pdf
+134,Lenovo,"IdeaPad S540-13, Xiao Xin Pro 13 13s 2021",294.0,238.14,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s540-13_xiao-xin-pro-13_13s-2021.pdf,pcf-ideapad-s540-13_xiao-xin-pro-13_13s-2021.pdf
+135,Lenovo,"IdeaPad S540-13, Xiao Xin Pro 13 13s 2021",294.0,238.14,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-s540-13_xiao-xin-pro-13_13s-2021.pdf,pcf-ideapad-s540-13_xiao-xin-pro-13_13s-2021.pdf
+136,Lenovo,"IdeaPad S540-13, Xiao Xin Pro 13 2020, Xiao Xin Pro 13s 2020",232.0,185.6,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-s540-13_xiao-xin-pro-13_pro-13s.pdf,pcf-ideapad-s540-13_xiao-xin-pro-13_pro-13s.pdf
+137,Lenovo,"IdeaPad S540-14 Series 2nd Gen, YangTian Air-14",245.0,203.35,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s540-14-2nd-gen.pdf,pcf-ideapad-s540-14-2nd-gen.pdf
+138,Lenovo,"IdeaPad S540-14, S540-14 Touch",276.0,207.0,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s540-14_s540-14-touch.pdf,pcf-ideapad-s540-14_s540-14-touch.pdf
+139,Lenovo,IdeaPad S540-15,276.0,207.0,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s540-15.pdf,pcf-ideapad-s540-15.pdf
+140,Lenovo,"IdeaPad S550-15, XiaoXinAir 15 2021",232.0,197.2,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-s550-15-amd_xiao-xin-air-amd-2021.pdf,pcf-ideapad-s550-15-amd_xiao-xin-air-amd-2021.pdf
+141,Lenovo,"Ideapad S740-14, Yoga S740-14, XiaoXin Pro-14",246.0,169.74,2.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s740-14_yoga-s740-14_xiaoxin-pro-14.pdf,pcf-ideapad-s740-14_yoga-s740-14_xiaoxin-pro-14.pdf
+142,Lenovo,"Yoga S740-15, IdeaPad S740-15, S740-15 Touch",394.0,319.14,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-ideapad-s740-14_yoga-s740-15.pdf,pcf-ideapad-s740-14_yoga-s740-15.pdf
+143,Lenovo,"IdeaPad S940-14, Yoga S940-14",267.0,240.3,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-ideapad-S940-14_Yoga-S940-14-update.pdf,pcf-ideapad-S940-14_Yoga-S940-14-update.pdf
+144,Lenovo,Ducati 5,232.0,167.04,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-lenovo-ducati-5.pdf,pcf-lenovo-ducati-5.pdf
+145,Lenovo,IdeaPad Flex 14,293.0,234.4,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/PCF-Lenovo-Ideapad-Flex-14.pdf,PCF-Lenovo-Ideapad-Flex-14.pdf
+146,Lenovo,Yoga Slim 7 Carbon 13,315.0,267.75,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-lenovo-slim-7-carbon-13.pdf,pcf-lenovo-slim-7-carbon-13.pdf
+147,Lenovo,ThinkBook 14,262.0,186.02,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-lenovo-thinkbook-14.pdf,pcf-lenovo-thinkbook-14.pdf
+148,Lenovo,ThinkBook 15,261.0,198.36,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-lenovo-thinkbook-15.pdf,pcf-lenovo-thinkbook-15.pdf
+149,Lenovo,ThinkPad 10,150.0,126.0,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/PCF-Lenovo-ThinkPad-10.pdf,PCF-Lenovo-ThinkPad-10.pdf
+150,Lenovo,"ThinkPad 11e Chromebook 3rd Gen, ThinkPad Yoga 11e Chromebook 3rd Gen",322.0,228.62,,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/PCF-Lenovo-ThinkPad-11e-Yoga-11e-Chromebook.pdf,PCF-Lenovo-ThinkPad-11e-Yoga-11e-Chromebook.pdf
+151,Lenovo,"ThinkPad 11e, ThinkPad Yoga 11e",291.0,253.17,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/PCF-Lenovo-ThinkPad-11e-Yoga-11e.pdf,PCF-Lenovo-ThinkPad-11e-Yoga-11e.pdf
+152,Lenovo,ThinkPad 8,159.0,135.15,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/PCF-Lenovo-ThinkPad-8.pdf,PCF-Lenovo-ThinkPad-8.pdf
+153,Lenovo,ThinkPad Edge E145,273.0,237.51,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/PCF-Lenovo-ThinkPad-Edge-E145.pdf,PCF-Lenovo-ThinkPad-Edge-E145.pdf
+154,Lenovo,ThinkPad Edge E440,291.0,229.89,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/PCF-Lenovo-ThinkPad-Edge-E440.pdf,PCF-Lenovo-ThinkPad-Edge-E440.pdf
+155,Lenovo,V17 G3 IAP,435.0,387.15,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-lenovo-v17-gen-3-iap_ideapad-3-17-iau7.pdf,pcf-lenovo-v17-gen-3-iap_ideapad-3-17-iau7.pdf
+156,Lenovo,V17 G3 IAP,435.0,387.15,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-lenovo-v17-gen-3-iap_ideapad-3-17-iau7.pdf,pcf-lenovo-v17-gen-3-iap_ideapad-3-17-iau7.pdf
+157,Lenovo,Yoga Slim 7 13,354.0,269.04,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-lenovo-yoga-slim-7-13-update.pdf,pcf-lenovo-yoga-slim-7-13-update.pdf
+158,Lenovo,ThinkBook 13s 2nd Gen AMD,273.0,251.16,2.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-13s-2nd-amd.pdf,pcf-thinkbook-13s-2nd-amd.pdf
+159,Lenovo,ThinkBook 13s 2nd Gen,283.0,220.74,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-13s-2nd.pdf,pcf-thinkbook-13s-2nd.pdf
+160,Lenovo,ThinkBook 13s G3 ACN,343.0,298.41,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-13s-gen-3-acn.pdf,pcf-thinkbook-13s-gen-3-acn.pdf
+161,Lenovo,ThinkBook 13s G4 ARB,485.0,417.1,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-13s-gen-4-arb.pdf,pcf-thinkbook-13s-gen-4-arb.pdf
+162,Lenovo,ThinkBook 13s G4 IAP,484.0,406.56,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-13s-gen-4-iap.pdf,pcf-thinkbook-13s-gen-4-iap.pdf
+163,Lenovo,ThinkBook 13s,214.0,181.9,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-13s.pdf,pcf-thinkbook-13s.pdf
+164,Lenovo,ThinkBook 13x G2 IAP,478.0,430.2,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-13x-gen-2-iap.pdf,pcf-thinkbook-13x-gen-2-iap.pdf
+165,Lenovo,ThinkBook 13x ITG,351.0,280.8,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-13x-itg.pdf,pcf-thinkbook-13x-itg.pdf
+166,Lenovo,"ThinkBook 14 2nd Gen AMD, Prestigio 6 14, Zhaoyang K4e",337.0,276.34,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkBook-14-2nd-amd_prestigio-6-14_zhaoyang-k4e.pdf,pcf-thinkBook-14-2nd-amd_prestigio-6-14_zhaoyang-k4e.pdf
+167,Lenovo,"ThinkBook 14 2nd Gen, Prestige 6 14, Zhaoyang E4, K4e",283.0,226.4,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-14-2nd_lenovo-prestige-6-14_zhaoyang-e4_k4e.pdf,pcf-thinkbook-14-2nd_lenovo-prestige-6-14_zhaoyang-e4_k4e.pdf
+168,Lenovo,ThinkBook 14 3rd Gen ACL,348.0,281.88,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-14-gen-3-acl.pdf,pcf-thinkbook-14-gen-3-acl.pdf
+169,Lenovo,ThinkBook 14 G3 ITL,296.0,204.24,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-14-gen-3-itl.pdf,pcf-thinkbook-14-gen-3-itl.pdf
+170,Lenovo,Thinkbook 14 G4+ ARA,433.0,368.05,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-14-gen-4-ara.pdf,pcf-thinkbook-14-gen-4-ara.pdf
+171,Lenovo,ThinkBook 14 G4+ IAP,467.0,382.94,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-14-gen-4-iap_k4-iap.pdf,pcf-thinkbook-14-gen-4-iap_k4-iap.pdf
+172,Lenovo,ThinkBook 14 G4 IAP,479.0,402.36,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-14-gen-4-iap_k4-iap_e4-iap.pdf,pcf-thinkbook-14-gen-4-iap_k4-iap_e4-iap.pdf
+173,Lenovo,ThinkBook 14p G2 ACH,337.0,272.97,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-14p-gen-2-ach.pdf,pcf-thinkbook-14p-gen-2-ach.pdf
+174,Lenovo,ThinkBook 14p G3 ARH,373.0,305.86,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-14p-gen-3-arh.pdf,pcf-thinkbook-14p-gen-3-arh.pdf
+175,Lenovo,ThinkBook 14s 2nd Gen AMD,280.0,254.8,2.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-14s-2nd-amd.pdf,pcf-thinkbook-14s-2nd-amd.pdf
+176,Lenovo,ThinkBook 14s 2nd Gen,279.0,223.2,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-14s-2nd.pdf,pcf-thinkbook-14s-2nd.pdf
+177,Lenovo,ThinkBook 14s AMD,238.0,202.3,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-14s-amd.pdf,pcf-thinkbook-14s-amd.pdf
+178,Lenovo,ThinkBook 14s,219.0,186.15,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-14s-intel.pdf,pcf-thinkbook-14s-intel.pdf
+179,Lenovo,Thinkbook 14s Yoga 2nd Gen-Intel,336.0,278.88,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-14s-yoga-2nd-intel.pdf,pcf-thinkbook-14s-yoga-2nd-intel.pdf
+180,Lenovo,ThinkBook 14s Yoga G2 IAP,501.0,425.85,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-14s-yoga-gen-2-iap.pdf,pcf-thinkbook-14s-yoga-gen-2-iap.pdf
+181,Lenovo,"ThinkBook 15 2nd Gen AMD, Prestigio 6 15",393.0,334.05,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkBook-15-2nd-amd_prestigio-6-15.pdf,pcf-thinkBook-15-2nd-amd_prestigio-6-15.pdf
+182,Lenovo,"ThinkBook 15 2nd Gen, Prestige 6 15,  Zhaoyang E5",335.0,274.7,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-15-2nd_lenovo-prestige-6-15_zhaoyang-e5.pdf,pcf-thinkbook-15-2nd_lenovo-prestige-6-15_zhaoyang-e5.pdf
+183,Lenovo,ThinkBook 15 3rd Gen ACL,400.0,336.0,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-15-gen-3-acl.pdf,pcf-thinkbook-15-gen-3-acl.pdf
+184,Lenovo,ThinkBook 15 G3 ITL,335.0,247.9,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-15-gen-3-itl.pdf,pcf-thinkbook-15-gen-3-itl.pdf
+185,Lenovo,"ThinkBook 15 G4 ABA,  Zhaoyang E5-ABA",515.0,442.9,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-15-gen-4-aba.pdf,pcf-thinkbook-15-gen-4-aba.pdf
+186,Lenovo,"ThinkBook 15 G4 IAP,  Zhaoyang K5e IAP",507.0,436.02,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-15-gen-4-iap_k5e-iap.pdf,pcf-thinkbook-15-gen-4-iap_k5e-iap.pdf
+187,Lenovo,ThinkBook 15p G2 ITH,383.0,291.08,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-15p-gen-2-ith.pdf,pcf-thinkbook-15p-gen-2-ith.pdf
+188,Lenovo,ThinkBook 15p,311.0,276.79,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-15p.pdf,pcf-thinkbook-15p.pdf
+189,Lenovo,Thinkbook 16 G4+ ARA,489.0,420.54,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-16-gen-4-ara.pdf,pcf-thinkbook-16-gen-4-ara.pdf
+190,Lenovo,ThinkBook 16 G4+ IAP,488.0,414.8,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-16-gen-4-iap.pdf,pcf-thinkbook-16-gen-4-iap.pdf
+191,Lenovo,ThinkBook 16p G2 ACH,436.0,357.52,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-16p-gen-2-ach.pdf,pcf-thinkbook-16p-gen-2-ach.pdf
+192,Lenovo,ThinkBook 16p G3 ARH,514.0,426.62,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-16p-gen-3-arh.pdf,pcf-thinkbook-16p-gen-3-arh.pdf
+193,Lenovo,ThinkBook 16p NX ARH,559.0,469.56,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-16p-nx-arh.pdf,pcf-thinkbook-16p-nx-arh.pdf
+194,Lenovo,ThinkBook Plus G2 ITG,380.0,273.6,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-plus-gen-2-itg.pdf,pcf-thinkbook-plus-gen-2-itg.pdf
+195,Lenovo,ThinkBook Plus G3 IAP,618.0,494.4,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkbook-plus-gen-3-iap.pdf,pcf-thinkbook-plus-gen-3-iap.pdf
+196,Lenovo,ThinkBook Plus,256.0,207.36,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch4/pcf-thinkbook-plus.pdf,pcf-thinkbook-plus.pdf
+197,Lenovo,ThinkPad 10 (2nd Gen),136.0,107.44,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-10-2nd.pdf,PCF-ThinkPad-10-2nd.pdf
+198,Lenovo,"ThinkPad 11e 3rd Gen, ThinkPad Yoga 11e 3rd Gen",329.0,236.88,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-11e-YOGA-11e-3rd-gen.pdf,PCF-ThinkPad-11e-YOGA-11e-3rd-gen.pdf
+199,Lenovo,"ThinkPad Yoga 11e 5th Gen, 11e 5th Gen",246.0,196.8,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-11e-Yoga-11e-5th.pdf,PCF-ThinkPad-11e-Yoga-11e-5th.pdf
+200,Lenovo,"ThinkPad 11e Chromebook 4th Gen, ThinkPad Yoga 11e Chromebook 4th Gen",232.0,185.6,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-11e-Yoga-11e-Chromebook-4th.pdf,PCF-ThinkPad-11e-Yoga-11e-Chromebook-4th.pdf
+201,Lenovo,ThinkPad 11e Yoga 6th Gen,263.0,244.59,2.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-11e-yoga-6th.pdf,pcf-thinkpad-11e-yoga-6th.pdf
+202,Lenovo,"ThinkPad 13 2nd Gen, ThinkPad S2 2nd Gen",354.0,290.28,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-13-S2-2nd-Gen.pdf,PCF-ThinkPad-13-S2-2nd-Gen.pdf
+203,Lenovo,"ThinkPad 13, ThinkPad S2",281.0,207.94,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-13-S2.pdf,PCF-ThinkPad-13-S2.pdf
+204,Lenovo,ThinkPad 13,272.0,168.64,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-13.pdf,PCF-ThinkPad-13.pdf
+205,Lenovo,ThinkPad 25,296.0,213.12,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-25.pdf,PCF-ThinkPad-25.pdf
+206,Lenovo,ThinkPad A275,415.0,286.35,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-A275.pdf,PCF-ThinkPad-A275.pdf
+207,Lenovo,ThinkPad A285,269.0,172.16,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-A285.pdf,PCF-ThinkPad-A285.pdf
+208,Lenovo,ThinkPad A475,385.0,242.55,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-A475.pdf,PCF-ThinkPad-A475.pdf
+209,Lenovo,ThinkPad A485,338.0,219.7,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-A485.pdf,PCF-ThinkPad-A485.pdf
+210,Lenovo,ThinkPad C13 Yoga Chromebook,284.0,235.72,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-c13-yoga-chromebook.pdf,pcf-thinkpad-c13-yoga-chromebook.pdf
+211,Lenovo,ThinkPad X1 Carbon Gen 9,387.0,344.43,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-carbon-gen-9.pdf,pcf-thinkpad-carbon-gen-9.pdf
+212,Lenovo,ThinkPad E14 2nd Gen,245.0,200.9,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-e14-2nd-update.pdf,pcf-thinkpad-e14-2nd-update.pdf
+213,Lenovo,ThinkPad E14 Gen 3,326.0,286.88,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-e14-gen-3.pdf,pcf-thinkpad-e14-gen-3.pdf
+214,Lenovo,ThinkPad E14 Gen 4 AMD,391.0,332.35,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e14-gen-4-amd.pdf,pcf-thinkpad-e14-gen-4-amd.pdf
+215,Lenovo,"ThinkPad E14, R14 2nd Gen",268.0,211.72,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-e14_r14-2nd-intel.pdf,pcf-thinkpad-e14_r14-2nd-intel.pdf
+216,Lenovo,ThinkPad E14 Gen 4 Intel,415.0,356.9,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e14_r14-gen-4-intel.pdf,pcf-thinkpad-e14_r14-gen-4-intel.pdf
+217,Lenovo,"ThinkPad E14, ThinkPad R14, ThinkPad S3 Gen2",276.0,226.32,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-E14_R14_S3-Gen-2.pdf,PCF-ThinkPad-E14_R14_S3-Gen-2.pdf
+218,Lenovo,ThinkPad E15 2nd Gen,260.0,221.0,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-e15-2nd-update.pdf,pcf-thinkpad-e15-2nd-update.pdf
+219,Lenovo,ThinkPad E15 Gen 3,342.0,304.38,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-e15-gen-3.pdf,pcf-thinkpad-e15-gen-3.pdf
+220,Lenovo,ThinkPad E15 Gen 4 AMD,458.0,357.24,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e15-gen-4-amd.pdf,pcf-thinkpad-e15-gen-4-amd.pdf
+221,Lenovo,ThinkPad E15 Gen 4,457.0,388.45,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e15-gen-4-intel.pdf,pcf-thinkpad-e15-gen-4-intel.pdf
+222,Lenovo,ThinkPad E15,300.0,249.0,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-e15.pdf,pcf-thinkpad-e15.pdf
+223,Lenovo,ThinkPad E460,340.0,261.8,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-E460.pdf,PCF-ThinkPad-E460.pdf
+224,Lenovo,ThinkPad E465,622.0,528.7,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-E465.pdf,PCF-ThinkPad-E465.pdf
+225,Lenovo,ThinkPad E475,338.0,263.64,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/pcf-thinkpad-e475.pdf,pcf-thinkpad-e475.pdf
+226,Lenovo,ThinkPad E490s,298.0,253.3,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e490s.pdf,pcf-thinkpad-e490s.pdf
+227,Lenovo,"ThinkPad E490, R490",297.0,252.45,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e490_r490.pdf,pcf-thinkpad-e490_r490.pdf
+228,Lenovo,ThinkPad E495,307.0,251.74,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e495.pdf,pcf-thinkpad-e495.pdf
+229,Lenovo,ThinkPad E550,348.0,281.88,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e550.pdf,pcf-thinkpad-e550.pdf
+230,Lenovo,ThinkPad E560,622.0,528.7,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e560.pdf,pcf-thinkpad-e560.pdf
+231,Lenovo,"ThinkPad E560p, ThinkPad S5",379.0,265.3,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e560p_s5.pdf,pcf-thinkpad-e560p_s5.pdf
+232,Lenovo,ThinkPad E565,384.0,288.0,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e565.pdf,pcf-thinkpad-e565.pdf
+233,Lenovo,ThinkPad S5 2nd Generation,394.0,319.14,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e570_s5-gen-2.pdf,pcf-thinkpad-e570_s5-gen-2.pdf
+234,Lenovo,ThinkPad E575,352.0,271.04,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e575.pdf,pcf-thinkpad-e575.pdf
+235,Lenovo,ThinkPad E580,325.0,256.75,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e580.pdf,pcf-thinkpad-e580.pdf
+236,Lenovo,ThinkPad E585,326.0,251.02,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e585.pdf,pcf-thinkpad-e585.pdf
+237,Lenovo,"ThinkPad E590, R590",323.0,261.63,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e590_r590.pdf,pcf-thinkpad-e590_r590.pdf
+238,Lenovo,ThinkPad E595,320.0,265.6,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-e595.pdf,pcf-thinkpad-e595.pdf
+239,Lenovo,ThinkPad Edge E431,333.0,246.42,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-Edge-E431.pdf,PCF-ThinkPad-Edge-E431.pdf
+240,Lenovo,ThinkPad Edge E445,499.0,429.14,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-Edge-E445.pdf,PCF-ThinkPad-Edge-E445.pdf
+241,Lenovo,ThinkPad E450,324.0,246.24,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-Edge-E450.pdf,PCF-ThinkPad-Edge-E450.pdf
+242,Lenovo,ThinkPad E455,351.0,280.8,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-Edge-E455.pdf,PCF-ThinkPad-Edge-E455.pdf
+243,Lenovo,ThinkPad Edge E531,396.0,285.12,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-edge-e531.pdf,pcf-thinkpad-edge-e531.pdf
+244,Lenovo,ThinkPad Edge E540,329.0,273.07,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-edge-e540.pdf,pcf-thinkpad-edge-e540.pdf
+245,Lenovo,ThinkPad Edge E545,522.0,454.14,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-edge-e545.pdf,pcf-thinkpad-edge-e545.pdf
+246,Lenovo,ThinkPad Helix,364.0,276.64,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-helix.pdf,pcf-thinkpad-helix.pdf
+247,Lenovo,ThinkPad K14 Gen 1 AMD,387.0,348.3,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-k14-amd.pdf,pcf-thinkpad-k14-amd.pdf
+248,Lenovo,ThinkPad K14 Gen 1 Intel,417.0,346.11,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-k14-intel.pdf,pcf-thinkpad-k14-intel.pdf
+249,Lenovo,"ThinkPad L13 Yoga Gen 2, ThinkPad L13 Gen 2, ThinkPad S2 Yoga Gen 6, ThinkPad S2 Gen 6 (AMD) ",378.0,321.3,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-l13-gen-2_l13-yoga-gen-2-amd.pdf,pcf-thinkpad-l13-gen-2_l13-yoga-gen-2-amd.pdf
+250,Lenovo,"ThinkPad L13, L13 Yoga 2nd Gen, ThinkPad S2, S2 Yoga 6th Gen",316.0,293.88,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-l13_l13-yoga-2nd_s2_s2-yoga-6th.pdf,pcf-thinkpad-l13_l13-yoga-2nd_s2_s2-yoga-6th.pdf
+251,Lenovo,"ThinkPad L13, S2 5th Gen, L13 Yoga, S2 Yoga 5th Gen",344.0,323.36,2.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l13_s2-gen-5_l13-yoga_s2-yoga-gen-5.pdf,pcf-thinkpad-l13_s2-gen-5_l13-yoga_s2-yoga-gen-5.pdf
+252,Lenovo,ThinkPad L14 Gen 2 AMD,362.0,293.22,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-l14-gen-2-amd.pdf,pcf-thinkpad-l14-gen-2-amd.pdf
+253,Lenovo,ThinkPad L14 Gen 2 Intel,380.0,285.0,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-l14-gen-2-intel.pdf,pcf-thinkpad-l14-gen-2-intel.pdf
+254,Lenovo,ThinkPad L15 Gen 2 AMD,391.0,324.53,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-l15-gen-2-amd.pdf,pcf-thinkpad-l15-gen-2-amd.pdf
+255,Lenovo,ThinkPad L15 Gen 2 Intel,419.0,305.87,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-l15-gen-2-intel.pdf,pcf-thinkpad-l15-gen-2-intel.pdf
+256,Lenovo,"ThinkPad L390, S2 Yoga 4th Gen",294.0,238.14,1.5,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l390_s2-yoga-gen-4.pdf,pcf-thinkpad-l390_s2-yoga-gen-4.pdf
+257,Lenovo,ThinkPad L440,278.0,239.08,1.5,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-L440.pdf,PCF-ThinkPad-L440.pdf
+258,Lenovo,ThinkPad L450,334.0,267.2,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l450.pdf,pcf-thinkpad-l450.pdf
+259,Lenovo,ThinkPad L470,505.0,388.85,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l470.pdf,pcf-thinkpad-l470.pdf
+260,Lenovo,ThinkPad L480,351.0,245.7,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l480.pdf,pcf-thinkpad-l480.pdf
+261,Lenovo,ThinkPad L490,372.0,293.88,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l490.pdf,pcf-thinkpad-l490.pdf
+262,Lenovo,ThinkPad L560,441.0,348.39,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l560.pdf,pcf-thinkpad-l560.pdf
+263,Lenovo,ThinkPad L570,442.0,344.76,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l570.pdf,pcf-thinkpad-l570.pdf
+264,Lenovo,ThinkPad L580,359.0,254.89,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l580.pdf,pcf-thinkpad-l580.pdf
+265,Lenovo,ThinkPad L590,392.0,309.68,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l590.pdf,pcf-thinkpad-l590.pdf
+266,Lenovo,"ThinkPad P1 Gen 4, ThinkPad X1 Extreme Gen 4 ",617.0,487.43,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-p1-gen-4_x1-extreme-gen-4.pdf,pcf-thinkpad-p1-gen-4_x1-extreme-gen-4.pdf
+267,Lenovo,ThinkPad P14s,312.0,255.84,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-p14s.pdf,pcf-thinkpad-p14s.pdf
+268,Lenovo,ThinkPad T15p Gen 2 Intel,609.0,529.83,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p15v-gen-2_t15p-gen-2-intel.pdf,pcf-thinkpad-p15v-gen-2_t15p-gen-2-intel.pdf
+269,Lenovo,ThinkPad T15p Gen 2 Intel,609.0,529.83,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p15v-gen-2_t15p-gen-2-intel.pdf,pcf-thinkpad-p15v-gen-2_t15p-gen-2-intel.pdf
+270,Lenovo,"ThinkPad P15v Gen 1, ThinkPad T15p Gen 1",506.0,435.16,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p15v_t15p-gen-1-update.pdf,pcf-thinkpad-p15v_t15p-gen-1-update.pdf
+271,Lenovo,"ThinkPad P15 Gen 2, ThinkPad T15g Gen 2",651.0,540.33,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-p15_t15g-gen-2-intel.pdf,pcf-thinkpad-p15_t15g-gen-2-intel.pdf
+272,Lenovo,"ThinkPad P15, ThinkPad T15g",706.0,564.8,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-p15_t15g-update.pdf,pcf-thinkpad-p15_t15g-update.pdf
+273,Lenovo,ThinkPad P17 Gen 2,624.0,511.68,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-p17-gen-2-intel.pdf,pcf-thinkpad-p17-gen-2-intel.pdf
+274,Lenovo,"ThinkPad P1 2nd Gen, X1 Extreme",363.0,308.55,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p1_x1-extreme-gen-2.pdf,pcf-thinkpad-p1_x1-extreme-gen-2.pdf
+275,Lenovo,"ThinkPad P1, ThinkPad X1 Extreme",342.0,287.28,3.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p1_x1-extreme.pdf,pcf-thinkpad-p1_x1-extreme.pdf
+276,Lenovo,ThinkPad P50,936.0,730.08,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p50.pdf,pcf-thinkpad-p50.pdf
+277,Lenovo,ThinkPad P51,809.0,550.12,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p51.pdf,pcf-thinkpad-p51.pdf
+278,Lenovo,ThinkPad P52,498.0,388.44,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p52.pdf,pcf-thinkpad-p52.pdf
+279,Lenovo,ThinkPad P53,536.0,359.12,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p53.pdf,pcf-thinkpad-p53.pdf
+280,Lenovo,ThinkPad P70,682.0,477.4,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p70.pdf,pcf-thinkpad-p70.pdf
+281,Lenovo,ThinkPad P71,937.0,862.04,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p71.pdf,pcf-thinkpad-p71.pdf
+282,Lenovo,ThinkPad P72,457.0,351.89,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p72.pdf,pcf-thinkpad-p72.pdf
+283,Lenovo,ThinkPad P73,470.0,310.2,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p73.pdf,pcf-thinkpad-p73.pdf
+284,Lenovo,"ThinkPad Yoga 260,ThinkPad S1(2nd 
+Generation) ",262.0,206.98,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-s1-yoga-gen-2_yoga-260.pdf,pcf-thinkpad-s1-yoga-gen-2_yoga-260.pdf
+285,Lenovo,"ThinkPad Yoga 370, ThinkPad S1(3rd Generation)",297.0,240.57,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-s1-yoga-gen-3_yoga-370.pdf,pcf-thinkpad-s1-yoga-gen-3_yoga-370.pdf
+286,Lenovo,"ThinkPad S1 Yoga 4th Gen, X380 Yoga",246.0,194.34,6.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-s1-yoga-gen-4_yoga-380.pdf,pcf-thinkpad-s1-yoga-gen-4_yoga-380.pdf
+287,Lenovo,ThinkPad S1 Yoga,360.0,298.8,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-s1-yoga.pdf,pcf-thinkpad-s1-yoga.pdf
+288,Lenovo,ThinkPad S3 Yoga 14,416.0,361.92,2.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-S3-Yoga-14.pdf,PCF-ThinkPad-S3-Yoga-14.pdf
+289,Lenovo,"ThinkPad S3, ThinkPad Yoga 460, ThinkPad Yoga 14",360.0,320.4,2.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-s3-yoga-14_yoga-460.pdf,pcf-thinkpad-s3-yoga-14_yoga-460.pdf
+290,Lenovo,ThinkPad T14s Gen 2 AMD,314.0,254.34,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t14s-gen-2-amd.pdf,pcf-thinkpad-t14s-gen-2-amd.pdf
+291,Lenovo,ThinkPad T14s Gen 2 AMD,314.0,254.34,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t14s-gen-2-amd.pdf,pcf-thinkpad-t14s-gen-2-amd.pdf
+292,Lenovo,ThinkPad T14s 2nd Gen Intel,248.0,200.88,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t14s-gen-2-intel.pdf,pcf-thinkpad-t14s-gen-2-intel.pdf
+293,Lenovo,ThinkPad T14s 2nd Gen,248.0,200.88,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-t14s-gen-2.pdf,pcf-thinkpad-t14s-gen-2.pdf
+294,Lenovo,"ThinkPad T14 Gen 2, ThinkPad P14s Gen 2",313.0,253.53,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-t14_p14s-gen-2-update.pdf,pcf-thinkpad-t14_p14s-gen-2-update.pdf
+295,Lenovo,"ThinkPad T14, ThinkPad P14s",322.0,267.26,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-t14_p14s-update.pdf,pcf-thinkpad-t14_p14s-update.pdf
+296,Lenovo,"ThinkPad T15 Gen 2, ThinkPad P15s Gen 2",413.0,359.31,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-t15-gen2_p15s-gen-2.pdf,pcf-thinkpad-t15-gen2_p15s-gen-2.pdf
+297,Lenovo,"ThinkPad T15, ThinkPad P15s",348.0,281.88,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-t15_p15s-update.pdf,pcf-thinkpad-t15_p15s-update.pdf
+298,Lenovo,ThinkPad T440,301.0,258.86,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t440.pdf,pcf-thinkpad-t440.pdf
+299,Lenovo,ThinkPad T440s,315.0,264.6,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t440s.pdf,pcf-thinkpad-t440s.pdf
+300,Lenovo,ThinkPad T450,457.0,393.02,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t450.pdf,pcf-thinkpad-t450.pdf
+301,Lenovo,ThinkPad T450s,471.0,405.06,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t450s.pdf,pcf-thinkpad-t450s.pdf
+302,Lenovo,ThinkPad T460,359.0,265.66,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t460.pdf,pcf-thinkpad-t460.pdf
+303,Lenovo,ThinkPad T460s,461.0,387.24,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t460s.pdf,pcf-thinkpad-t460s.pdf
+304,Lenovo,ThinkPad T470,393.0,275.1,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t470.pdf,pcf-thinkpad-t470.pdf
+305,Lenovo,ThinkPad T470p,466.0,349.5,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t470p.pdf,pcf-thinkpad-t470p.pdf
+306,Lenovo,ThinkPad T470s,440.0,382.8,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t470s.pdf,pcf-thinkpad-t470s.pdf
+307,Lenovo,ThinkPad T480,350.0,241.5,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t480.pdf,pcf-thinkpad-t480.pdf
+308,Lenovo,ThinkPad T480s,261.0,193.14,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t480s.pdf,pcf-thinkpad-t480s.pdf
+309,Lenovo,ThinkPad T490s,304.0,261.44,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t490s.pdf,pcf-thinkpad-t490s.pdf
+310,Lenovo,"ThinkPad T490, ThinkP ad P43s",398.0,358.2,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-t490_p43s-update.pdf,pcf-thinkpad-t490_p43s-update.pdf
+311,Lenovo,ThinkPad T495,233.0,195.72,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t495.pdf,pcf-thinkpad-t495.pdf
+312,Lenovo,ThinkPad T495s,307.0,264.02,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t495s.pdf,pcf-thinkpad-t495s.pdf
+313,Lenovo,ThinkPad T540p,353.0,271.81,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t540p.pdf,pcf-thinkpad-t540p.pdf
+314,Lenovo,ThinkPad T550,345.0,255.3,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t550.pdf,pcf-thinkpad-t550.pdf
+315,Lenovo,"ThinkPad T560, P50s",475.0,365.75,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t560_p50s.pdf,pcf-thinkpad-t560_p50s.pdf
+316,Lenovo,"ThinkPad T570,  P51s",409.0,278.12,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t570_p51s.pdf,pcf-thinkpad-t570_p51s.pdf
+317,Lenovo,"ThinkPad T580, ThinkPad P52s",278.0,250.2,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t580_p52s.pdf,pcf-thinkpad-t580_p52s.pdf
+318,Lenovo,"ThinkPad T590, ThinkPad P53s",273.0,232.05,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-t590_p53s-update2.pdf,pcf-thinkpad-t590_p53s-update2.pdf
+319,Lenovo,ThinkPad W540 ,455.0,273.0,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-w540.pdf,pcf-thinkpad-w540.pdf
+320,Lenovo,"ThinkPad X1 Carbon, X1 Carbon LTE 7th Gen",303.0,263.61,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x1-carbon-7th-update.pdf,pcf-thinkpad-x1-carbon-7th-update.pdf
+321,Lenovo,ThinkPad X1 Carbon Gen 8,197.0,163.51,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x1-carbon-8th-update-2.pdf,pcf-thinkpad-x1-carbon-8th-update-2.pdf
+322,Lenovo,ThinkPad X1 Carbon Gen 1,315.0,236.25,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-carbon-gen-1.pdf,pcf-thinkpad-x1-carbon-gen-1.pdf
+323,Lenovo,ThinkPad X1 Carbon Gen 3,315.0,236.25,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-carbon-gen-3.pdf,pcf-thinkpad-x1-carbon-gen-3.pdf
+324,Lenovo,"ThinkPad X1 Carbon, ThinkPad X1 Carbon 4th",355.0,287.55,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-carbon-gen-4.pdf,pcf-thinkpad-x1-carbon-gen-4.pdf
+325,Lenovo,ThinkPad X1 Carbon 5th Gen,279.0,231.57,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-carbon-gen-5.pdf,pcf-thinkpad-x1-carbon-gen-5.pdf
+326,Lenovo,ThinkPad X1 Carbon Gen 6,244.0,204.96,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x1-carbon-gen-6-update2.pdf,pcf-thinkpad-x1-carbon-gen-6-update2.pdf
+327,Lenovo,ThinkPad X1 Nano,251.0,208.33,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x1-nano.pdf,pcf-thinkpad-x1-nano.pdf
+328,Lenovo,"ThinkPad X1 Titanium Gen 1, ThinkPad X1 Titanium Gen 1 LTE, ThinkPad X1 Titanium Gen 1 5G ",353.0,247.1,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x1-titanium-gen-1.pdf,pcf-thinkpad-x1-titanium-gen-1.pdf
+329,Lenovo,ThinkPad X1 Yoga 3rd Gen,264.0,234.96,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/PCF-ThinkPad-X1-Yoga-3rd.pdf,PCF-ThinkPad-X1-Yoga-3rd.pdf
+330,Lenovo,ThinkPad X1 Yoga Gen 5,200.0,166.0,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x1-yoga-5th-update.pdf,pcf-thinkpad-x1-yoga-5th-update.pdf
+331,Lenovo,ThinkPad X1 Yoga,355.0,287.55,,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-yoga-gen-1.pdf,pcf-thinkpad-x1-yoga-gen-1.pdf
+332,Lenovo,ThinkPad X1 Yoga 2nd Gen,337.0,266.23,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-yoga-gen-2.pdf,pcf-thinkpad-x1-yoga-gen-2.pdf
+333,Lenovo,ThinkPad X1 Yoga Gen 6,393.0,349.77,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x1-yoga-gen-6.pdf,pcf-thinkpad-x1-yoga-gen-6.pdf
+334,Lenovo,ThinkPad X13 Gen 2,412.0,350.2,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x13-gen-2-amd.pdf,pcf-thinkpad-x13-gen-2-amd.pdf
+335,Lenovo,ThinkPad X13 Gen 2 Intel,331.0,294.59,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x13-gen-2-intel.pdf,pcf-thinkpad-x13-gen-2-intel.pdf
+336,Lenovo,ThinkPad X13 Intel Gen 1,245.0,205.8,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x13-intel-gen-1-update.pdf,pcf-thinkpad-x13-intel-gen-1-update.pdf
+337,Lenovo,ThinkPad X13 Yoga Gen 2,367.0,333.97,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x13-yoga-gen-2-intel.pdf,pcf-thinkpad-x13-yoga-gen-2-intel.pdf
+338,Lenovo,ThinkPad X13 Yoga,278.0,233.52,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpad-x13-yoga-update.pdf,pcf-thinkpad-x13-yoga-update.pdf
+339,Lenovo,ThinkPad X240 ,275.0,206.25,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x240.pdf,pcf-thinkpad-x240.pdf
+340,Lenovo,ThinkPad X240s,271.0,203.25,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x240s.pdf,pcf-thinkpad-x240s.pdf
+341,Lenovo,ThinkPad X250,269.0,204.44,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x250.pdf,pcf-thinkpad-x250.pdf
+342,Lenovo,ThinkPad X260,400.0,328.0,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x260.pdf,pcf-thinkpad-x260.pdf
+343,Lenovo,ThinkPad X270,668.0,601.2,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x270.pdf,pcf-thinkpad-x270.pdf
+344,Lenovo,ThinkPad X280,258.0,198.66,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x280.pdf,pcf-thinkpad-x280.pdf
+345,Lenovo,ThinkPad X390,209.0,175.56,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch5/pcf-thinkpadX390-update2.pdf,pcf-thinkpadX390-update2.pdf
+346,Lenovo,"ThinkPad L380 Yoga, ThinkPad S2 Yoga 3rd Gen",298.0,241.38,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad_l380_s2_yoga_3rd.pdf,pcf-thinkpad_l380_s2_yoga_3rd.pdf
+347,Lenovo,"Yoga Slim 7 Pro 14IAP7, Slim 7",367.0,322.96,3.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-yoga-slim-7-14_lenovo-slim-7-14-iap7.pdf,pcf-yoga-slim-7-14_lenovo-slim-7-14-iap7.pdf
+348,Lenovo,Yoga Slim 7 Carbon 13IAP7,327.0,264.87,3.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-yoga-slim-7-carbon-13-iap7_lenovo-slim-7-carbon-13-iap7.pdf,pcf-yoga-slim-7-carbon-13-iap7_lenovo-slim-7-carbon-13-iap7.pdf
+349,Lenovo,Yoga Slim 7 Carbon 14ACN6,283.0,200.93,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-yoga-slim-7-carbon-14-acn6.pdf,pcf-yoga-slim-7-carbon-14-acn6.pdf
+350,Lenovo,Yoga Slim 7 Carbon 14ACN6,283.0,200.93,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-yoga-slim-7-carbon-14-acn6.pdf,pcf-yoga-slim-7-carbon-14-acn6.pdf
+351,Lenovo,Ideapad 530S-14,282.0,205.86,5.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch3/PCF_ideapad_530s-14.pdf,PCF_ideapad_530s-14.pdf
+352,Lenovo,Ideapad 530S-15,296.0,219.04,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch3/PCF_ideapad_530s-15.pdf,PCF_ideapad_530s-15.pdf
+353,Lenovo,"IdeaPad C340-15, FLEX-15",310.0,217.0,5.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch3/PCF_ideapad_C340-15_FLEX-15.pdf,PCF_ideapad_C340-15_FLEX-15.pdf
+354,Lenovo,IdeaPad S540-15 GTX,265.0,209.35,5.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch3/PCF_Lenovo_IdeaPad_S540-15_GTX.pdf,PCF_Lenovo_IdeaPad_S540-15_GTX.pdf
+355,Lenovo,"ThinkPad E480, ThinkPad R480",304.0,264.48,5.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch3/PCF_ThinkPad_E480_R480.pdf,PCF_ThinkPad_E480_R480.pdf
+356,Lenovo,"ThinkPad X1 Yoga, X1 Yoga LTE 4th Gen",295.0,265.5,3.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch3/PCF_ThinkPad_X1_Yoga_X1_Yoga_LTE_4th.pdf,PCF_ThinkPad_X1_Yoga_X1_Yoga_LTE_4th.pdf
+357,Lenovo,ThinkPad X390 Yoga,278.0,247.42,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/Batch3/PCF_ThinkPad_X390_Yoga.pdf,PCF_ThinkPad_X390_Yoga.pdf
+358,Lenovo,ThinkPad C14 Gen 1 Chromebook,321.0,282.48,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-c14-gen-1-r2022.pdf,pcf-thinkpad-c14-gen-1-r2022.pdf
+359,Lenovo,ThinkPad L13 Gen 3 AMD,323.0,290.7,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l13-gen-3-amd-r2022.pdf,pcf-thinkpad-l13-gen-3-amd-r2022.pdf
+360,Lenovo,ThinkPad L13 Gen 3 Intel,294.0,258.72,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l13-gen-3-intel-r2022.pdf,pcf-thinkpad-l13-gen-3-intel-r2022.pdf
+361,Lenovo,ThinkPad L13 Yoga Gen 3 AMD,323.0,290.7,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l13-yoga-gen-3-amd-r2022.pdf,pcf-thinkpad-l13-yoga-gen-3-amd-r2022.pdf
+362,Lenovo,ThinkPad L13 Yoga Gen 3 Intel,294.0,249.9,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l13-yoga-gen-3-intel-r2022.pdf,pcf-thinkpad-l13-yoga-gen-3-intel-r2022.pdf
+363,Lenovo,ThinkPad L14 Gen 3 AMD,314.0,273.18,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l14-gen-3-amd-r2022.pdf,pcf-thinkpad-l14-gen-3-amd-r2022.pdf
+364,Lenovo,ThinkPad L14 Gen 3 Intel,320.0,272.0,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l14-gen-3-intel-r2022.pdf,pcf-thinkpad-l14-gen-3-intel-r2022.pdf
+365,Lenovo,ThinkPad L15 Gen 3 AMD,330.0,283.8,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l15-gen-3-amd-r2022.pdf,pcf-thinkpad-l15-gen-3-amd-r2022.pdf
+366,Lenovo,ThinkPad L15 Gen 3 Intel,339.0,274.59,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-l15-gen-3-intel-r2022.pdf,pcf-thinkpad-l15-gen-3-intel-r2022.pdf
+367,Lenovo,ThinkPad P1 Gen 5 ,370.0,310.8,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p1-gen-5-r2022.pdf,pcf-thinkpad-p1-gen-5-r2022.pdf
+368,Lenovo,ThinkPad P14s Gen 3 AMD,260.0,218.4,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p14s-gen-3-amd-r2022.pdf,pcf-thinkpad-p14s-gen-3-amd-r2022.pdf
+369,Lenovo,ThinkPad P14s Gen 3 Intel,282.0,236.88,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p14s-gen-3-intel-r2022.pdf,pcf-thinkpad-p14s-gen-3-intel-r2022.pdf
+370,Lenovo,ThinkPad P15v Gen 3 AMD ,359.0,319.51,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p15v-gen-3-amd-r2022.pdf,pcf-thinkpad-p15v-gen-3-amd-r2022.pdf
+371,Lenovo,ThinkPad P15v Gen 3 Intel ,345.0,296.7,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p15v-gen-3-intel-r2022.pdf,pcf-thinkpad-p15v-gen-3-intel-r2022.pdf
+372,Lenovo,ThinkPad P15v Gen 3 Intel ,345.0,296.7,4.0,https://static.lenovo.com/ww/docs/regulatory/eco-declaration/pcf-thinkpad-p15v-gen-3-intel-r2022.pdf,pcf-thinkpad-p15v-gen-3-intel-r2022.pdf
+373,Lenovo,ThinkPad P16 Gen 1 ,415.0,361.05,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p16-gen-1-r2022.pdf,pcf-thinkpad-p16-gen-1-r2022.pdf
+374,Lenovo,ThinkPad P16s Gen 1 AMD,283.0,240.55,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p16s-gen-1-amd-r2022.pdf,pcf-thinkpad-p16s-gen-1-amd-r2022.pdf
+375,Lenovo,ThinkPad P16s Gen 1 Intel,303.0,254.52,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-p16s-gen-1-intel-r2022.pdf,pcf-thinkpad-p16s-gen-1-intel-r2022.pdf
+376,Lenovo,ThinkPad T14 Gen 3 AMD,260.0,215.8,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t14-gen-3-amd-r2022.pdf,pcf-thinkpad-t14-gen-3-amd-r2022.pdf
+377,Lenovo,ThinkPad T14 Gen 3 Intel ,275.0,242.0,4.0,https://p1-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t14-gen-3-intel-r2022.pdf,pcf-thinkpad-t14-gen-3-intel-r2022.pdf
+378,Lenovo,ThinkPad T14s Gen 3 AMD,268.0,230.48,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t14s-gen-3-amd-r2022.pdf,pcf-thinkpad-t14s-gen-3-amd-r2022.pdf
+379,Lenovo,ThinkPad T14s Gen 3 Intel,274.0,235.64,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t14s-gen-3-intel-r2022.pdf,pcf-thinkpad-t14s-gen-3-intel-r2022.pdf
+380,Lenovo,ThinkPad T16 Gen 1 AMD,278.0,241.86,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t16-gen-1-amd-r2022.pdf,pcf-thinkpad-t16-gen-1-amd-r2022.pdf
+381,Lenovo,ThinkPad T16 Gen 1 Intel,291.0,244.44,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-t16-gen-1-intel-r2022.pdf,pcf-thinkpad-t16-gen-1-intel-r2022.pdf
+382,Lenovo,ThinkPad X1 Carbon Gen 10,301.0,252.84,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-carbon-gen-10-r2022.pdf,pcf-thinkpad-x1-carbon-gen-10-r2022.pdf
+383,Lenovo,ThinkPad X1 Extreme Gen 5 ,370.0,299.7,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-extreme-gen-5-r2022.pdf,pcf-thinkpad-x1-extreme-gen-5-r2022.pdf
+384,Lenovo,ThinkPad X1 Fold 16 Gen 1,289.0,239.87,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-fold-16-gen-1-r2022.pdf,pcf-thinkpad-x1-fold-16-gen-1-r2022.pdf
+385,Lenovo,ThinkPad X1 Nano Gen 2,325.0,279.5,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-nano-gen-2-r2022.pdf,pcf-thinkpad-x1-nano-gen-2-r2022.pdf
+386,Lenovo,ThinkPad X1 Yoga Gen 7,307.0,260.95,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x1-yoga-gen-7-r2022.pdf,pcf-thinkpad-x1-yoga-gen-7-r2022.pdf
+387,Lenovo,ThinkPad X13 Gen 3 AMD,260.0,226.2,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x13-gen-3-amd-r2022.pdf,pcf-thinkpad-x13-gen-3-amd-r2022.pdf
+388,Lenovo,ThinkPad X13 Gen 3 Intel,330.0,283.8,4.0,https://p3-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x13-gen-3-intel-r2022.pdf,pcf-thinkpad-x13-gen-3-intel-r2022.pdf
+389,Lenovo,ThinkPad X13 Yoga Gen 3,306.0,275.4,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x13-yoga-gen-3-r2022.pdf,pcf-thinkpad-x13-yoga-gen-3-r2022.pdf
+390,Lenovo,ThinkPad X13s Gen 1,363.0,330.33,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-x13s-gen-1-r2022.pdf,pcf-thinkpad-x13s-gen-1-r2022.pdf
+391,Lenovo,ThinkPad Z13 Gen 1,315.0,264.6,4.0,https://p4-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-z13-gen-1-r2022.pdf,pcf-thinkpad-z13-gen-1-r2022.pdf
+392,Lenovo,ThinkPad Z16 Gen 1,375.0,341.25,4.0,https://p2-ofp.static.pub/ShareResource/compliance/eco-declaration/pdfs/2022/pcf-thinkpad-z16-gen-1-r2022.pdf,pcf-thinkpad-z16-gen-1-r2022.pdf
