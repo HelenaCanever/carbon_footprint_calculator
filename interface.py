@@ -420,15 +420,17 @@ with tab1:
         if 'laptops' not in st.session_state:
             st.session_state['laptops'] = []
 
-        laptop = st.selectbox("Sélectionner un modèle",laptop_data["Model"], 
+        laptop = st.selectbox("Si vous êtes déjà en possession d'un appareil ou si l'appareil est reconditionné, sélectionnez l'option appropriée, sinon sélectionnez un nouveau modèle(s):",laptop_data["Model"], 
         help="Sélectionnez chaque produit autant de fois que le nombre de personnes auxquelles il a été distribué. Par exemple : si les deux collaborateurs reçoivent un Dell Latitude 5430, sélectionnez le modèle deux fois.")
 
         if st.button("Ajouter", key="laptop_key"):
             if laptop:
                 st.session_state.laptops.append(laptop)
                 
-        st.write("Modèles sélectionnés: ")
-        st.write(", ".join(st.session_state.laptops))
+        if len(st.session_state.laptops)>0:
+            st.session_state.laptops = st.multiselect("Options sélectionnés: ", 
+            st.session_state.laptops, default=st.session_state.laptops)
+        
 
         co2_laptops = cal_co2.laptops(laptop_data, st.session_state.laptops, months)
 
@@ -441,15 +443,16 @@ with tab1:
         if 'smartphones' not in st.session_state:
             st.session_state['smartphones'] = []
 
-        smartphone = st.selectbox("Sélectionner un modèle",smartphone_data["Model"], 
+        smartphone = st.selectbox("Si vous êtes déjà en possession d'un appareil ou si l'appareil est reconditionné, sélectionnez l'option appropriée, sinon sélectionnez un nouveau modèle(s):",smartphone_data["Model"], 
         help="Sélectionnez chaque produit autant de fois que le nombre de personnes auxquelles il a été distribué. Par exemple : si les deux collaborateurs reçoivent un iPhone 14 Pro Max, sélectionnez le modèle deux fois.")
 
         if st.button("Ajouter", key="smartphone_key"):
             if smartphone:
                 st.session_state.smartphones.append(smartphone)
                 
-        st.write("Modèles sélectionnés: ")
-        st.write(", ".join(st.session_state.smartphones))
+        if len(st.session_state.smartphones)>0:
+            st.session_state.smartphones = st.multiselect("Options sélectionnés: ", 
+            st.session_state.smartphones, default=st.session_state.smartphones)
 
         co2_smartphones = cal_co2.smartphones(smartphone_data, st.session_state.smartphones, months)
 
